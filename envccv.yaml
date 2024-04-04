@@ -1,10 +1,11 @@
 %YAML 1.2
-#This is a converted version of the Lyric Parser dictionary made by snowphones.
+#This is a converted version of the Lyric Parser dictionary made by snowphones
 #https://snowphones.weebly.com/lyric-parser-20.html
 #Converted by Halo & Mim
 #Contributors: cubialpha, BagelHero/Halo
 #If you want to contribute to this dictionary, you can here:
 #https://github.com/mmemim/OU-EN-VCCV-Custom-Dictionary
+#This specific version of the dictionary is edited by General Nuisance, and intended for use with Arachne -TARANTULA II-, and it will not work with other VCCV voicebanks.
 ---
 symbols:
 #CZsampa standard vowels
@@ -51,6 +52,7 @@ symbols:
   - {symbol: m, type: nasal}
   - {symbol: n, type: nasal}
   - {symbol: ng, type: nasal}
+  - {symbol: nk, type: nasal}
   - {symbol: ow, type: vowel}
   - {symbol: oy, type: vowel}
   - {symbol: p, type: stop}
@@ -72,6 +74,10 @@ symbols:
   - {symbol: 9, type: vowel}
   - {symbol: x, type: vowel}
   - {symbol: dd, type: tap}
+  - {symbol: Y, type: vowel}
+  - {symbol: W, type: vowel}
+  - {symbol: L, type: vowel}
+  - {symbol: ., type: stop}
 
 entries:
   - grapheme: openutau
@@ -83,11 +89,11 @@ entries:
   - grapheme: aah
     phonemes: [a]
   - grapheme: abilities
-    phonemes: [u, b, i, l, i, dd, E, z]
+    phonemes: [x, b, i, l, i, dd, E, z]
   - grapheme: ability
-    phonemes: [u, b, i, l, i, dd, E]
+    phonemes: [x, b, i, l, i, dd, E]
   - grapheme: able
-    phonemes: [A, b, 0, l]
+    phonemes: [A, b, 6, l]
   - grapheme: aborted
     phonemes: [u, b, 0, r, dd, i, d]
   - grapheme: aborting
@@ -97,13 +103,13 @@ entries:
   - grapheme: abortions
     phonemes: [u, b, 0, r, sh, i, n, z]
   - grapheme: about
-    phonemes: [u, b, 8, t]
+    phonemes: [u, b, W, t]
   - grapheme: abouts
-    phonemes: [u, b, 8, t, s]
+    phonemes: [u, b, W, t, s]
   - grapheme: above
     phonemes: [u, b, u, v]
   - grapheme: absolutely
-    phonemes: ['@', b, s, 0, l, l, o, t, l, E]
+    phonemes: ['@', b, s, x, l, l, o, t, l, E]
   - grapheme: abuse
     phonemes: [u, b, y, o, z]
   - grapheme: abused
@@ -113,17 +119,17 @@ entries:
   - grapheme: abusing
     phonemes: [u, b, y, o, z, 1, ng]
   - grapheme: academia
-    phonemes: [a, k, u, d, A, m, E, u]
+    phonemes: [a, k, u, d, A, m, E, x]
   - grapheme: academic
     phonemes: ['@', k, u, d, e, m, i, k]
   - grapheme: academics
     phonemes: ['@', k, u, d, e, m, i, k, s]
   - grapheme: accept
-    phonemes: [e, k, s, e, p, t]
+    phonemes: [i, k, s, e, p, t]
   - grapheme: accepted
-    phonemes: [e, k, s, e, p, t, i, d]
+    phonemes: [i, k, s, e, p, t, i, d]
   - grapheme: accepts
-    phonemes: [e, k, s, e, p, t, s]
+    phonemes: [i, k, s, e, p, t, s]
   - grapheme: access
     phonemes: ['@', k, s, e, s]
   - grapheme: accessed
@@ -137,13 +143,17 @@ entries:
   - grapheme: accidents
     phonemes: ['@', k, s, i, d, i, n, t, s]
   - grapheme: according
-    phonemes: [u, k, 0, r, d, 1, ng, l, E]
+    phonemes: [u, k, 0, r, d, 1, ng]
+  - grapheme: accordingly
+    phonemes: [x, k, 0, r, d, 1, ng, l, E]
   - grapheme: account
     phonemes: [u, k, 8, n, t]
+  - grapheme: account(1)
+    phonemes: [x, k, 8, n]
   - grapheme: accounted
     phonemes: [u, k, 8, n, dd, i, d]
   - grapheme: accounting
-    phonemes: [u, k, 8, n, t, 1, ng]
+    phonemes: [u, k, 8, n, 1, ng]
   - grapheme: accounts
     phonemes: [u, k, 8, n, t, s]
   - grapheme: accuse
@@ -167,15 +177,15 @@ entries:
   - grapheme: achieving
     phonemes: [u, ch, E, v, 1, ng]
   - grapheme: acknowledge
-    phonemes: ['@', k, n, 9, l, i, j]
+    phonemes: [i, g, n, 9, l, i, j]
   - grapheme: acknowledged
-    phonemes: ['@', k, n, 9, l, i, j, d]
+    phonemes: [i, g, n, 9, l, i, j, d]
   - grapheme: acknowledges
-    phonemes: ['@', k, n, 9, l, i, j, i, z]
+    phonemes: [i, g, n, 9, l, i, j, i, z]
   - grapheme: acknowledging
-    phonemes: ['@', k, n, 9, l, i, j, 1, ng]
+    phonemes: [i, g, n, 9, l, i, j, 1, ng]
   - grapheme: acquainted
-    phonemes: [u, k, w, A, n, t, i, d]
+    phonemes: [x, k, w, A, n, i, d]
   - grapheme: acquire
     phonemes: [u, k, w, I, 3]
   - grapheme: acquired
@@ -193,7 +203,7 @@ entries:
   - grapheme: acting
     phonemes: ['@', k, t, 1, ng]
   - grapheme: action
-    phonemes: ['@', k, sh, i, n]
+    phonemes: ['@', k, sh, n, n]
   - grapheme: actions
     phonemes: ['@', k, sh, i, n, z]
   - grapheme: active
@@ -201,7 +211,7 @@ entries:
   - grapheme: actives
     phonemes: ['@', k, t, i, v, z]
   - grapheme: activities
-    phonemes: ['@', k, t, i, v, i, dd, E, s]
+    phonemes: ['@', k, t, i, v, i, dd, E, z]
   - grapheme: activity
     phonemes: ['@', k, t, i, v, i, dd, E]
   - grapheme: actor
@@ -211,23 +221,25 @@ entries:
   - grapheme: acts
     phonemes: ['@', k, s]
   - grapheme: actual
-    phonemes: ['@', k, sh, o, w, 0, l]
+    phonemes: ['@', k, sh, o, w, L]
   - grapheme: actually
-    phonemes: ['@', k, sh, o, w, u, l, E]
+    phonemes: ['@', k, sh, o, w, L, E]
   - grapheme: ad
     phonemes: ['@', d]
   - grapheme: add
     phonemes: ['@', d]
   - grapheme: added
-    phonemes: ['@', d, i, d]
+    phonemes: ['@', dd, i, d]
   - grapheme: addition
     phonemes: [u, d, i, sh, i, n]
   - grapheme: additional
-    phonemes: [u, d, i, sh, i, n, 0, l]
+    phonemes: [u, d, i, sh, i, n, L]
   - grapheme: additions
     phonemes: [u, d, i, sh, i, n, z]
   - grapheme: address
-    phonemes: [u, d, r, e, s]
+    phonemes: [x, d, r, e, s]
+  - grapheme: address(1)
+    phonemes: ['@', d, r, e, s]
   - grapheme: addressed
     phonemes: [u, d, r, e, s, t]
   - grapheme: addresses
@@ -237,19 +249,19 @@ entries:
   - grapheme: adds
     phonemes: ['@', d, z]
   - grapheme: administered
-    phonemes: ['@', d, m, i, n, n, i, s, t, 3, d]
+    phonemes: [x, m, i, n, n, i, s, t, 3, d]
   - grapheme: administration
-    phonemes: ['@', d, m, i, n, n, i, s, t, r, A, sh, i, n]
+    phonemes: [i, m, i, n, n, i, s, t, r, A, sh, i, n]
   - grapheme: administrations
-    phonemes: ['@', d, m, i, n, n, i, s, t, r, A, sh, i, n, z]
+    phonemes: [i, d, m, i, n, n, i, s, t, r, A, sh, i, n, z]
   - grapheme: admit
-    phonemes: [e, d, m, i, t]
+    phonemes: [e, dd, m, i, t]
   - grapheme: admits
     phonemes: [e, d, m, i, t, s]
   - grapheme: admitted
-    phonemes: [e, d, m, i, dd, i, d]
+    phonemes: [e, m, i, dd, i, d]
   - grapheme: admitting
-    phonemes: [e, d, m, i, dd, 1, ng]
+    phonemes: [e, m, i, dd, 1, ng]
   - grapheme: adopt
     phonemes: [u, d, a, p, t]
   - grapheme: adopted
@@ -267,13 +279,21 @@ entries:
   - grapheme: adult
     phonemes: [u, d, 0, l, t]
   - grapheme: adults
-    phonemes: [u, d, 0, l, t, s]
+    phonemes: [u, d, x, l, t, s]
   - grapheme: advantage
-    phonemes: ['@', d, v, '&', n, t, i, j]
+    phonemes: [x, v, '&', n, i, j]
+  - grapheme: advantage(1)
+    phonemes: [x, dd, v, '&', n, i, j]
   - grapheme: advantages
-    phonemes: ['@', d, v, '&', n, t, i, j, i, z]
+    phonemes: [x, v, '&', n, i, j, i, z]
+  - grapheme: advantages(1)
+    phonemes: ['x', d, v, '&', n, t, i, j, i, z]
+  - grapheme: advantageous
+    phonemes: ['@', d, v, e, n, t, A, j, i, s]
   - grapheme: advice
-    phonemes: ['@', d, v, I, s]
+    phonemes: [i, d, v, Y, s]
+  - grapheme: advise
+    phonemes: [i, d, v, I, z]
   - grapheme: affair
     phonemes: [u, f, A, r]
   - grapheme: affairs
@@ -306,6 +326,8 @@ entries:
     phonemes: [u, g, e, n]
   - grapheme: against
     phonemes: [u, g, e, n, s, t]
+  - grapheme: against(1)
+    phonemes: [u, g, e, n, z]
   - grapheme: age
     phonemes: [A, j]
   - grapheme: aged
@@ -393,7 +415,7 @@ entries:
   - grapheme: already
     phonemes: [9, l, r, e, d, E]
   - grapheme: alright
-    phonemes: [9, l, r, I, t]
+    phonemes: [9, l, r, Y, t]
   - grapheme: also
     phonemes: [9, l, s, O]
   - grapheme: alternative
@@ -449,9 +471,9 @@ entries:
   - grapheme: angry
     phonemes: [A, ng, r, E]
   - grapheme: animal
-    phonemes: ['&', n, i, m, 0, l]
+    phonemes: ['&', n, i, m, L]
   - grapheme: animals
-    phonemes: ['&', n, i, m, 0, l, z]
+    phonemes: ['&', n, i, m, L, z]
   - grapheme: announce
     phonemes: [u, n, 8, n, s]
   - grapheme: announced
@@ -461,13 +483,13 @@ entries:
   - grapheme: announcing
     phonemes: [u, n, 8, n, s, 1, ng]
   - grapheme: annual
-    phonemes: ['&', n, y, o, w, 0, l]
+    phonemes: ['&', n, y, o, w, L]
   - grapheme: annuals
-    phonemes: ['&', n, y, o, w, 0, l, z]
+    phonemes: ['&', n, y, o, w, L, z]
   - grapheme: another
-    phonemes: [u, n, u, th, 3]
+    phonemes: [u, n, u, dh, 3]
   - grapheme: another'd
-    phonemes: [u, n, u, th, 3, d]
+    phonemes: [u, n, u, dh, 3, d]
   - grapheme: answer
     phonemes: ['&', n, s, 3]
   - grapheme: answered
@@ -505,7 +527,7 @@ entries:
   - grapheme: apartments
     phonemes: [u, p, a, r, t, m, i, n, t, s]
   - grapheme: apparently
-    phonemes: [u, p, a, r, r, i, n, t, l, E]
+    phonemes: [u, p, A, r, r, i, n, t, l, E]
   - grapheme: appeal
     phonemes: [u, p, E, l]
   - grapheme: appealed
@@ -525,7 +547,7 @@ entries:
   - grapheme: appears
     phonemes: [u, p, E, r, z]
   - grapheme: apple
-    phonemes: ['@', p, 0, l]
+    phonemes: ['@', p, L]
   - grapheme: application
     phonemes: ['@', p, l, i, k, A, sh, i, n]
   - grapheme: applications
@@ -557,7 +579,7 @@ entries:
   - grapheme: appropriate
     phonemes: [u, p, r, o, p, r, E, i, t]
   - grapheme: approval
-    phonemes: [u, p, r, o, v, 0, l]
+    phonemes: [u, p, r, o, v, L]
   - grapheme: approve
     phonemes: [u, p, r, o, v]
   - grapheme: approved
@@ -566,6 +588,8 @@ entries:
     phonemes: [u, p, r, o, v, z]
   - grapheme: approving
     phonemes: [u, p, r, o, v, 1, ng]
+  - grapheme: arachne
+    phonemes: [x, r, '@', k, n, E]
   - grapheme: are
     phonemes: [a, r]
   - grapheme: area
@@ -609,9 +633,9 @@ entries:
   - grapheme: art
     phonemes: [a, r, t]
   - grapheme: article
-    phonemes: [a, r, dd, i, k, 0, l]
+    phonemes: [a, r, dd, i, k, L]
   - grapheme: articles
-    phonemes: [a, r, dd, i, k, 0, l, s]
+    phonemes: [a, r, dd, i, k, 0, L, z]
   - grapheme: artist
     phonemes: [a, r, dd, i, s, t]
   - grapheme: artists
@@ -657,7 +681,7 @@ entries:
   - grapheme: associates
     phonemes: [u, s, O, sh, E, i, t, s]
   - grapheme: associating
-    phonemes: [u, s, O, sh, E, A, dd, 1, ng]
+    phonemes: [u, s, O, s, E, A, dd, 1, ng]
   - grapheme: association
     phonemes: [u, s, O, sh, E, A, sh, i, n]
   - grapheme: associations
@@ -699,7 +723,7 @@ entries:
   - grapheme: attempting
     phonemes: [u, t, e, m, p, t, 1, ng]
   - grapheme: attempts
-    phonemes: [u, t, e, m, p, t, s]
+    phonemes: [u, t, e, m, p, s]
   - grapheme: attend
     phonemes: [u, t, e, n, d]
   - grapheme: attended
@@ -707,11 +731,11 @@ entries:
   - grapheme: attending
     phonemes: [u, t, e, n, d, 1, ng]
   - grapheme: attends
-    phonemes: [u, t, e, n, d, z]
+    phonemes: [u, t, e, n, z]
   - grapheme: attention
     phonemes: [u, t, e, n, sh, i, n]
   - grapheme: attentional
-    phonemes: [u, t, e, n, sh, i, n, n, 0, l]
+    phonemes: [u, t, e, n, sh, i, n, n, L]
   - grapheme: attitude
     phonemes: ['@', dd, i, t, u, d]
   - grapheme: attitudes
@@ -727,7 +751,7 @@ entries:
   - grapheme: attracting
     phonemes: [u, t, r, '@', k, dd, 1, ng]
   - grapheme: attracts
-    phonemes: [u, t, r, '@', k, t, s]
+    phonemes: [u, t, r, '@', k, s]
   - grapheme: audience
     phonemes: [9, d, E, i, n, s]
   - grapheme: audiences
@@ -747,7 +771,7 @@ entries:
   - grapheme: availability
     phonemes: [u, v, A, l, u, b, i, l, i, dd, E]
   - grapheme: available
-    phonemes: [u, v, A, l, i, b, 0, l]
+    phonemes: [u, v, A, l, i, b, L]
   - grapheme: average
     phonemes: ['@', v, r, i, j]
   - grapheme: averages
@@ -771,7 +795,7 @@ entries:
   - grapheme: aways
     phonemes: [u, w, A, z]
   - grapheme: awful
-    phonemes: [9, f, 0, l]
+    phonemes: [9, f, L]
   - grapheme: awoke
     phonemes: [u, w, O, k]
   - grapheme: babies
@@ -851,7 +875,7 @@ entries:
   - grapheme: based
     phonemes: [b, A, s, t]
   - grapheme: bases
-    phonemes: [b, A, s, i, s]
+    phonemes: [b, A, s, i, z]
   - grapheme: basic
     phonemes: [b, A, s, i, k]
   - grapheme: basically
@@ -865,11 +889,11 @@ entries:
   - grapheme: basketballs
     phonemes: [b, '@', s, k, i, t, b, 9, l, z]
   - grapheme: battle
-    phonemes: [b, '@', dd, 0, l]
+    phonemes: [b, '@', dd, L]
   - grapheme: battled
-    phonemes: [b, '@', dd, 0, l, d]
+    phonemes: [b, '@', dd, L d]
   - grapheme: battles
-    phonemes: [b, '@', dd, 0, l, s]
+    phonemes: [b, '@', dd, L, z]
   - grapheme: battling
     phonemes: [b, '@', d, 0, l, l, 1, ng]
   - grapheme: be
@@ -893,7 +917,7 @@ entries:
   - grapheme: beats
     phonemes: [b, E, t, s]
   - grapheme: beautiful
-    phonemes: [b, y, o, d, i, f, 0, l]
+    phonemes: [b, y, o, d, i, f, L]
   - grapheme: beauty
     phonemes: [b, y, o, dd, E]
   - grapheme: beautys
@@ -916,7 +940,7 @@ entries:
     phonemes: [b, e, d, z]
   - grapheme: been
     phonemes: [b, i, n]
-  - grapheme: been(2)
+  - grapheme: been(1)
     phonemes: [b, e, n]
   - grapheme: beer
     phonemes: [b, E, r]
@@ -989,7 +1013,7 @@ entries:
   - grapheme: benefits
     phonemes: [b, e, n, i, f, i, t, s]
   - grapheme: benefitting
-    phonemes: [b, e, n, i, f, i, d, 1, ng]
+    phonemes: [b, e, n, i, f, i, dd, 1, ng]
   - grapheme: beside
     phonemes: [b, E, s, I, d]
   - grapheme: besides
@@ -999,7 +1023,7 @@ entries:
   - grapheme: bests
     phonemes: [b, e, s, t, s]
   - grapheme: better
-    phonemes: [b, e, d, 3]
+    phonemes: [b, e, dd, 3]
   - grapheme: betterd
     phonemes: [b, e, d, 3, d]
   - grapheme: between
@@ -1007,13 +1031,15 @@ entries:
   - grapheme: beyond
     phonemes: [b, E, y, 9, n, d]
   - grapheme: bidding
-    phonemes: [b, i, d, 1, ng]
+    phonemes: [b, i, dd, 1, ng]
   - grapheme: big
     phonemes: [b, i, g]
   - grapheme: bigger
     phonemes: [b, i, g, 3]
   - grapheme: biggest
     phonemes: [b, i, g, i, s, t]
+  - grapheme: bike
+    phonemes: [b, Y, k]
   - grapheme: bill
     phonemes: [b, i, l]
   - grapheme: billed
@@ -1022,11 +1048,11 @@ entries:
     phonemes: [b, i, l, 1, ng]
   - grapheme: billion
     phonemes: [b, i, l, E, i, n]
-  - grapheme: billion(2)
+  - grapheme: billion(1)
     phonemes: [b, i, l, y, i, n]
   - grapheme: billions
     phonemes: [b, i, l, E, i, n, z]
-  - grapheme: billions(2)
+  - grapheme: billions(1)
     phonemes: [b, i, l, y, i, n, z]
   - grapheme: bills
     phonemes: [b, i, l, z]
@@ -1049,7 +1075,7 @@ entries:
   - grapheme: bit
     phonemes: [b, i, t]
   - grapheme: bite
-    phonemes: [b, I, t]
+    phonemes: [b, Y, t]
   - grapheme: bits
     phonemes: [b, i, t, s]
   - grapheme: bitterest
@@ -1117,11 +1143,11 @@ entries:
   - grapheme: boats
     phonemes: [b, O, t, s]
   - grapheme: bodies
-    phonemes: [b, a, d, E, z]
+    phonemes: [b, a, dd, E, z]
   - grapheme: body
-    phonemes: [b, a, d, E]
+    phonemes: [b, a, dd, E]
   - grapheme: bodys
-    phonemes: [b, a, d, E, z]
+    phonemes: [b, a, dd, E, z]
   - grapheme: bomb
     phonemes: [b, 9, m]
   - grapheme: bombed
@@ -1173,13 +1199,13 @@ entries:
   - grapheme: boths
     phonemes: [b, O, th, s]
   - grapheme: bottle
-    phonemes: [b, a, dd, 0, l]
+    phonemes: [b, a, dd, L]
   - grapheme: bottled
-    phonemes: [b, a, dd, 0, l, d]
+    phonemes: [b, a, dd, L d]
   - grapheme: bottles
-    phonemes: [b, a, dd, 0, l, s]
+    phonemes: [b, a, dd, L, z]
   - grapheme: bottling
-    phonemes: [b, a, dd, 0, l, l, 1, ng]
+    phonemes: [b, a, dd, x, l, l, 1, ng]
   - grapheme: bottom
     phonemes: [b, a, dd, u, m]
   - grapheme: bottomed
@@ -1195,7 +1221,7 @@ entries:
   - grapheme: bound
     phonemes: [b, 8, n, d]
   - grapheme: bout
-    phonemes: [b, 8, t]
+    phonemes: [b, W, t]
   - grapheme: bowl
     phonemes: [b, 0, l]
   - grapheme: bowled
@@ -1257,13 +1283,13 @@ entries:
   - grapheme: bridges
     phonemes: [b, r, i, j, i, z]
   - grapheme: bright
-    phonemes: [b, r, I, t]
+    phonemes: [b, r, Y, t]
   - grapheme: brighter
-    phonemes: [b, r, I, d, 3]
+    phonemes: [b, r, Y, dd, 3]
   - grapheme: brightest
-    phonemes: [b, r, I, d, i, s, t]
+    phonemes: [b, r, Y, dd, i, s, t]
   - grapheme: brightly
-    phonemes: [b, r, I, t, l, E]
+    phonemes: [b, r, Y, t, l, E]
   - grapheme: bring
     phonemes: [b, r, 1, ng]
   - grapheme: bringing
@@ -1271,7 +1297,7 @@ entries:
   - grapheme: brings
     phonemes: [b, r, 1, ng, z]
   - grapheme: british
-    phonemes: [b, r, i, t, i, sh]
+    phonemes: [b, r, i, dd, i, sh]
   - grapheme: broad
     phonemes: [b, r, a, d]
   - grapheme: broads
@@ -1283,9 +1309,9 @@ entries:
   - grapheme: broom
     phonemes: [b, r, o, m]
   - grapheme: brother
-    phonemes: [b, r, u, th, 3]
+    phonemes: [b, r, u, dh, 3]
   - grapheme: brothers
-    phonemes: [b, r, u, th, 3, z]
+    phonemes: [b, r, u, dh, 3, z]
   - grapheme: brought
     phonemes: [b, r, 9, t]
   - grapheme: brown
@@ -1353,9 +1379,9 @@ entries:
   - grapheme: bye
     phonemes: [b, I]
   - grapheme: cable
-    phonemes: [k, A, b, 0, l]
+    phonemes: [k, A, b, L]
   - grapheme: cables
-    phonemes: [k, A, b, 0, l, z]
+    phonemes: [k, A, b, L]
   - grapheme: cage
     phonemes: [k, A, j]
   - grapheme: cake
@@ -1389,7 +1415,7 @@ entries:
   - grapheme: campus
     phonemes: [k, '&', m, p, i, s]
   - grapheme: can
-    phonemes: [k, '&', n]
+    phonemes: [k, i, n]
   - grapheme: can't
     phonemes: [k, '&', n, t]
   - grapheme: cancer
@@ -1398,14 +1424,14 @@ entries:
     phonemes: [k, '&', n, s, 3, z]
   - grapheme: candidate
     phonemes: [k, '&', n, d, i, d, A, t]
-  - grapheme: candidate(2)
+  - grapheme: candidate(1)
     phonemes: [k, '&', n, d, i, d, i, t]
   - grapheme: candidates
     phonemes: [k, '&', n, d, i, d, A, t, s]
-  - grapheme: candidates(2)
+  - grapheme: candidates(1)
     phonemes: [k, '&', n, d, i, d, i, t, s]
   - grapheme: cannot
-    phonemes: [k, '&', n, n, a, t]
+    phonemes: [k, i, n, n, a, t]
   - grapheme: cans
     phonemes: [k, '&', n, z]
   - grapheme: capacities
@@ -1413,9 +1439,9 @@ entries:
   - grapheme: capacity
     phonemes: [k, u, p, '@', s, i, dd, E]
   - grapheme: capital
-    phonemes: [k, '@', p, i, t, 0, l]
+    phonemes: [k, '@', p, i, dd, L]
   - grapheme: capitals
-    phonemes: [k, '@', p, i, t, 0, l, z]
+    phonemes: [k, '@', p, i, dd, L, z]
   - grapheme: capture
     phonemes: [k, '@', p, ch, 3]
   - grapheme: captured
@@ -1423,17 +1449,17 @@ entries:
   - grapheme: captures
     phonemes: [k, '@', p, ch, 3, z]
   - grapheme: capturing
-    phonemes: [k, '@', p, ch, 3, r, 1, ng]
+    phonemes: [k, '@', p, ch, r, 1, ng]
   - grapheme: car
     phonemes: [k, a, r]
   - grapheme: caramel
     phonemes: [k, A, r, r, u, m, e, l]
-  - grapheme: caramel(2)
+  - grapheme: caramel(1)
     phonemes: [k, A, r, m, e, l]
   - grapheme: card
     phonemes: [k, a, r, d]
   - grapheme: carded
-    phonemes: [k, a, r, d, i, d]
+    phonemes: [k, a, r, dd, i, d]
   - grapheme: cards
     phonemes: [k, a, r, d, z]
   - grapheme: care
@@ -1445,7 +1471,7 @@ entries:
   - grapheme: careers
     phonemes: [k, u, r, E, r, z]
   - grapheme: careful
-    phonemes: [k, A, r, f, 0, l]
+    phonemes: [k, A, r, f, L]
   - grapheme: carefully
     phonemes: [k, A, r, f, u, l, E]
   - grapheme: cares
@@ -1515,13 +1541,13 @@ entries:
   - grapheme: cells
     phonemes: [s, e, l, z]
   - grapheme: center
-    phonemes: [s, e, n, t, 3]
+    phonemes: [s, e, n, 3]
   - grapheme: centered
-    phonemes: [s, e, n, t, 3, d]
+    phonemes: [s, e, n, 3, d]
   - grapheme: centers
-    phonemes: [s, e, n, t, 3, s]
+    phonemes: [s, e, n, 3, z]
   - grapheme: central
-    phonemes: [s, e, n, t, r, 0, l]
+    phonemes: [s, e, n, t, r, L]
   - grapheme: centuries
     phonemes: [s, e, n, ch, 3, r, E, z]
   - grapheme: century
@@ -1545,9 +1571,9 @@ entries:
   - grapheme: chairman
     phonemes: [ch, A, r, m, i, n]
   - grapheme: chairmen
-    phonemes: [ch, A, r, m, e, n]
+    phonemes: [ch, A, r, m, i, n]
   - grapheme: chairs
-    phonemes: [ch, A, r, s]
+    phonemes: [ch, A, r, z]
   - grapheme: challenge
     phonemes: [ch, '@', l, i, n, j]
   - grapheme: challenged
@@ -1567,7 +1593,7 @@ entries:
   - grapheme: changed
     phonemes: [ch, A, n, j, d]
   - grapheme: changes
-    phonemes: [ch, A, n, j, i, s]
+    phonemes: [ch, A, n, j, i, z]
   - grapheme: changing
     phonemes: [ch, A, n, j, 1, ng]
   - grapheme: character
@@ -1625,18 +1651,18 @@ entries:
   - grapheme: chiefs
     phonemes: [ch, E, f, s]
   - grapheme: child
-    phonemes: [ch, I, O, l, d]
-  - grapheme: child(2)
     phonemes: [ch, I, l, d]
+  - grapheme: child(1)
+    phonemes: [ch, I, 0, l, d]
   - grapheme: child's
-    phonemes: [ch, I, 0, l, d, z]
+    phonemes: [ch, I, l, d, z]
   - grapheme: childhood
     phonemes: [ch, I, l, d, h, 6, d]
-  - grapheme: childhood(2)
+  - grapheme: childhood(1)
     phonemes: [ch, I, 0, l, d, h, 6, d]
   - grapheme: childhoods
     phonemes: [ch, I, l, d, h, 6, d, z]
-  - grapheme: childhoods(2)
+  - grapheme: childhoods(1)
     phonemes: [ch, I, 0, l, d, h, 6, d, z]
   - grapheme: children
     phonemes: [ch, i, l, d, r, e, n]
@@ -1665,39 +1691,39 @@ entries:
   - grapheme: churches
     phonemes: [ch, 3, ch, i, z]
   - grapheme: cigarette
-    phonemes: [s, i, g, u, r, e, t]
+    phonemes: [s, i, g, 3, r, e, t]
   - grapheme: cigarettes
-    phonemes: [s, i, g, u, r, e, t, s]
+    phonemes: [s, i, g, 3, r, e, t, s]
   - grapheme: cinderella
     phonemes: [s, i, n, d, 3, r, e, l, l, u]
   - grapheme: circle
-    phonemes: [s, 3, k, 0, l]
+    phonemes: [s, 3, k, L]
   - grapheme: circles
-    phonemes: [s, 3, k, 0, l, z]
+    phonemes: [s, 3, k, L, z]
   - grapheme: circumstance
     phonemes: [s, 3, k, u, m, s, t, '&', n, s]
   - grapheme: circumstances
     phonemes: [s, 3, k, u, m, s, t, '&', n, s, i, z]
   - grapheme: cite
-    phonemes: [s, I, t]
+    phonemes: [s, Y, t]
   - grapheme: cited
-    phonemes: [s, I, dd, i, d]
+    phonemes: [s, Y, dd, i, d]
   - grapheme: cites
-    phonemes: [s, I, t, s]
+    phonemes: [s, Y, t, s]
   - grapheme: cities
-    phonemes: [s, i, d, E, z]
+    phonemes: [s, i, dd, E, z]
   - grapheme: citing
-    phonemes: [s, I, dd, 1, ng]
+    phonemes: [s, Y, dd, 1, ng]
   - grapheme: citizen
-    phonemes: [s, i, d, u, s, i, n]
+    phonemes: [s, i, dd, u, s, i, n]
   - grapheme: citizens
-    phonemes: [s, i, d, u, s, i, n, z]
+    phonemes: [s, i, dd, u, s, i, n, z]
   - grapheme: city
-    phonemes: [s, i, d, E]
+    phonemes: [s, i, dd, E]
   - grapheme: citys
-    phonemes: [s, i, d, E, z]
+    phonemes: [s, i, dd, E, z]
   - grapheme: civil
-    phonemes: [s, i, v, 0, l]
+    phonemes: [s, i, v, L]
   - grapheme: claim
     phonemes: [k, l, A, m]
   - grapheme: claimed
@@ -1739,7 +1765,7 @@ entries:
   - grapheme: client
     phonemes: [k, l, I, i, n, t]
   - grapheme: clients
-    phonemes: [k, l, I, i, n, t, s]
+    phonemes: [k, l, I, i, n, s]
   - grapheme: cliff
     phonemes: [k, l, i, f]
   - grapheme: climate
@@ -1761,7 +1787,7 @@ entries:
   - grapheme: close
     phonemes: [k, l, O, s]
   - grapheme: closed
-    phonemes: [k, l, O, s, t]
+    phonemes: [k, l, O, s, d]
   - grapheme: closely
     phonemes: [k, l, O, s, l, E]
   - grapheme: closer
@@ -1771,13 +1797,15 @@ entries:
   - grapheme: closing
     phonemes: [k, l, O, z, 1, ng]
   - grapheme: clothed
-    phonemes: [k, l, O, th, d]
+    phonemes: [k, l, O, dh, d]
   - grapheme: clothes
-    phonemes: [k, l, O, th, s]
+    phonemes: [k, l, O, dh, s]
   - grapheme: clothing
-    phonemes: [k, l, O, th, 1, ng]
+    phonemes: [k, l, O, dh, 1, ng]
   - grapheme: cloud
     phonemes: [k, l, 8, d]
+  - grapheme: clout
+    phonemes: [k, l, W, t]
   - grapheme: clouds
     phonemes: [k, l, 8, d, z]
   - grapheme: club
@@ -1801,11 +1829,11 @@ entries:
   - grapheme: code
     phonemes: [k, O, d]
   - grapheme: coded
-    phonemes: [k, O, d, i, d]
+    phonemes: [k, O, dd, i, d]
   - grapheme: codes
     phonemes: [k, O, d, z]
   - grapheme: coding
-    phonemes: [k, O, d, 1, ng]
+    phonemes: [k, O, dd, 1, ng]
   - grapheme: coffee
     phonemes: [k, a, f, E]
   - grapheme: cold
@@ -1821,17 +1849,17 @@ entries:
   - grapheme: colleagues
     phonemes: [k, a, l, E, g, z]
   - grapheme: collect
-    phonemes: [k, u, l, e, k, t]
+    phonemes: [k, l, e, k, t]
   - grapheme: collected
-    phonemes: [k, u, l, e, k, t, i, d]
+    phonemes: [k, l, e, k, t, i, d]
   - grapheme: collecting
-    phonemes: [k, u, l, e, k, t, 1, ng]
+    phonemes: [k, l, e, k, t, 1, ng]
   - grapheme: collection
-    phonemes: [k, u, l, e, k, sh, i, n]
+    phonemes: [k, l, e, k, sh, i, n]
   - grapheme: collections
-    phonemes: [k, u, l, e, k, sh, i, n, z]
+    phonemes: [k, l, e, k, sh, i, n, z]
   - grapheme: collects
-    phonemes: [k, u, l, e, k, t, s]
+    phonemes: [k, l, e, k, s]
   - grapheme: college
     phonemes: [k, a, l, i, j]
   - grapheme: colleges
@@ -1841,7 +1869,7 @@ entries:
   - grapheme: colored
     phonemes: [k, u, l, 3, d]
   - grapheme: colorful
-    phonemes: [k, u, l, 3, f, 0, l]
+    phonemes: [k, u, l, 3, f, L]
   - grapheme: coloring
     phonemes: [k, u, l, 3, r, 1, ng]
   - grapheme: colors
@@ -1867,21 +1895,21 @@ entries:
   - grapheme: comes
     phonemes: [k, u, m, z]
   - grapheme: comfortable
-    phonemes: [k, u, m, f, t, 3, b, 0, l]
+    phonemes: [k, u, m, f, t, 3, b, L]
   - grapheme: coming
     phonemes: [k, u, m, 1, ng]
   - grapheme: comment
     phonemes: [k, a, m, e, n, t]
   - grapheme: commented
-    phonemes: [k, a, m, e, n, t, i, d]
+    phonemes: [k, a, m, e, n, i, d]
   - grapheme: commenting
-    phonemes: [k, a, m, e, n, t, 1, ng]
+    phonemes: [k, a, m, e, n, 1, ng]
   - grapheme: comments
     phonemes: [k, a, m, e, n, t, s]
   - grapheme: commercial
-    phonemes: [k, u, m, 3, sh, 0, l]
+    phonemes: [k, u, m, 3, sh, L]
   - grapheme: commercials
-    phonemes: [k, u, m, 3, sh, 0, l, z]
+    phonemes: [k, u, m, 3, sh, L, z]
   - grapheme: commit
     phonemes: [k, u, m, i, t]
   - grapheme: commitment
@@ -1891,13 +1919,13 @@ entries:
   - grapheme: commits
     phonemes: [k, u, m, i, t, s]
   - grapheme: committed
-    phonemes: [k, u, m, i, d, i, d]
+    phonemes: [k, u, m, i, dd, i, d]
   - grapheme: committee
     phonemes: [k, u, m, i, dd, E]
   - grapheme: committees
     phonemes: [k, u, m, i, dd, E, z]
   - grapheme: committing
-    phonemes: [k, u, m, i, d, 1, ng]
+    phonemes: [k, u, m, i, dd, 1, ng]
   - grapheme: common
     phonemes: [k, a, m, i, n]
   - grapheme: commoner
@@ -1905,19 +1933,19 @@ entries:
   - grapheme: commons
     phonemes: [k, a, m, i, n, z]
   - grapheme: communicated
-    phonemes: [k, u, m, y, o, n, i, k, A, t, i, d]
+    phonemes: [k, u, m, y, o, n, i, k, A, dd, i, d]
   - grapheme: communicating
-    phonemes: [k, u, m, y, o, n, i, k, A, t, 1, ng]
+    phonemes: [k, u, m, y, o, n, i, k, A, dd, 1, ng]
   - grapheme: communication
     phonemes: [k, u, m, y, o, n, i, k, A, sh, i, n]
   - grapheme: communications
     phonemes: [k, u, m, y, o, n, i, k, A, sh, i, n, z]
   - grapheme: communities
-    phonemes: [k, u, m, y, o, n, i, t, E, s]
+    phonemes: [k, u, m, y, o, n, i, dd, E, z]
   - grapheme: community
-    phonemes: [k, u, m, y, o, n, i, t, E]
+    phonemes: [k, u, m, y, o, n, i, dd, E]
   - grapheme: communitys
-    phonemes: [k, u, m, y, o, n, i, t, E, s]
+    phonemes: [k, u, m, y, o, n, i, dd, E, z]
   - grapheme: companies
     phonemes: [k, u, m, p, i, n, E, z]
   - grapheme: company
@@ -1953,13 +1981,13 @@ entries:
   - grapheme: complete
     phonemes: [k, u, m, p, l, E, t]
   - grapheme: completed
-    phonemes: [k, u, m, p, l, E, t, i, d]
+    phonemes: [k, u, m, p, l, E, dd, i, d]
   - grapheme: completely
     phonemes: [k, u, m, p, l, E, t, l, E]
   - grapheme: completes
     phonemes: [k, u, m, p, l, E, t, s]
   - grapheme: completing
-    phonemes: [k, u, m, p, l, E, t, 1, ng]
+    phonemes: [k, u, m, p, l, E, dd, 1, ng]
   - grapheme: complex
     phonemes: [k, u, m, p, l, e, k, s]
   - grapheme: complexed
@@ -1969,7 +1997,7 @@ entries:
   - grapheme: component
     phonemes: [k, u, m, p, O, n, i, n, t]
   - grapheme: components
-    phonemes: [k, u, m, p, O, n, i, n, t, s]
+    phonemes: [k, u, m, p, O, n, i, n, s]
   - grapheme: computer
     phonemes: [k, u, m, p, y, o, t, 3]
   - grapheme: computers
@@ -1977,39 +2005,39 @@ entries:
   - grapheme: concept
     phonemes: [k, a, n, s, e, p, t]
   - grapheme: concepts
-    phonemes: [k, a, n, s, e, p, t, s]
+    phonemes: [k, a, n, s, e, p, s]
   - grapheme: concern
-    phonemes: [k, u, n, s, 3, n]
+    phonemes: [k, i, n, s, 3, n]
   - grapheme: concerned
-    phonemes: [k, u, n, s, 3, n, d]
+    phonemes: [k, i, n, s, 3, n, d]
   - grapheme: concerns
-    phonemes: [k, u, n, s, 3, n, z]
+    phonemes: [k, i, n, s, 3, n, z]
   - grapheme: conclude
-    phonemes: [k, u, n, k, l, o, d]
+    phonemes: [k, i, n, k, l, o, d]
   - grapheme: concluded
-    phonemes: [k, u, n, k, l, o, dd, i, d]
+    phonemes: [k, i, n, k, l, o, dd, i, d]
   - grapheme: concludes
-    phonemes: [k, u, n, k, l, o, d, z]
+    phonemes: [k, i, n, k, l, o, d, z]
   - grapheme: concluding
-    phonemes: [k, u, n, k, l, o, d, 1, ng]
+    phonemes: [k, i, n, k, l, o, d, 1, ng]
   - grapheme: conclusion
-    phonemes: [k, u, n, k, l, o, zh, i, n]
+    phonemes: [k, i, n, k, l, o, zh, i, n]
   - grapheme: conclusions
-    phonemes: [k, u, n, k, l, o, zh, i, n, z]
+    phonemes: [k, i, n, k, l, o, zh, i, n, z]
   - grapheme: condition
-    phonemes: [k, u, n, d, i, sh, i, n]
+    phonemes: [k, i, n, d, i, sh, i, n]
   - grapheme: conditioned
-    phonemes: [k, u, n, d, i, sh, i, n, d]
+    phonemes: [k, i, n, d, i, sh, i, n, d]
   - grapheme: conditions
-    phonemes: [k, u, n, d, i, sh, i, n, z]
+    phonemes: [k, i, n, d, i, sh, i, n, z]
   - grapheme: conduct
     phonemes: [k, a, n, d, u, k, t]
   - grapheme: conducted
-    phonemes: [k, u, n, d, u, k, t, i, d]
+    phonemes: [k, i, n, d, u, k, t, i, d]
   - grapheme: conducting
-    phonemes: [k, u, n, d, u, k, t, 1, ng]
+    phonemes: [k, i, n, d, u, k, t, 1, ng]
   - grapheme: conducts
-    phonemes: [k, u, n, d, u, k, t, s]
+    phonemes: [k, i, n, d, u, k, t, s]
   - grapheme: conference
     phonemes: [k, a, n, f, r, i, n, s]
   - grapheme: conferences
@@ -2017,39 +2045,39 @@ entries:
   - grapheme: confidence
     phonemes: [k, a, n, f, i, d, i, n, s]
   - grapheme: confirm
-    phonemes: [k, u, n, f, 3, m]
+    phonemes: [k, i, n, f, 3, m]
   - grapheme: confirmed
-    phonemes: [k, u, n, f, 3, m, d]
+    phonemes: [k, i, n, f, 3, m, d]
   - grapheme: confirming
-    phonemes: [k, u, n, f, 3, m, 1, ng]
+    phonemes: [k, i, n, f, 3, m, 1, ng]
   - grapheme: confirms
-    phonemes: [k, u, n, f, 3, m, z]
+    phonemes: [k, i, n, f, 3, m, z]
   - grapheme: conflict
     phonemes: [k, a, n, f, l, i, k, t]
-  - grapheme: conflict(2)
-    phonemes: [k, u, n, f, l, i, k, t]
+  - grapheme: conflict(1)
+    phonemes: [k, i, n, f, l, i, k, t]
   - grapheme: conflicted
-    phonemes: [k, u, n, f, l, i, k, t, i, d]
+    phonemes: [k, i, n, f, l, i, k, t, i, d]
   - grapheme: conflicting
-    phonemes: [k, u, n, f, l, i, k, t, 1, ng]
+    phonemes: [k, 1, n, f, l, i, k, t, 1, ng]
   - grapheme: conflicts
-    phonemes: [k, a, n, f, l, i, k, t, s]
+    phonemes: [k, 1, n, f, l, i, k, s]
   - grapheme: congress
-    phonemes: [k, a, ng, g, r, e, s]
+    phonemes: [k, 9, ng, g, r, e, s]
   - grapheme: congresses
-    phonemes: [k, a, ng, g, r, e, s, i, z]
+    phonemes: [k, 9, ng, g, r, e, s, i, z]
   - grapheme: connect
-    phonemes: [k, u, n, e, k, t]
+    phonemes: [k, i, n, e, k, t]
   - grapheme: connected
-    phonemes: [k, u, n, e, k, t, i, d]
+    phonemes: [k, i, n, e, k, t, i, d]
   - grapheme: connecting
-    phonemes: [k, u, n, e, k, t, 1, ng]
+    phonemes: [k, i, n, e, k, t, 1, ng]
   - grapheme: connection
-    phonemes: [k, u, n, e, k, sh, i, n]
+    phonemes: [k, i, n, e, k, sh, i, n]
   - grapheme: connections
-    phonemes: [k, u, n, e, k, sh, i, n, z]
+    phonemes: [k, i, n, e, k, sh, i, n, z]
   - grapheme: connects
-    phonemes: [k, u, n, e, k, t, s]
+    phonemes: [k, i, n, e, k, s]
   - grapheme: conquer
     phonemes: [k, a, n, k, 3]
   - grapheme: consequence
@@ -2057,31 +2085,31 @@ entries:
   - grapheme: consequences
     phonemes: [k, a, n, s, i, k, w, e, n, s, i, z]
   - grapheme: conservative
-    phonemes: [k, u, n, s, 3, v, i, dd, i, v]
+    phonemes: [k, i, n, s, 3, v, i, dd, i, v]
   - grapheme: consider
-    phonemes: [k, u, n, s, i, d, 3]
+    phonemes: [k, i, n, s, i, dd, 3]
   - grapheme: considered
-    phonemes: [k, u, n, s, i, d, 3, d]
+    phonemes: [k, i, n, s, i, d, 3, d]
   - grapheme: considers
-    phonemes: [k, u, n, s, i, d, 3, s]
+    phonemes: [k, i, n, s, i, dd, 3, s]
   - grapheme: construction
-    phonemes: [k, u, n, s, t, r, u, k, sh, i, n]
+    phonemes: [k, i, n, s, t, r, u, k, sh, i, n]
   - grapheme: constructions
-    phonemes: [k, u, n, s, t, r, u, k, sh, i, n, z]
+    phonemes: [k, i, n, s, t, r, u, k, sh, i, n, z]
   - grapheme: consumer
-    phonemes: [k, u, n, s, o, m, 3]
+    phonemes: [k, i, n, s, o, m, 3]
   - grapheme: consumers
-    phonemes: [k, u, n, s, o, m, 3, z]
+    phonemes: [k, i, n, s, o, m, 3, z]
   - grapheme: contact
     phonemes: [k, a, n, t, '@', k, t]
   - grapheme: contain
-    phonemes: [k, u, n, t, A, n]
+    phonemes: [k, i, n, t, A, n]
   - grapheme: contained
-    phonemes: [k, u, n, t, A, n, d]
+    phonemes: [k, i, n, t, A, n, d]
   - grapheme: containing
-    phonemes: [k, u, n, t, A, n, 1, ng]
+    phonemes: [k, i, n, t, A, n, 1, ng]
   - grapheme: contains
-    phonemes: [k, u, n, t, A, n, z]
+    phonemes: [k, i, n, t, A, n, z]
   - grapheme: contemporaries
     phonemes: [k, u, n, t, e, m, p, 0, r, A, r, r, E, z]
   - grapheme: contemporary
@@ -2095,15 +2123,15 @@ entries:
   - grapheme: contexts
     phonemes: [k, a, n, t, e, k, s, t, s]
   - grapheme: continue
-    phonemes: [k, u, n, t, i, n, n, y, o]
+    phonemes: [k, i, n, t, i, n, n, y, o]
   - grapheme: continued
-    phonemes: [k, u, n, t, i, n, n, y, o, d]
+    phonemes: [k, i, n, t, i, n, n, y, o, d]
   - grapheme: continues
-    phonemes: [k, u, n, t, i, n, n, y, o, z]
+    phonemes: [k, i, n, t, i, n, n, y, o, z]
   - grapheme: contract
     phonemes: [k, a, n, t, r, '@', k, t]
   - grapheme: contracted
-    phonemes: [k, a, n, t, r, '@', k, t, i, d]
+    phonemes: [k, i, n, t, r, '@', k, t, i, d]
   - grapheme: contracting
     phonemes: [k, a, n, t, r, '@', k, t, 1, ng]
   - grapheme: contracts
@@ -2113,43 +2141,43 @@ entries:
   - grapheme: contrasted
     phonemes: [k, a, n, t, r, '@', s, t, i, d]
   - grapheme: contrasting
-    phonemes: [k, a, n, t, r, '@', s, t, 1, ng]
+    phonemes: [k, i, n, t, r, '@', s, t, 1, ng]
   - grapheme: contrasts
     phonemes: [k, a, n, t, r, '@', s, t, s]
   - grapheme: contribute
-    phonemes: [k, u, n, t, r, i, b, y, o, t]
+    phonemes: [k, i, n, t, r, i, b, y, o, t]
   - grapheme: contributed
-    phonemes: [k, u, n, t, r, i, b, y, o, t, i, d]
+    phonemes: [k, i, n, t, r, i, b, y, o, t, i, d]
   - grapheme: contributes
-    phonemes: [k, u, n, t, r, i, b, y, o, t, s]
+    phonemes: [k, i, n, t, r, i, b, y, o, t, s]
   - grapheme: contributing
-    phonemes: [k, u, n, t, r, i, b, y, o, t, 1, ng]
+    phonemes: [k, i, n, t, r, i, b, y, o, t, 1, ng]
   - grapheme: contribution
     phonemes: [k, a, n, t, r, i, b, y, o, sh, i, n]
   - grapheme: contributions
     phonemes: [k, a, n, t, r, i, b, y, o, sh, i, n, z]
   - grapheme: contributor
-    phonemes: [k, u, n, t, r, i, b, y, o, t, 3]
+    phonemes: [k, i, n, t, r, i, b, y, o, t, 3]
   - grapheme: control
-    phonemes: [k, u, n, t, r, 0, l]
+    phonemes: [k, i, n, t, r, 0, l]
   - grapheme: control's
-    phonemes: [k, u, n, t, r, 0, l, z]
+    phonemes: [k, i, n, t, r, 0, l, z]
   - grapheme: controlled
-    phonemes: [k, u, n, t, r, 0, l, d]
+    phonemes: [k, i, n, t, r, 0, l, d]
   - grapheme: controls
-    phonemes: [k, u, n, t, r, 0, l, z]
+    phonemes: [k, i, n, t, r, 0, l, z]
   - grapheme: conversation
     phonemes: [k, a, n, v, 3, s, A, sh, i, n]
   - grapheme: conversations
     phonemes: [k, a, n, v, 3, s, A, sh, i, n, z]
   - grapheme: convince
-    phonemes: [k, u, n, v, i, n, s]
+    phonemes: [k, i, n, v, i, n, s]
   - grapheme: convinced
-    phonemes: [k, u, n, v, i, n, s, t]
+    phonemes: [k, i, n, v, i, n, s, t]
   - grapheme: convinces
-    phonemes: [k, u, n, v, i, n, s, i, z]
+    phonemes: [k, i, n, v, i, n, s, i, z]
   - grapheme: convincing
-    phonemes: [k, u, n, v, i, n, s, 1, ng]
+    phonemes: [k, i, n, v, i, n, s, 1, ng]
   - grapheme: cook
     phonemes: [k, 6, k]
   - grapheme: cooked
@@ -2169,7 +2197,7 @@ entries:
   - grapheme: copied
     phonemes: [k, a, p, E, d]
   - grapheme: copies
-    phonemes: [k, a, p, E, s]
+    phonemes: [k, a, p, E, z]
   - grapheme: copy
     phonemes: [k, a, p, E]
   - grapheme: copycat
@@ -2215,31 +2243,31 @@ entries:
   - grapheme: could've
     phonemes: [k, 6, d, u, v]
   - grapheme: couldn't
-    phonemes: [k, 6, d, i, n, t]
+    phonemes: [k, 6, dd, i, n, t]
   - grapheme: count
     phonemes: [k, 8, n, t]
   - grapheme: countdown
-    phonemes: [k, 8, n, t, d, 8, n]
+    phonemes: [k, 8, n, d, 8, n]
   - grapheme: counted
-    phonemes: [k, 8, n, t, i, d]
+    phonemes: [k, 8, n, i, d]
   - grapheme: counting
-    phonemes: [k, 8, n, t, 1, ng]
+    phonemes: [k, 8, n, 1, ng]
   - grapheme: countries
-    phonemes: [k, u, n, t, r, E, s]
+    phonemes: [k, u, n, t, r, E, z]
   - grapheme: country
     phonemes: [k, u, n, t, r, E]
   - grapheme: country's
-    phonemes: [k, u, n, t, r, E, s]
+    phonemes: [k, u, n, t, r, E, z]
   - grapheme: counts
     phonemes: [k, 8, n, t, s]
   - grapheme: county
     phonemes: [k, u, n, t, r, E]
   - grapheme: couple
-    phonemes: [k, u, p, 0, l]
+    phonemes: [k, u, p, L]
   - grapheme: coupled
-    phonemes: [k, u, p, 0, l, d]
+    phonemes: [k, u, p, L, d]
   - grapheme: couples
-    phonemes: [k, u, p, 0, l, z]
+    phonemes: [k, u, p, L, z]
   - grapheme: course
     phonemes: [k, 0, r, s]
   - grapheme: courses
@@ -2285,7 +2313,7 @@ entries:
   - grapheme: create
     phonemes: [k, r, E, A, t]
   - grapheme: created
-    phonemes: [k, r, E, A, t, i, d]
+    phonemes: [k, r, E, A, dd, i, d]
   - grapheme: creates
     phonemes: [k, r, E, A, t, s]
   - grapheme: creation
@@ -2293,13 +2321,13 @@ entries:
   - grapheme: creations
     phonemes: [k, r, E, A, sh, i, n, z]
   - grapheme: creative
-    phonemes: [k, r, E, A, t, i, v]
+    phonemes: [k, r, E, A, dd, i, v]
   - grapheme: creatively
-    phonemes: [k, r, E, A, t, i, v, l, E]
+    phonemes: [k, r, E, A, dd, i, v, l, E]
   - grapheme: credit
     phonemes: [k, r, e, d, i, t]
   - grapheme: credited
-    phonemes: [k, r, e, d, i, t, i, d]
+    phonemes: [k, r, e, dd, i, t, i, d]
   - grapheme: credits
     phonemes: [k, r, e, d, i, t, s]
   - grapheme: crew
@@ -2315,25 +2343,25 @@ entries:
   - grapheme: crimes
     phonemes: [k, r, I, m, z]
   - grapheme: criminal
-    phonemes: [k, r, i, m, i, n, 0, l]
+    phonemes: [k, r, i, m, i, n, L]
   - grapheme: criminals
-    phonemes: [k, r, i, m, i, n, 0, l, s]
+    phonemes: [k, r, i, m, i, n, 0, L]
   - grapheme: crises
-    phonemes: [k, r, I, s, E, z]
+    phonemes: [k, r, Y, s, E, z]
   - grapheme: crisis
-    phonemes: [k, r, I, s, i, s]
+    phonemes: [k, r, Y, s, i, s]
   - grapheme: critic
     phonemes: [k, r, i, dd, i, k]
   - grapheme: critical
-    phonemes: [k, r, i, d, i, k, 0, l]
+    phonemes: [k, r, i, dd, i, k, L]
   - grapheme: critically
-    phonemes: [k, r, i, d, i, k, l, E]
+    phonemes: [k, r, i, dd, i, k, l, E]
   - grapheme: criticals
-    phonemes: [k, r, i, d, i, k, 0, l, s]
+    phonemes: [k, r, i, d, i, k, L, z]
   - grapheme: criticism
-    phonemes: [k, r, i, t, i, s, i, z, u, m]
+    phonemes: [k, r, i, dd, i, s, i, z, x, m]
   - grapheme: criticisms
-    phonemes: [k, r, i, t, i, s, i, z, u, m, z]
+    phonemes: [k, r, i, dd, i, s, i, z, x, m, z]
   - grapheme: critics
     phonemes: [k, r, i, dd, i, k, s]
   - grapheme: cross
@@ -2349,19 +2377,19 @@ entries:
   - grapheme: crowd
     phonemes: [k, r, 8, d]
   - grapheme: crowded
-    phonemes: [k, r, 8, d, i, d]
+    phonemes: [k, r, 8, dd, i, d]
   - grapheme: crowding
-    phonemes: [k, r, 8, d, 1, ng]
+    phonemes: [k, r, 8, dd, 1, ng]
   - grapheme: crowds
     phonemes: [k, r, 8, d, z]
   - grapheme: cruel
     phonemes: [k, r, o, l]
-  - grapheme: cruel(2)
-    phonemes: [k, r, o, 0, l]
+  - grapheme: cruel(1)
+    phonemes: [k, r, o, w, L]
   - grapheme: crumble
-    phonemes: [k, r, u, m, b, 0, l]
+    phonemes: [k, r, u, m, b, L]
   - grapheme: crumpled
-    phonemes: [k, r, u, m, p, 0, l, d]
+    phonemes: [k, r, u, m, p, L, d]
   - grapheme: crushes
     phonemes: [k, r, u, sh, i, z]
   - grapheme: cry
@@ -2369,9 +2397,9 @@ entries:
   - grapheme: crying
     phonemes: [k, r, I, 1, ng]
   - grapheme: crystal
-    phonemes: [k, r, i, s, t, 0, l]
+    phonemes: [k, r, i, s, t, 6, l]
   - grapheme: cultural
-    phonemes: [k, u, l, ch, 3, r, 0, l]
+    phonemes: [k, u, l, ch, 3, r, L]
   - grapheme: culture
     phonemes: [k, 0, l, ch, 3]
   - grapheme: cultures
@@ -2387,7 +2415,7 @@ entries:
   - grapheme: currently
     phonemes: [k, 3, r, i, n, t, l, E]
   - grapheme: currents
-    phonemes: [k, 3, r, i, n, t, s]
+    phonemes: [k, 3, r, i, n, s]
   - grapheme: curriculum
     phonemes: [k, 3, r, i, k, y, o, l, u, m]
   - grapheme: curriculums
@@ -2399,13 +2427,13 @@ entries:
   - grapheme: customers
     phonemes: [k, u, s, t, i, m, 3, z]
   - grapheme: cut
-    phonemes: [k, u, t]
+    phonemes: [k, x, t]
   - grapheme: cuts
-    phonemes: [k, u, t, s]
+    phonemes: [k, x, t, s]
   - grapheme: cuz
     phonemes: [k, u, z]
   - grapheme: cycle
-    phonemes: [s, I, k, 0, l]
+    phonemes: [s, Y, k, L]
   - grapheme: d
     phonemes: [d, E]
   - grapheme: dad
@@ -2439,9 +2467,11 @@ entries:
   - grapheme: dangered
     phonemes: [d, A, n, j, 3, d]
   - grapheme: dangerous
+    phonemes: [d, A, n, j, r, i, s]
+  - grapheme: dangerous(1)
     phonemes: [d, A, n, j, 3, r, i, s]
   - grapheme: dangerously
-    phonemes: [d, A, n, j, 3, r, i, s, l, E]
+    phonemes: [d, A, n, j, r, i, s, l, E]
   - grapheme: dangers
     phonemes: [d, A, n, j, 3, z]
   - grapheme: dark
@@ -2457,23 +2487,23 @@ entries:
   - grapheme: darks
     phonemes: [d, a, r, k, s]
   - grapheme: data
-    phonemes: [d, A, d, u]
+    phonemes: [d, A, dd, u]
   - grapheme: datas
-    phonemes: [d, A, d, u, s]
+    phonemes: [d, A, dd, u, z]
   - grapheme: date
     phonemes: [d, A, t]
   - grapheme: dated
-    phonemes: [d, A, t, i, d]
+    phonemes: [d, A, dd, i, d]
   - grapheme: dates
     phonemes: [d, A, t, s]
   - grapheme: dating
-    phonemes: [d, A, d, 1, ng]
+    phonemes: [d, A, dd, 1, ng]
   - grapheme: daughter
-    phonemes: [d, 9, t, 3]
+    phonemes: [d, 9, dd, 3]
   - grapheme: daughterd
-    phonemes: [d, 9, t, 3, d]
+    phonemes: [d, 9, dd, 3, d]
   - grapheme: daughters
-    phonemes: [d, 9, t, 3, z]
+    phonemes: [d, 9, dd, 3, z]
   - grapheme: dawn
     phonemes: [d, 9, n]
   - grapheme: day
@@ -2497,13 +2527,13 @@ entries:
   - grapheme: deaths
     phonemes: [d, e, th, s]
   - grapheme: debate
-    phonemes: [d, u, b, A, t]
+    phonemes: [d, i, b, A, t]
   - grapheme: debated
-    phonemes: [d, u, b, A, t, i, d]
+    phonemes: [d, i, b, A, dd, i, d]
   - grapheme: debates
-    phonemes: [d, u, b, A, t, s]
+    phonemes: [d, i, b, A, t, s]
   - grapheme: debating
-    phonemes: [d, u, b, A, t, 1, ng]
+    phonemes: [d, i, b, A, dd, 1, ng]
   - grapheme: debt
     phonemes: [d, e, t]
   - grapheme: debts
@@ -2513,17 +2543,17 @@ entries:
   - grapheme: decades
     phonemes: [d, e, k, A, d, z]
   - grapheme: decide
-    phonemes: [d, E, s, I, d]
+    phonemes: [d, i, s, I, d]
   - grapheme: decided
-    phonemes: [d, E, s, I, d, i, d]
+    phonemes: [d, i, s, I, dd, i, d]
   - grapheme: decides
-    phonemes: [d, E, s, I, d, z]
+    phonemes: [d, i, s, I, d, z]
   - grapheme: deciding
-    phonemes: [d, E, s, I, d, 1, ng]
+    phonemes: [d, i, s, I, d, 1, ng]
   - grapheme: decision
-    phonemes: [d, E, s, i, zh, i, n]
+    phonemes: [d, i, s, i, zh, i, n]
   - grapheme: decisions
-    phonemes: [d, E, s, i, zh, i, n, z]
+    phonemes: [d, i, s, i, zh, i, n, z]
   - grapheme: declare
     phonemes: [d, i, k, l, A, r]
   - grapheme: declared
@@ -2551,7 +2581,7 @@ entries:
   - grapheme: deeps
     phonemes: [d, E, p, s]
   - grapheme: defeat
-    phonemes: [d, E, f, E, t]
+    phonemes: [d, i, f, E, t]
   - grapheme: defend
     phonemes: [d, i, f, e, n, d]
   - grapheme: defended
@@ -2561,9 +2591,9 @@ entries:
   - grapheme: defends
     phonemes: [d, i, f, e, n, d, z]
   - grapheme: defense
-    phonemes: [d, E, f, e, n, s]
+    phonemes: [d, i, f, e, n, s]
   - grapheme: defenses
-    phonemes: [d, E, f, e, n, s, i, z]
+    phonemes: [d, i, f, e, n, s, i, z]
   - grapheme: define
     phonemes: [d, i, f, I, n]
   - grapheme: defined
@@ -2583,13 +2613,13 @@ entries:
   - grapheme: degrees
     phonemes: [d, i, g, r, E, z]
   - grapheme: deliver
-    phonemes: [d, u, l, i, v, 3]
+    phonemes: [d, i, l, i, v, 3]
   - grapheme: delivered
-    phonemes: [d, u, l, i, v, 3, d]
+    phonemes: [d, i, l, i, v, 3, d]
   - grapheme: delivering
-    phonemes: [d, u, l, i, v, 3, r, 1, ng]
+    phonemes: [d, i, l, i, v, 3, r, 1, ng]
   - grapheme: delivers
-    phonemes: [d, u, l, i, v, 3, z]
+    phonemes: [d, i, l, i, v, 3, z]
   - grapheme: demand
     phonemes: [d, i, m, '&', n, d]
   - grapheme: demanded
@@ -2597,11 +2627,11 @@ entries:
   - grapheme: demanding
     phonemes: [d, i, m, '&', n, d, 1, ng]
   - grapheme: demands
-    phonemes: [d, i, m, '&', n, d, z]
+    phonemes: [d, i, m, '&', n, z]
   - grapheme: democracy
-    phonemes: [d, e, m, a, k, r, i, s, E]
+    phonemes: [d, i, m, a, k, r, i, s, E]
   - grapheme: democracys
-    phonemes: [d, e, m, a, k, r, i, s, E, s]
+    phonemes: [d, i, m, a, k, r, i, s, E, s]
   - grapheme: democrat
     phonemes: [d, e, m, O, k, r, '@', t]
   - grapheme: democratic
@@ -2613,11 +2643,11 @@ entries:
   - grapheme: demonstrate
     phonemes: [d, e, m, i, n, s, t, r, A, t]
   - grapheme: demonstrated
-    phonemes: [d, e, m, i, n, s, t, r, A, t, i, d]
+    phonemes: [d, e, m, i, n, s, t, r, A, dd, i, d]
   - grapheme: demonstrates
     phonemes: [d, e, m, i, n, s, t, r, A, t, s]
   - grapheme: demonstrating
-    phonemes: [d, e, m, i, n, s, t, r, A, t, 1, ng]
+    phonemes: [d, e, m, i, n, s, t, r, A, dd, 1, ng]
   - grapheme: denied
     phonemes: [d, i, n, I, d]
   - grapheme: denies
@@ -2655,13 +2685,13 @@ entries:
   - grapheme: desert
     phonemes: [d, e, z, 3, t]
   - grapheme: design
-    phonemes: [d, E, z, I, n]
+    phonemes: [d, i, z, I, n]
   - grapheme: designed
-    phonemes: [d, E, z, I, n, d]
+    phonemes: [d, i, z, I, n, d]
   - grapheme: designing
-    phonemes: [d, E, z, I, n, 1, ng]
+    phonemes: [d, i, z, I, n, 1, ng]
   - grapheme: designs
-    phonemes: [d, E, z, I, n, z]
+    phonemes: [d, i, z, I, n, z]
   - grapheme: desire
     phonemes: [d, i, z, I, 3]
   - grapheme: desired
@@ -2675,7 +2705,7 @@ entries:
   - grapheme: desks
     phonemes: [d, e, s, k, s]
   - grapheme: despite
-    phonemes: [d, i, s, p, I, t]
+    phonemes: [d, i, s, p, Y, t]
   - grapheme: destiny
     phonemes: [d, e, s, t, i, n, E]
   - grapheme: destroy
@@ -2695,31 +2725,31 @@ entries:
   - grapheme: details
     phonemes: [d, E, t, A, l, z]
   - grapheme: determine
-    phonemes: [d, E, t, 3, m, i, n]
+    phonemes: [d, i, t, 3, m, i, n]
   - grapheme: determined
-    phonemes: [d, E, t, 3, m, i, n, d]
+    phonemes: [d, i, t, 3, m, i, n, d]
   - grapheme: determines
-    phonemes: [d, E, t, 3, m, i, n, z]
+    phonemes: [d, i, t, 3, m, i, n, z]
   - grapheme: develop
-    phonemes: [d, E, v, e, l, l, u, p]
+    phonemes: [d, i, v, e, l, l, u, p]
   - grapheme: developed
-    phonemes: [d, E, v, e, l, l, u, p, t]
+    phonemes: [d, i, v, e, l, l, u, p, t]
   - grapheme: development
-    phonemes: [d, E, v, e, l, u, p, m, e, n, t]
+    phonemes: [d, i, v, e, l, u, p, m, e, n, t]
   - grapheme: developments
-    phonemes: [d, E, v, e, l, u, p, m, e, n, t, s]
+    phonemes: [d, i, v, e, l, u, p, m, e, n, t, s]
   - grapheme: develops
-    phonemes: [d, E, v, e, l, l, u, p, s]
+    phonemes: [d, i, v, e, l, l, u, p, s]
   - grapheme: device
-    phonemes: [d, i, v, I, s]
+    phonemes: [d, i, v, Y, s]
   - grapheme: devices
-    phonemes: [d, i, v, I, s, i, z]
+    phonemes: [d, i, v, Y, s, i, z]
   - grapheme: devoted
-    phonemes: [d, E, v, O, dd, i, d]
+    phonemes: [d, i, v, O, dd, i, d]
   - grapheme: diamonds
     phonemes: [d, I, m, i, n, z]
   - grapheme: dice
-    phonemes: [d, I, s]
+    phonemes: [d, Y, s]
   - grapheme: did
     phonemes: [d, i, d]
   - grapheme: didn't
@@ -2737,33 +2767,33 @@ entries:
   - grapheme: different
     phonemes: [d, i, f, r, i, n, t]
   - grapheme: difficult
-    phonemes: [d, i, f, i, k, 0, l, t]
+    phonemes: [d, i, f, i, k, 6, l, t]
   - grapheme: difficulties
-    phonemes: [d, i, f, i, k, 0, l, t, E, z]
+    phonemes: [d, i, f, i, k, 6, l, t, E, z]
   - grapheme: difficulty
-    phonemes: [d, i, f, i, k, 0, l, t, E]
+    phonemes: [d, i, f, i, k, 6, l, t, E]
   - grapheme: dinner
     phonemes: [d, i, n, 3]
   - grapheme: dinners
     phonemes: [d, i, n, 3, z]
   - grapheme: direct
-    phonemes: [d, I, r, e, k, t]
+    phonemes: [d, 3, r, e, k, t]
   - grapheme: directed
-    phonemes: [d, I, r, e, k, t, i, d]
+    phonemes: [d, 3, e, k, t, i, d]
   - grapheme: directing
-    phonemes: [d, I, r, e, k, t, 1, ng]
+    phonemes: [d, 3, e, k, t, 1, ng]
   - grapheme: direction
-    phonemes: [d, i, r, e, k, sh, i, n]
+    phonemes: [d, 3, e, k, sh, i, n]
   - grapheme: directions
-    phonemes: [d, i, r, e, k, sh, i, n, z]
+    phonemes: [d, 3, e, k, sh, i, n, z]
   - grapheme: directly
-    phonemes: [d, I, r, e, k, l, E]
+    phonemes: [d, 3, e, k, l, E]
   - grapheme: director
-    phonemes: [d, 3, r, e, k, t, 0, r]
+    phonemes: [d, 3, e, k, t, x]
   - grapheme: directors
-    phonemes: [d, 3, r, e, k, t, 0, r, s]
+    phonemes: [d, 3, e, k, t, x, z]
   - grapheme: directs
-    phonemes: [d, I, r, e, k, t, s]
+    phonemes: [d, 3, e, k, t, s]
   - grapheme: dirty
     phonemes: [d, 3, dd, E]
   - grapheme: disagree
@@ -2815,9 +2845,9 @@ entries:
   - grapheme: displays
     phonemes: [d, i, s, p, l, A, z]
   - grapheme: dissolve
-    phonemes: [d, i, z, O, l, v]
+    phonemes: [d, i, z, 9, l, v]
   - grapheme: dissolved
-    phonemes: [d, i, z, O, l, v, d]
+    phonemes: [d, i, z, 9, l, v, d]
   - grapheme: distance
     phonemes: [d, i, s, t, i, n, s]
   - grapheme: distances
@@ -2849,7 +2879,7 @@ entries:
   - grapheme: document
     phonemes: [d, a, k, y, o, m, i, n, t]
   - grapheme: documents
-    phonemes: [d, a, k, y, o, m, i, n, t, s]
+    phonemes: [d, a, k, y, o, m, i, n, s]
   - grapheme: does
     phonemes: [d, u, z]
   - grapheme: dog
@@ -2857,7 +2887,7 @@ entries:
   - grapheme: dogged
     phonemes: [d, a, g, d]
   - grapheme: dogs
-    phonemes: [d, a, g, s]
+    phonemes: [d, a, g, z]
   - grapheme: doing
     phonemes: [d, o, 1, ng]
   - grapheme: domestic
@@ -2886,7 +2916,7 @@ entries:
     phonemes: [d, 8, t, s]
   - grapheme: down
     phonemes: [d, 8, n]
-  - grapheme: down'd
+  - grapheme: downed
     phonemes: [d, 8, n, d]
   - grapheme: downs
     phonemes: [d, 8, n, z]
@@ -2907,7 +2937,7 @@ entries:
   - grapheme: drain
     phonemes: [d, r, A, n]
   - grapheme: dramatic
-    phonemes: [d, r, u, m, '@', t, i, k]
+    phonemes: [d, r, u, m, '@', dd, i, k]
   - grapheme: drank
     phonemes: [d, r, '&', n, k]
   - grapheme: draped
@@ -2989,7 +3019,7 @@ entries:
   - grapheme: dues
     phonemes: [d, o, z]
   - grapheme: during
-    phonemes: [d, 3, r, 1, ng]
+    phonemes: [j, 3, r, 1, ng]
   - grapheme: dust
     phonemes: [d, u, s, t]
   - grapheme: duties
@@ -3007,7 +3037,7 @@ entries:
   - grapheme: earlier
     phonemes: [3, l, E, 3]
   - grapheme: earliest
-    phonemes: [3, l, E, i, s, t]
+    phonemes: [3, l, E, i, s]
   - grapheme: early
     phonemes: [3, l, E]
   - grapheme: earn
@@ -3045,7 +3075,7 @@ entries:
   - grapheme: eat
     phonemes: [E, t]
   - grapheme: eaten
-    phonemes: [E, d, i, n]
+    phonemes: [E, dd, i, n]
   - grapheme: eating
     phonemes: [E, dd, 1, ng]
   - grapheme: eats
@@ -3055,9 +3085,9 @@ entries:
   - grapheme: echoing
     phonemes: [e, k, O, 1, ng]
   - grapheme: economic
-    phonemes: [e, k, u, n, a, m, i, k]
+    phonemes: [e, k, x, n, a, m, i, k]
   - grapheme: economics
-    phonemes: [e, k, u, n, a, m, i, k, s]
+    phonemes: [e, k, x, n, a, m, i, k, s]
   - grapheme: economies
     phonemes: [e, k, a, n, u, m, E, z]
   - grapheme: economy
@@ -3089,7 +3119,7 @@ entries:
   - grapheme: effective
     phonemes: [u, f, e, k, t, i, v]
   - grapheme: effects
-    phonemes: [u, f, e, k, t, s]
+    phonemes: [u, f, e, k, s]
   - grapheme: effort
     phonemes: [e, f, 3, t]
   - grapheme: efforts
@@ -3111,7 +3141,7 @@ entries:
   - grapheme: elect
     phonemes: [u, l, e, k, t]
   - grapheme: elected
-    phonemes: [u, l, e, k, t, i, d]
+    phonemes: [u, l, e, k, d, i, d]
   - grapheme: election
     phonemes: [u, l, e, k, sh, i, n]
   - grapheme: elections
@@ -3121,7 +3151,7 @@ entries:
   - grapheme: element
     phonemes: [e, l, u, m, i, n, t]
   - grapheme: elemental
-    phonemes: [e, l, u, m, e, n, t, 0, l]
+    phonemes: [e, l, u, m, e, n, t, 6, l]
   - grapheme: elements
     phonemes: [e, l, u, m, i, n, t, s]
   - grapheme: eleven
@@ -3149,23 +3179,23 @@ entries:
   - grapheme: emerged
     phonemes: [i, m, 3, j, d]
   - grapheme: emergencies
-    phonemes: [E, m, 3, j, i, n, s, E, z]
+    phonemes: [i, m, 3, j, i, n, s, E, z]
   - grapheme: emergency
-    phonemes: [E, m, 3, j, i, n, s, E]
+    phonemes: [i, m, 3, j, i, n, s, E]
   - grapheme: emerges
     phonemes: [i, m, 3, j, i, z]
   - grapheme: emerging
     phonemes: [i, m, 3, j, 1, ng]
   - grapheme: emoted
-    phonemes: [E, m, O, t, i, d]
+    phonemes: [i, m, O, t, i, d]
   - grapheme: emoting
-    phonemes: [E, m, O, t, 1, ng]
+    phonemes: [i, m, O, t, 1, ng]
   - grapheme: emotion
-    phonemes: [E, m, O, sh, i, n]
+    phonemes: [i, m, O, sh, i, n]
   - grapheme: emotional
-    phonemes: [E, m, O, sh, i, n, 0, l]
+    phonemes: [i, m, O, sh, i, n, 0, l]
   - grapheme: emotions
-    phonemes: [E, m, O, sh, i, n, z]
+    phonemes: [i, m, O, sh, i, n, z]
   - grapheme: emphasize
     phonemes: [e, m, f, u, s, I, z]
   - grapheme: emphasized
@@ -3223,11 +3253,11 @@ entries:
   - grapheme: engage
     phonemes: [i, ng, g, A, j]
   - grapheme: engaged
-    phonemes: [i, ng, g, A, j, d]
+    phonemes: [i, n, g, A, j, d]
   - grapheme: engages
-    phonemes: [i, ng, g, A, j, i, z]
+    phonemes: [i, n, g, A, j, i, z]
   - grapheme: engaging
-    phonemes: [i, ng, g, A, j, 1, ng]
+    phonemes: [i, n, g, A, j, 1, ng]
   - grapheme: engine
     phonemes: [e, n, j, i, n]
   - grapheme: engineer
@@ -3253,9 +3283,9 @@ entries:
   - grapheme: enormous
     phonemes: [i, n, 0, r, m, i, s]
   - grapheme: enough
-    phonemes: [E, n, u, f]
+    phonemes: [i, n, u, f]
   - grapheme: enoughs
-    phonemes: [E, n, u, f, s]
+    phonemes: [i, n, u, f, s] 
   - grapheme: ensure
     phonemes: [i, n, sh, 3]
   - grapheme: ensured
@@ -3265,31 +3295,31 @@ entries:
   - grapheme: ensuring
     phonemes: [i, n, sh, 3, r, 1, ng]
   - grapheme: enter
-    phonemes: [e, n, t, 3]
+    phonemes: [e, n, 3]
   - grapheme: entered
-    phonemes: [e, n, t, 3, d]
+    phonemes: [e, n, 3, d]
   - grapheme: enters
-    phonemes: [e, n, t, 3, z]
+    phonemes: [e, n, 3, z]
   - grapheme: entire
     phonemes: [i, n, t, I, 3]
   - grapheme: entirely
     phonemes: [i, n, t, I, 3, l, E]
   - grapheme: environment
-    phonemes: [e, n, v, I, 3, m, i, n, t]
+    phonemes: [i, n, v, I, 3, m, i, n, t]
   - grapheme: environmental
-    phonemes: [e, n, v, I, 3, m, e, n, t, 0, l]
+    phonemes: [i, n, v, I, 3, m, e, n, 6, l]
   - grapheme: environmentalist
-    phonemes: [e, n, v, I, 3, m, e, n, t, 0, l, l, i, s, t]
+    phonemes: [i, n, v, I, 3, m, e, n, 6, l, l, i, s, t]
   - grapheme: environmentalists
-    phonemes: [e, n, v, I, 3, m, e, n, t, t, 0, l, l, i, s, t, s]
+    phonemes: [e, n, v, I, 3, m, e, n, 6, l, l, i, s, t, s]
   - grapheme: equal
-    phonemes: [E, k, w, 0, l]
+    phonemes: [E, k, w, 6, l]
   - grapheme: equaled
-    phonemes: [E, k, w, 0, l, d]
+    phonemes: [E, k, w, 6, l, d]
   - grapheme: equaling
-    phonemes: [E, k, w, 0, l, 1, ng]
+    phonemes: [E, k, w, 6, l, 1, ng]
   - grapheme: equals
-    phonemes: [E, k, w, 0, l, z]
+    phonemes: [E, k, w, 6, l, z]
   - grapheme: equipment
     phonemes: [u, k, w, i, p, m, i, n, t]
   - grapheme: equipments
@@ -3309,11 +3339,11 @@ entries:
   - grapheme: escaping
     phonemes: [i, s, k, A, p, 1, ng]
   - grapheme: especially
-    phonemes: [e, s, p, e, sh, u, l, l, E]
+    phonemes: [x, s, p, e, sh, u, l, l, E]
   - grapheme: essential
-    phonemes: [i, s, e, n, sh, 0, l]
+    phonemes: [x, s, e, n, sh, 6, l]
   - grapheme: essentials
-    phonemes: [i, s, e, n, sh, 0, l, z]
+    phonemes: [i, s, e, n, sh, 6, l, z]
   - grapheme: establish
     phonemes: [i, s, t, '@', b, l, i, sh]
   - grapheme: established
@@ -3333,9 +3363,9 @@ entries:
   - grapheme: estimates
     phonemes: [e, s, t, i, m, m, A, t, s]
   - grapheme: estimating
-    phonemes: [e, s, t, i, m, m, A, t, 1, ng]
+    phonemes: [e, s, t, i, m, m, A, dd, 1, ng]
   - grapheme: eternity
-    phonemes: [E, t, 3, n, i, t, E]
+    phonemes: [E, t, 3, n, i, dd, E]
   - grapheme: ethnic
     phonemes: [e, th, n, i, k]
   - grapheme: ethnics
@@ -3355,13 +3385,13 @@ entries:
   - grapheme: evens
     phonemes: [E, v, i, n, z]
   - grapheme: event
-    phonemes: [E, v, e, n, t]
+    phonemes: [i, v, e, n, t]
   - grapheme: events
-    phonemes: [E, v, e, n, t, s]
+    phonemes: [i, v, e, n, t, s]
   - grapheme: eventually
-    phonemes: [u, v, e, n, ch, o, w, 0, l, l, E]
+    phonemes: [x, v, e, n, ch, y, 6, l, l, E]
   - grapheme: eventually(2)
-    phonemes: [E, v, e, n, ch, w, 0, l, l, E]
+    phonemes: [E, v, e, n, ch, y, 6, l, l, E]
   - grapheme: ever
     phonemes: [e, v, 3]
   - grapheme: everd
@@ -3371,9 +3401,9 @@ entries:
   - grapheme: every(2)
     phonemes: [e, v, 3, r, E]
   - grapheme: everybody
-    phonemes: [e, v, r, E, b, a, d, E]
+    phonemes: [e, v, r, E, b, a, dd, E]
   - grapheme: everybodys
-    phonemes: [e, v, r, E, b, a, d, E, z]
+    phonemes: [e, v, r, E, b, a, dd, E, z]
   - grapheme: everyone
     phonemes: [e, v, r, E, w, u, n]
   - grapheme: everyone'd
@@ -3391,29 +3421,29 @@ entries:
   - grapheme: everywhere
     phonemes: [e, v, r, E, w, A, r]
   - grapheme: evidence
-    phonemes: [e, v, i, d, i, n, s]
+    phonemes: [e, v, i, dd, i, n, s]
   - grapheme: evry
     phonemes: [e, v, r, E]
   - grapheme: exactly
-    phonemes: [i, k, z, '@', k, l, E]
+    phonemes: [i, g, z, '@', k, l, E]
   - grapheme: examine
-    phonemes: [i, k, z, '&', m, i, n]
+    phonemes: [i, g, z, '&', m, i, n]
   - grapheme: examined
-    phonemes: [i, k, z, '&', m, i, n, d]
+    phonemes: [i, g, z, '&', m, i, n, d]
   - grapheme: examines
-    phonemes: [i, k, z, '&', m, i, n, z]
+    phonemes: [i, g, z, '&', m, i, n, z]
   - grapheme: examining
-    phonemes: [i, k, z, '&', m, i, n, 1, ng]
+    phonemes: [i, g, z, '&', m, i, n, 1, ng]
   - grapheme: example
-    phonemes: [e, k, s, '&', m, p, 0, l]
+    phonemes: [i, g, z, '&', m, p, 6, l]
   - grapheme: examples
-    phonemes: [e, k, s, '&', m, p, 0, l, z]
+    phonemes: [i, g, z, '&', m, p, 6, l, z]
   - grapheme: excellence
-    phonemes: [e, k, s, u, l, i, n, s]
+    phonemes: [e, k, s, l, i, n, s]
   - grapheme: excellent
-    phonemes: [e, k, s, u, l, i, n, t]
+    phonemes: [e, k, s, l, i, n, t]
   - grapheme: except
-    phonemes: [e, k, s, e, p, t]
+    phonemes: [i, g, s, e, p, t]
   - grapheme: exchange
     phonemes: [i, k, s, ch, '&', n, j]
   - grapheme: exchanged
@@ -3423,13 +3453,13 @@ entries:
   - grapheme: exchanging
     phonemes: [i, k, s, ch, '&', n, j, 1, ng]
   - grapheme: executive
-    phonemes: [e, k, s, e, k, y, o, t, i, v]
+    phonemes: [i, k, s, e, k, y, x, dd, i, v]
   - grapheme: executives
-    phonemes: [e, k, s, e, k, y, o, t, i, v, z]
+    phonemes: [e, k, s, e, k, y, x, dd, i, v, z]
   - grapheme: exercise
-    phonemes: [e, k, s, 3, s, I, z]
+    phonemes: [e, g, s, 3, s, I, z]
   - grapheme: exercises
-    phonemes: [e, k, s, 3, s, I, z, i, z]
+    phonemes: [e, g, s, 3, s, I, z, i, z]
   - grapheme: exist
     phonemes: [i, g, z, i, s, t]
   - grapheme: existed
@@ -3439,17 +3469,17 @@ entries:
   - grapheme: exists
     phonemes: [i, g, z, i, s, t, s]
   - grapheme: expand
-    phonemes: [e, k, s, p, '&', n, d]
+    phonemes: [i, k, s, p, '&', n, d]
   - grapheme: expect
-    phonemes: [e, k, s, p, e, k, t]
+    phonemes: [i, k, s, p, e, k, t]
   - grapheme: expectation
     phonemes: [e, k, s, p, e, k, t, A, sh, i, n]
   - grapheme: expectations
     phonemes: [e, k, s, p, e, k, t, A, sh, i, n, z]
   - grapheme: expected
-    phonemes: [e, k, s, p, e, k, t, i, d]
+    phonemes: [e, k, s, p, e, k, dd, i, d]
   - grapheme: expects
-    phonemes: [e, k, s, p, e, k, t, s]
+    phonemes: [e, k, s, p, e, k, s]
   - grapheme: expended
     phonemes: [e, k, s, p, e, n, d, i, d]
   - grapheme: expending
@@ -3467,19 +3497,19 @@ entries:
   - grapheme: experiment
     phonemes: [i, k, s, p, E, r, r, u, m, i, n, t]
   - grapheme: experimental
-    phonemes: [i, k, s, p, E, r, r, i, m, e, n, t, 0, l]
+    phonemes: [i, k, s, p, E, r, r, i, m, e, n, ., 6, l]
   - grapheme: experimenting
-    phonemes: [i, k, s, p, E, r, r, u, m, e, n, t, 1, ng]
+    phonemes: [i, k, s, p, E, r, r, u, m, e, n, ., 1, ng]
   - grapheme: experiments
-    phonemes: [i, k, s, p, E, r, r, u, m, i, n, t, s]
+    phonemes: [i, k, s, p, E, r, r, u, m, i, n, s]
   - grapheme: expert
     phonemes: [e, k, s, p, 3, t]
   - grapheme: experts
     phonemes: [e, k, s, p, 3, t, s]
   - grapheme: explain
-    phonemes: [e, k, s, p, l, A, n]
+    phonemes: [i, k, s, p, l, A, n]
   - grapheme: explained
-    phonemes: [e, k, s, p, l, A, n, d]
+    phonemes: [i, k, s, p, l, A, n, d]
   - grapheme: explains
     phonemes: [e, k, s, p, l, A, n, z]
   - grapheme: explanation
@@ -3549,9 +3579,9 @@ entries:
   - grapheme: faces
     phonemes: [f, A, s, i, s]
   - grapheme: facilities
-    phonemes: [f, u, s, i, l, i, d, E, z]
+    phonemes: [f, u, s, i, l, i, dd, E, z]
   - grapheme: facility
-    phonemes: [f, u, s, i, l, i, d, E]
+    phonemes: [f, u, s, i, l, i, dd, E]
   - grapheme: facing
     phonemes: [f, A, s, 1, ng]
   - grapheme: fact
@@ -3575,7 +3605,7 @@ entries:
   - grapheme: fade
     phonemes: [f, A, d]
   - grapheme: fading
-    phonemes: [f, A, d, 1, ng]
+    phonemes: [f, A, dd, 1, ng]
   - grapheme: fail
     phonemes: [f, A, l]
   - grapheme: failed
@@ -3603,7 +3633,7 @@ entries:
   - grapheme: faith
     phonemes: [f, A, th]
   - grapheme: faithful
-    phonemes: [f, A, th, f, 0, l]
+    phonemes: [f, A, th, f, 6, l]
   - grapheme: faiths
     phonemes: [f, A, th, s]
   - grapheme: fake
@@ -3655,7 +3685,7 @@ entries:
   - grapheme: farms
     phonemes: [f, a, r, m, z]
   - grapheme: fars
-    phonemes: [f, a, r, s]
+    phonemes: [f, a, r, z]
   - grapheme: farther
     phonemes: [f, a, r, dh, 3]
   - grapheme: farthest
@@ -3679,15 +3709,15 @@ entries:
   - grapheme: fate
     phonemes: [f, A, t]
   - grapheme: fateful
-    phonemes: [f, A, t, f, 0, l]
+    phonemes: [f, A, t, f, 6, l]
   - grapheme: fates
     phonemes: [f, A, t, s]
   - grapheme: father
-    phonemes: [f, a, th, 3]
+    phonemes: [f, a, dh, 3]
   - grapheme: fathered
-    phonemes: [f, 9, th, 3, d]
+    phonemes: [f, 9, dh, 3, d]
   - grapheme: fathers
-    phonemes: [f, 9, th, 3, s]
+    phonemes: [f, 9, dh, 3, s]
   - grapheme: fats
     phonemes: [f, '@', t, s]
   - grapheme: fatter
@@ -3697,9 +3727,9 @@ entries:
   - grapheme: fault
     phonemes: [f, 9, l, t]
   - grapheme: favorite
-    phonemes: [f, A, v, r, i, t]
+    phonemes: [f, A, v, r, i, .]
   - grapheme: favorited
-    phonemes: [f, A, v, r, i, d, i, d]
+    phonemes: [f, A, v, r, i, dd, i, d]
   - grapheme: favorites
     phonemes: [f, A, v, r, i, t, s]
   - grapheme: fear
@@ -3719,15 +3749,15 @@ entries:
   - grapheme: featuring
     phonemes: [f, E, ch, 3, r, 1, ng]
   - grapheme: federal
-    phonemes: [f, e, d, 3, r, 0, l]
+    phonemes: [f, e, dd, 3, r, 6, l]
   - grapheme: federals
-    phonemes: [f, e, d, 3, r, 0, l, z]
+    phonemes: [f, e, dd, 3, r, 6, l, z]
   - grapheme: fee
     phonemes: [f, E]
   - grapheme: feed
     phonemes: [f, E, d]
   - grapheme: feeding
-    phonemes: [f, E, d, 1, ng]
+    phonemes: [f, E, dd, 1, ng]
   - grapheme: feeds
     phonemes: [f, E, d, z]
   - grapheme: feel
@@ -3767,11 +3797,11 @@ entries:
   - grapheme: fifth
     phonemes: [f, i, th]
   - grapheme: fight
-    phonemes: [f, I, t]
+    phonemes: [f, Y, t]
   - grapheme: fighting
-    phonemes: [f, I, dd, 1, ng]
+    phonemes: [f, Y, dd, 1, ng]
   - grapheme: fights
-    phonemes: [f, I, t, s]
+    phonemes: [f, Y, t, s]
   - grapheme: figure
     phonemes: [f, i, g, y, 3]
   - grapheme: figured
@@ -3779,11 +3809,11 @@ entries:
   - grapheme: figures
     phonemes: [f, i, g, y, 3, z]
   - grapheme: file
-    phonemes: [f, I, 0, l]
+    phonemes: [f, I, 6, l]
   - grapheme: filed
-    phonemes: [f, I, 0, l, d]
+    phonemes: [f, I, 6, l, d]
   - grapheme: files
-    phonemes: [f, I, 0, l, z]
+    phonemes: [f, I, 6, l, z]
   - grapheme: filing
     phonemes: [f, I, l, 1, ng]
   - grapheme: filing(2)
@@ -3801,15 +3831,15 @@ entries:
   - grapheme: films
     phonemes: [f, i, l, m, z]
   - grapheme: final
-    phonemes: [f, I, n, 0, l]
+    phonemes: [f, I, n, 6, l]
   - grapheme: finally
     phonemes: [f, I, n, u, l, E]
   - grapheme: finals
-    phonemes: [f, I, n, 0, l, z]
+    phonemes: [f, I, n, 6, l, z]
   - grapheme: financial
-    phonemes: [f, I, n, '&', n, sh, 0, l]
+    phonemes: [f, I, n, '&', n, sh, 6, l]
   - grapheme: financials
-    phonemes: [f, I, n, '&', n, sh, 0, l, z]
+    phonemes: [f, I, n, '&', n, sh, 6, l, z]
   - grapheme: find
     phonemes: [f, I, n, d]
   - grapheme: finding
@@ -3825,7 +3855,7 @@ entries:
   - grapheme: fingered
     phonemes: [f, 1, ng, g, 3, d]
   - grapheme: fingering
-    phonemes: [f, 1, ng, g, 3, r, 1, ng]
+    phonemes: [f, 1, ng, g, r, 1, ng]
   - grapheme: fingers
     phonemes: [f, 1, ng, g, 3, z]
   - grapheme: finish
@@ -3863,7 +3893,7 @@ entries:
   - grapheme: fits
     phonemes: [f, i, t, s]
   - grapheme: fitting
-    phonemes: [f, i, t, 1, ng]
+    phonemes: [f, i, dd, 1, ng]
   - grapheme: five
     phonemes: [f, I, v]
   - grapheme: fives
@@ -3887,9 +3917,9 @@ entries:
   - grapheme: flies
     phonemes: [f, l, I, z]
   - grapheme: flight
-    phonemes: [f, l, I, t]
+    phonemes: [f, l, Y, t]
   - grapheme: flights
-    phonemes: [f, l, I, t, s]
+    phonemes: [f, l, Y, t, s]
   - grapheme: floor
     phonemes: [f, l, 0, r]
   - grapheme: floored
@@ -3927,17 +3957,17 @@ entries:
   - grapheme: folks
     phonemes: [f, O, k, s]
   - grapheme: follow
-    phonemes: [f, a, l, O]
+    phonemes: [f, 9, l, O]
   - grapheme: followed
-    phonemes: [f, a, l, O, d]
+    phonemes: [f, 9, l, O, d]
   - grapheme: follower
-    phonemes: [f, a, l, O, w, 3]
+    phonemes: [f, 9, l, O, w, 3]
   - grapheme: followers
-    phonemes: [f, a, l, O, w, 3, z]
+    phonemes: [f, 9, l, O, w, 3, z]
   - grapheme: following
-    phonemes: [f, a, l, O, 1, ng]
+    phonemes: [f, 9, l, O, 1, ng]
   - grapheme: follows
-    phonemes: [f, a, l, O, z]
+    phonemes: [f, 9, l, O, z]
   - grapheme: food
     phonemes: [f, o, d]
   - grapheme: foods
@@ -3967,19 +3997,19 @@ entries:
   - grapheme: forests
     phonemes: [f, 0, r, r, i, s, t, s]
   - grapheme: forever
-    phonemes: [f, 0, r, e, v, 3]
+    phonemes: [f, 3, e, v, 3]
   - grapheme: forget
-    phonemes: [f, 0, r, g, e, t]
+    phonemes: [f, 3, g, e, t]
   - grapheme: forgets
-    phonemes: [f, 0, r, g, e, t, s]
+    phonemes: [f, 3, g, e, t, s]
   - grapheme: forgetting
-    phonemes: [f, 0, r, g, e, d, 1, ng]
+    phonemes: [f, 3, g, e, dd, 1, ng]
   - grapheme: forgive
-    phonemes: [f, 0, r, g, i, v]
+    phonemes: [f, 3, g, i, v]
   - grapheme: forgot
-    phonemes: [f, 0, r, g, a, t]
+    phonemes: [f, 3, g, a, t]
   - grapheme: forgotten
-    phonemes: [f, 0, r, g, a, d, 1, n,]
+    phonemes: [f, 3, g, a, dd, 1, n,]
   - grapheme: form
     phonemes: [f, 0, r, m]
   - grapheme: formality
@@ -3999,7 +4029,7 @@ entries:
   - grapheme: forths
     phonemes: [f, 0, r, th, s]
   - grapheme: fortnite
-    phonemes: [f, 0, r, t, n, I, t]
+    phonemes: [f, 0, r, t, n, Y, t]
   - grapheme: fortune
     phonemes: [f, 0, r, ch, i, n]
   - grapheme: forward
@@ -4033,9 +4063,9 @@ entries:
   - grapheme: freed
     phonemes: [f, r, E, d]
   - grapheme: freedom
-    phonemes: [f, r, E, d, u, m]
+    phonemes: [f, r, E, dd, u, m]
   - grapheme: freedoms
-    phonemes: [f, r, E, d, u, m, z]
+    phonemes: [f, r, E, dd, u, m, z]
   - grapheme: frees
     phonemes: [f, r, E, z]
   - grapheme: freezing
@@ -4055,13 +4085,13 @@ entries:
   - grapheme: friended
     phonemes: [f, r, e, n, d, i, d]
   - grapheme: friendly
-    phonemes: [f, r, e, n, d, l, E]
+    phonemes: [f, r, e, n, l, E]
   - grapheme: friends
-    phonemes: [f, r, e, n, d, z]
+    phonemes: [f, r, e, n, z]
   - grapheme: from
     phonemes: [f, r, u, m]
   - grapheme: front
-    phonemes: [f, r, u, n, t]
+    phonemes: [f, r, u, n, .]
   - grapheme: fronts
     phonemes: [f, r, u, n, t, s]
   - grapheme: fruit
@@ -4087,7 +4117,7 @@ entries:
   - grapheme: fuller
     phonemes: [f, 6, l, l, 3]
   - grapheme: fullest
-    phonemes: [f, 6, l, l, i, s, t]
+    phonemes: [f, 6, l, l, i, s]
   - grapheme: fully
     phonemes: [f, 6, l, E]
   - grapheme: fun
@@ -4095,7 +4125,7 @@ entries:
   - grapheme: function
     phonemes: [f, u, n, k, sh, i, n]
   - grapheme: functional
-    phonemes: [f, u, n, k, sh, i, n, 0, l]
+    phonemes: [f, u, n, k, sh, i, n, 6, l]
   - grapheme: functioning
     phonemes: [f, u, n, k, sh, i, n, 1, ng]
   - grapheme: functions
@@ -4105,7 +4135,7 @@ entries:
   - grapheme: funded
     phonemes: [f, u, n, d, i, d]
   - grapheme: funds
-    phonemes: [f, u, n, d, z]
+    phonemes: [f, u, n, z]
   - grapheme: funnier
     phonemes: [f, u, n, E, 3]
   - grapheme: funnies
@@ -4127,7 +4157,7 @@ entries:
   - grapheme: gains
     phonemes: [g, A, n, z]
   - grapheme: gambles
-    phonemes: [g, '&', m, b, 0, l, z]
+    phonemes: [g, '&', m, b, 6, l, z]
   - grapheme: game
     phonemes: [g, A, m]
   - grapheme: gamed
@@ -4139,9 +4169,9 @@ entries:
   - grapheme: gaps
     phonemes: [g, '@', p, s]
   - grapheme: garden
-    phonemes: [g, a, r, d, i, n]
+    phonemes: [g, a, r, dd, i, n]
   - grapheme: gardens
-    phonemes: [g, a, r, d, i, n, z]
+    phonemes: [g, a, r, dd, i, n, z]
   - grapheme: gas
     phonemes: [g, '@', s]
   - grapheme: gases
@@ -4159,13 +4189,13 @@ entries:
   - grapheme: gates
     phonemes: [g, A, t, s]
   - grapheme: gather
-    phonemes: [g, '@', th, 3]
+    phonemes: [g, '@', dh, 3]
   - grapheme: gathered
-    phonemes: [g, '@', th, 3, d]
+    phonemes: [g, '@', dh, 3, d]
   - grapheme: gathering
-    phonemes: [g, '@', th, 3, 1, ng]
+    phonemes: [g, '@', dh, 3, 1, ng]
   - grapheme: gathers
-    phonemes: [g, '@', th, 3, z]
+    phonemes: [g, '@', dh, 3, z]
   - grapheme: gating
     phonemes: [g, A, dd, 1, ng]
   - grapheme: gave
@@ -4175,7 +4205,7 @@ entries:
   - grapheme: gayd
     phonemes: [g, A, d]
   - grapheme: gayful
-    phonemes: [g, A, f, 0, l]
+    phonemes: [g, A, f, 6, l]
   - grapheme: gaying
     phonemes: [g, A, 1, ng]
   - grapheme: gays
@@ -4187,23 +4217,23 @@ entries:
   - grapheme: genders
     phonemes: [j, e, n, d, 3, z]
   - grapheme: general
-    phonemes: [j, e, n, 3, r, 0, l]
+    phonemes: [j, e, n, 3, r, 6, l]
   - grapheme: general(2)
-    phonemes: [j, e, n, r, 0, l]
+    phonemes: [j, e, n, r, 6, l]
   - grapheme: generally
-    phonemes: [j, e, n, n, 3, r, 0, l, l, E]
+    phonemes: [j, e, n, n, 3, r, 6, l, l, E]
   - grapheme: generally(2)
-    phonemes: [j, e, n, r, 0, l, l, E]
+    phonemes: [j, e, n, r, 6, l, l, E]
   - grapheme: generals
-    phonemes: [j, e, n, 3, r, 0, l, z]
+    phonemes: [j, e, n, 3, r, 6, l, z]
   - grapheme: generate
     phonemes: [j, e, n, 3, r, A, t]
   - grapheme: generated
-    phonemes: [j, e, n, 3, r, A, d, i, d]
+    phonemes: [j, e, n, 3, r, A, dd, i, d]
   - grapheme: generates
     phonemes: [j, e, n, 3, r, A, t, s]
   - grapheme: generating
-    phonemes: [j, e, n, 3, r, A, d, 1, ng]
+    phonemes: [j, e, n, 3, r, A, dd, 1, ng]
   - grapheme: generation
     phonemes: [j, e, n, 3, r, A, sh, i, n]
   - grapheme: generations
@@ -4235,9 +4265,9 @@ entries:
   - grapheme: glasses
     phonemes: [g, l, '@', s, i, z]
   - grapheme: global
-    phonemes: [g, l, O, b, 0, l]
+    phonemes: [g, l, O, b, 6, l]
   - grapheme: globally
-    phonemes: [g, l, O, b, u, l, E]
+    phonemes: [g, l, O, b, l, E]
   - grapheme: glow
     phonemes: [g, l, O]
   - grapheme: go
@@ -4251,7 +4281,7 @@ entries:
   - grapheme: god
     phonemes: [g, a, d]
   - grapheme: goddess
-    phonemes: [g, 9, d, i, s]
+    phonemes: [g, 9, dd, i, s]
   - grapheme: goes
     phonemes: [g, O, z]
   - grapheme: going
@@ -4273,7 +4303,7 @@ entries:
   - grapheme: good
     phonemes: [g, 6, d]
   - grapheme: goodnight
-    phonemes: [g, 6, d, n, I, t]
+    phonemes: [g, 6, d, n, Y, t]
   - grapheme: goods
     phonemes: [g, 6, d, z]
   - grapheme: got
@@ -4285,9 +4315,9 @@ entries:
   - grapheme: governments
     phonemes: [g, u, v, 3, m, e, n, t, s]
   - grapheme: governor
-    phonemes: [g, u, v, i, n, 3]
+    phonemes: [g, u, v, n, 3]
   - grapheme: governors
-    phonemes: [g, u, v, i, n, 3, z]
+    phonemes: [g, u, v, n, 3, z]
   - grapheme: grab
     phonemes: [g, r, '@', b]
   - grapheme: grabbed
@@ -4299,25 +4329,25 @@ entries:
   - grapheme: grade
     phonemes: [g, r, A, d]
   - grapheme: graded
-    phonemes: [g, r, A, d, i, d]
+    phonemes: [g, r, A, dd, i, d]
   - grapheme: grades
     phonemes: [g, r, A, d, z]
   - grapheme: grading
-    phonemes: [g, r, A, d, 1, ng]
+    phonemes: [g, r, A, dd, 1, ng]
   - grapheme: graduate
     phonemes: [g, r, '@', j, o, i, t]
   - grapheme: graduated
-    phonemes: [g, r, '@', j, o, A, d, i, d]
+    phonemes: [g, r, '@', j, o, A, dd, i, d]
   - grapheme: graduates
     phonemes: [g, r, '@', j, o, i, t, s]
   - grapheme: graduating
-    phonemes: [g, r, '@', j, o, A, d, 1, ng]
+    phonemes: [g, r, '@', j, o, A, dd, 1, ng]
   - grapheme: grant
     phonemes: [g, r, '&', n, t]
   - grapheme: granted
-    phonemes: [g, r, '&', n, t, i, d]
+    phonemes: [g, r, '&', n, i, d]
   - grapheme: granting
-    phonemes: [g, r, '&', n, t, 1, ng]
+    phonemes: [g, r, '&', n, 1, ng]
   - grapheme: grants
     phonemes: [g, r, '&', n, t, s]
   - grapheme: grasped
@@ -4331,7 +4361,7 @@ entries:
   - grapheme: grayed
     phonemes: [g, r, A, d]
   - grapheme: grays
-    phonemes: [g, r, A, s]
+    phonemes: [g, r, A, z]
   - grapheme: great
     phonemes: [g, r, A, t]
   - grapheme: greater
@@ -4377,9 +4407,9 @@ entries:
   - grapheme: guard
     phonemes: [g, a, r, d]
   - grapheme: guarded
-    phonemes: [g, a, r, d, i, d]
+    phonemes: [g, a, r, dd, i, d]
   - grapheme: guarding
-    phonemes: [g, a, r, d, 1, ng]
+    phonemes: [g, a, r, dd, 1, ng]
   - grapheme: guards
     phonemes: [g, a, r, d, z]
   - grapheme: guess
@@ -4439,13 +4469,13 @@ entries:
   - grapheme: handed
     phonemes: [h, '&', n, d, i, d]
   - grapheme: handle
-    phonemes: [h, '&', n, d, 0, l]
+    phonemes: [h, '&', n, d, 6, l]
   - grapheme: handled
-    phonemes: [h, '&', n, d, 0, l, d]
+    phonemes: [h, '&', n, d, 6, l, d]
   - grapheme: handles
-    phonemes: [h, '&', n, d, 0, l, z]
+    phonemes: [h, '&', n, d, 6, l, z]
   - grapheme: handling
-    phonemes: [h, '&', n, d, 0, l, l, 1, ng]
+    phonemes: [h, '&', n, d, 6, l, 1, ng]
   - grapheme: hands
     phonemes: [h, '&', n, z]
   - grapheme: hang
@@ -4487,7 +4517,7 @@ entries:
   - grapheme: hate
     phonemes: [h, A, t]
   - grapheme: hateful
-    phonemes: [h, A, t, f, 0, l]
+    phonemes: [h, A, t, f, 6, l]
   - grapheme: hater
     phonemes: [h, A, dd, 3]
   - grapheme: hates
@@ -4499,7 +4529,7 @@ entries:
   - grapheme: haunt
     phonemes: [h, 9, n, t]
   - grapheme: haunting
-    phonemes: [h, 9, n, t, 1, ng]
+    phonemes: [h, 9, n, 1, ng]
   - grapheme: have
     phonemes: [h, '@', v]
   - grapheme: have'd
@@ -4511,15 +4541,15 @@ entries:
   - grapheme: having
     phonemes: [h, '@', v, 1, ng]
   - grapheme: he
-    phonemes: [hhy, E]
+    phonemes: [hh, E]
   - grapheme: he'd
-    phonemes: [h, E, d]
+    phonemes: [hh, E, d]
   - grapheme: he's
-    phonemes: [hhy, E, s]
+    phonemes: [hh, E, s]
   - grapheme: head
     phonemes: [h, e, d]
   - grapheme: headed
-    phonemes: [h, e, d, i, d]
+    phonemes: [h, e, dd, i, d]
   - grapheme: heads
     phonemes: [h, e, d, z]
   - grapheme: health
@@ -4533,29 +4563,29 @@ entries:
   - grapheme: healthy
     phonemes: [h, e, l, th, E]
   - grapheme: hear
-    phonemes: [hhy, E, r]
+    phonemes: [hh, E, r]
   - grapheme: heard
     phonemes: [h, 3, d]
   - grapheme: hearing
-    phonemes: [hhy, E, r, r, 1, ng]
+    phonemes: [hh, E, r, r, 1, ng]
   - grapheme: hearings
-    phonemes: [hhy, E, r, r, 1, ng, z]
+    phonemes: [hh, E, r, r, 1, ng, z]
   - grapheme: hears
-    phonemes: [hhy, E, r, z]
+    phonemes: [hh, E, r, z]
   - grapheme: heart
     phonemes: [h, a, r, t]
   - grapheme: hearts
     phonemes: [h, a, r, t, s]
   - grapheme: heat
-    phonemes: [hhy, E, t]
+    phonemes: [hh, E, t]
   - grapheme: heated
-    phonemes: [hhy, E, d, i, d]
+    phonemes: [hh, E, dd, i, d]
   - grapheme: heater
-    phonemes: [hhy, E, d, 3]
+    phonemes: [hh, E, dd, 3]
   - grapheme: heating
-    phonemes: [hhy, E, d, 1, ng]
+    phonemes: [hh, E, dd, 1, ng]
   - grapheme: heats
-    phonemes: [hhy, E, t, s]
+    phonemes: [hh, E, t, s]
   - grapheme: heavier
     phonemes: [h, e, v, E, 3]
   - grapheme: heaviest
@@ -4563,11 +4593,11 @@ entries:
   - grapheme: heavy
     phonemes: [h, e, v, E]
   - grapheme: heels
-    phonemes: [hhy, E, l, z]
+    phonemes: [hh, E, l, z]
   - grapheme: height
-    phonemes: [h, I, t]
+    phonemes: [h, Y, t]
   - grapheme: heights
-    phonemes: [h, I, t, s]
+    phonemes: [h, Y, t, s]
   - grapheme: held
     phonemes: [h, e, l, d]
   - grapheme: hell
@@ -4591,15 +4621,15 @@ entries:
   - grapheme: her's
     phonemes: [h, 3, z]
   - grapheme: here
-    phonemes: [hhy, E, r]
+    phonemes: [hh, E, r]
   - grapheme: heres
-    phonemes: [hhy, E, r, z]
+    phonemes: [hh, E, r, z]
   - grapheme: hero
-    phonemes: [hhy, E, r, r, O]
+    phonemes: [hh, E, r, O]
   - grapheme: heroes
-    phonemes: [hhy, E, r, r, O, z]
+    phonemes: [hh, E, r, O, z]
   - grapheme: heros
-    phonemes: [hhy, E, r, r, O, z]
+    phonemes: [hh, E, r, O, z]
   - grapheme: herself
     phonemes: [h, 3, s, e, l, f]
   - grapheme: hey
@@ -4615,7 +4645,7 @@ entries:
   - grapheme: hides
     phonemes: [h, I, d, z]
   - grapheme: hiding
-    phonemes: [h, I, d, 1, ng]
+    phonemes: [h, I, dd, 1, ng]
   - grapheme: high
     phonemes: [h, I]
   - grapheme: higher
@@ -4651,15 +4681,15 @@ entries:
   - grapheme: his
     phonemes: [h, i, z]
   - grapheme: historical
-    phonemes: [h, i, s, t, 0, r, r, i, k, 0, l]
+    phonemes: [h, i, s, t, 0, r, r, i, k, 6, l]
   - grapheme: historically
     phonemes: [h, i, s, t, 0, r, r, i, k, l, E]
   - grapheme: histories
-    phonemes: [h, i, s, t, 0, r, r, E, z]
+    phonemes: [h, i, s, t, 3, E, z]
   - grapheme: history
     phonemes: [h, i, s, t, 0, r, r, E]
   - grapheme: historys
-    phonemes: [h, i, s, t, 0, r, r, E, z]
+    phonemes: [h, i, s, t, 3, E, z]
   - grapheme: hit
     phonemes: [h, i, t]
   - grapheme: hits
@@ -4669,7 +4699,7 @@ entries:
   - grapheme: hold
     phonemes: [h, 0, l, d]
   - grapheme: holding
-    phonemes: [h, 0, l, d, 1, ng]
+    phonemes: [h, 0, l, dd, 1, ng]
   - grapheme: holds
     phonemes: [h, 0, l, d, z]
   - grapheme: hole
@@ -4677,9 +4707,9 @@ entries:
   - grapheme: holes
     phonemes: [h, 0, l, z]
   - grapheme: holiday
-    phonemes: [h, a, l, i, d, A]
+    phonemes: [h, 9, l, i, d, A]
   - grapheme: holidays
-    phonemes: [h, a, l, i, d, A, z]
+    phonemes: [h, 9, l, i, d, A, z]
   - grapheme: home
     phonemes: [h, O, m]
   - grapheme: homes
@@ -4707,9 +4737,9 @@ entries:
   - grapheme: horses
     phonemes: [h, 0, r, s, i, z]
   - grapheme: hospital
-    phonemes: [h, a, s, p, i, d, 0, l]
+    phonemes: [h, a, s, p, i, d, 6, l]
   - grapheme: hospitals
-    phonemes: [h, a, s, p, i, d, 0, l, z]
+    phonemes: [h, a, s, p, i, d, 6, l, z]
   - grapheme: host
     phonemes: [h, O, s, t]
   - grapheme: hosted
@@ -4727,33 +4757,33 @@ entries:
   - grapheme: hots
     phonemes: [h, 9, t, s]
   - grapheme: hotter
-    phonemes: [h, 9, d, 3]
+    phonemes: [h, a, dd, 3]
   - grapheme: hottest
-    phonemes: [h, 9, d, i, s, t]
+    phonemes: [h, a, dd, i, s, t]
   - grapheme: hour
     phonemes: [8, 3]
   - grapheme: hours
     phonemes: [8, 3, z]
   - grapheme: house
-    phonemes: [h, 8, s]
+    phonemes: [h, W, s]
   - grapheme: household
-    phonemes: [h, 8, s, h, 0, l, d]
+    phonemes: [h, W, s, h, 0, l, d]
   - grapheme: households
-    phonemes: [h, 8, s, h, 0, l, d, z]
+    phonemes: [h, W, s, h, 0, l, d, z]
   - grapheme: houses
-    phonemes: [h, 8, s, i, z]
+    phonemes: [h, W, s, i, z]
   - grapheme: how
     phonemes: [h, 8]
   - grapheme: how'd
     phonemes: [h, 8, d]
   - grapheme: how's
-    phonemes: [h, 8, s]
+    phonemes: [h, 8, z]
   - grapheme: how've
     phonemes: [h, 8, v]
   - grapheme: however
     phonemes: [h, 8, e, v, 3]
   - grapheme: hue
-    phonemes: [hhy, y, o]
+    phonemes: [hhy, o]
   - grapheme: hues
     phonemes: [hhy, y, o, z]
   - grapheme: huge
@@ -4773,13 +4803,13 @@ entries:
   - grapheme: hurt
     phonemes: [h, 3, t]
   - grapheme: hurting
-    phonemes: [h, 3, t, 1, ng]
+    phonemes: [h, 3, dd, 1, ng]
   - grapheme: hurts
     phonemes: [h, 3, t, s]
   - grapheme: husband
     phonemes: [h, u, s, b, i, n, d]
   - grapheme: husbands
-    phonemes: [h, u, s, b, i, n, d, z]
+    phonemes: [h, u, s, b, i, n, z]
   - grapheme: husler
     phonemes: [h, u, s, l, 3]
   - grapheme: i
@@ -4795,29 +4825,31 @@ entries:
   - grapheme: i've
     phonemes: [I, v]
   - grapheme: ice
-    phonemes: [I, s]
+    phonemes: [Y, s]
   - grapheme: iced
-    phonemes: [I, s, t]
+    phonemes: [Y, s, t]
   - grapheme: id
     phonemes: [I, d, E]
+  - grapheme: id(2)
+    phonemes: [i, d]
   - grapheme: idea
     phonemes: [I, d, E, u]
   - grapheme: ideas
     phonemes: [I, d, E, u, z]
   - grapheme: identified
-    phonemes: [I, d, e, n, t, i, f, I, d]
+    phonemes: [I, d, e, n, i, f, I, d]
   - grapheme: identifier
-    phonemes: [I, d, e, n, t, i, f, I, 3]
+    phonemes: [I, d, e, n, i, f, I, 3]
   - grapheme: identifies
-    phonemes: [I, d, e, n, t, i, f, I, z]
+    phonemes: [I, d, e, n, dd, i, f, I, z]
   - grapheme: identify
-    phonemes: [I, d, e, n, t, i, f, I]
+    phonemes: [I, d, e, n, i, f, I]
   - grapheme: identities
-    phonemes: [I, d, e, n, i, d, E, z]
+    phonemes: [I, d, e, n, i, dd, E, z]
   - grapheme: identity
-    phonemes: [I, d, e, n, i, d, E]
+    phonemes: [I, d, e, n, i, dd, E]
   - grapheme: identitys
-    phonemes: [I, d, e, n, i, d, E, z]
+    phonemes: [I, d, e, n, i, dd, E, z]
   - grapheme: if
     phonemes: [i, f]
   - grapheme: ignore
@@ -4831,13 +4863,13 @@ entries:
   - grapheme: ill
     phonemes: [i, l]
   - grapheme: illegal
-    phonemes: [E, l, E, g, 0, l]
+    phonemes: [i, l, E, g, 6, l]
   - grapheme: illegally
-    phonemes: [E, l, E, g, u, l, E]
+    phonemes: [i, l, E, g, 6, l, E]
   - grapheme: image
     phonemes: [i, m, i, j]
   - grapheme: imaged
-    phonemes: [i, m, i, j, t]
+    phonemes: [i, m, i, j, d]
   - grapheme: images
     phonemes: [i, m, i, j, i, z]
   - grapheme: imagine
@@ -4869,9 +4901,9 @@ entries:
   - grapheme: impossibilities
     phonemes: [i, m, p, a, s, i, b, i, l, l, i, dd, E, z]
   - grapheme: impossibility
-    phonemes: [i, m, p, a, s, i, b, i, l, l, i, t, E]
+    phonemes: [i, m, p, a, s, i, b, i, l, l, i, dd, E]
   - grapheme: impossible
-    phonemes: [i, m, p, a, s, i, b, 0, l]
+    phonemes: [i, m, p, a, s, i, b, 6, l]
   - grapheme: improve
     phonemes: [i, m, p, r, o, v]
   - grapheme: improved
@@ -4895,11 +4927,11 @@ entries:
   - grapheme: include
     phonemes: [i, n, k, l, o, d]
   - grapheme: included
-    phonemes: [i, n, k, l, o, d, i, d]
+    phonemes: [i, n, k, l, o, dd, i, d]
   - grapheme: includes
     phonemes: [i, n, k, l, o, d, z]
   - grapheme: including
-    phonemes: [i, n, k, l, o, d, 1, ng]
+    phonemes: [i, n, k, l, o, dd, 1, ng]
   - grapheme: income
     phonemes: [i, n, k, u, m]
   - grapheme: incoming
@@ -4927,23 +4959,23 @@ entries:
   - grapheme: indicate
     phonemes: [i, n, d, i, k, A, t]
   - grapheme: indicated
-    phonemes: [i, n, d, i, k, A, d, i, d]
+    phonemes: [i, n, d, i, k, A, dd, i, d]
   - grapheme: indicates
     phonemes: [i, n, d, i, k, A, t, s]
   - grapheme: indicating
-    phonemes: [i, n, d, i, k, A, d, 1, ng]
+    phonemes: [i, n, d, i, k, A, dd, 1, ng]
   - grapheme: individual
-    phonemes: [i, n, d, i, v, i, j, y, o, w, 0, l]
+    phonemes: [i, n, d, i, v, i, j, y, o, w, 6, l]
   - grapheme: individuals
-    phonemes: [i, n, d, i, v, i, j, y, o, w, 0, l, s]
+    phonemes: [i, n, d, i, v, i, j, y, o, w, 6, l, s]
   - grapheme: industrial
-    phonemes: [i, n, d, u, s, t, r, E, y, 0, l]
+    phonemes: [i, n, d, u, s, t, r, E, y, 6, l]
   - grapheme: industries
-    phonemes: [i, n, d, u, s, t, r, E, z]
+    phonemes: [i, n, d, i, s, t, r, E, z]
   - grapheme: industry
-    phonemes: [i, n, d, u, s, t, r, E]
+    phonemes: [i, n, d, i, s, t, r, E]
   - grapheme: industrys
-    phonemes: [i, n, d, u, s, t, r, E, z]
+    phonemes: [i, n, d, i, s, t, r, E, z]
   - grapheme: influence
     phonemes: [i, n, f, l, o, i, n, s]
   - grapheme: influences
@@ -4951,9 +4983,9 @@ entries:
   - grapheme: information
     phonemes: [i, n, f, 3, m, A, sh, i, n]
   - grapheme: initial
-    phonemes: [i, n, i, sh, 0, l]
+    phonemes: [i, n, i, sh, 6, l]
   - grapheme: initials
-    phonemes: [i, n, i, sh, 0, l, s]
+    phonemes: [i, n, i, sh, 6, l, s]
   - grapheme: injured
     phonemes: [i, n, j, 3, d]
   - grapheme: injuries
@@ -4995,7 +5027,7 @@ entries:
   - grapheme: instrument
     phonemes: [i, n, s, t, r, i, m, i, n, t]
   - grapheme: instrumental
-    phonemes: [i, n, s, t, r, u, m, e, n, t, 0, l]
+    phonemes: [i, n, s, t, r, u, m, e, n, 6, l]
   - grapheme: instruments
     phonemes: [i, n, s, t, r, i, m, i, n, t, s]
   - grapheme: insurance
@@ -5017,47 +5049,47 @@ entries:
   - grapheme: intends
     phonemes: [i, n, t, e, n, z]
   - grapheme: interaction
-    phonemes: [i, n, t, 3, '@', k, sh, i, n]
+    phonemes: [i, n, 3, '@', k, sh, i, n]
   - grapheme: interactions
-    phonemes: [i, n, t, 3, '@', k, sh, i, n, z]
+    phonemes: [i, n, 3, '@', k, sh, i, n, z]
   - grapheme: interest
     phonemes: [i, n, t, r, e, s, t]
   - grapheme: interested
-    phonemes: [i, n, t, 3, r, e, s, t, i, d]
+    phonemes: [i, n, 3, r, e, s, t, i, d]
   - grapheme: interested(2)
-    phonemes: [i, n, t, r, e, s, t, i, d]
+    phonemes: [i, n, ch, r, e, s, t, i, d]
   - grapheme: interesting
-    phonemes: [i, n, t, 3, r, e, s, t, 1, ng]
+    phonemes: [i, n, 3, r, e, s, t, 1, ng]
   - grapheme: interesting(2)
-    phonemes: [i, n, t, r, e, s, t, 1, ng]
+    phonemes: [i, n, ch, r, e, s, t, 1, ng]
   - grapheme: interestingly
-    phonemes: [i, n, t, 3, r, e, s, t, 1, ng, l, E]
+    phonemes: [i, n, 3, r, e, s, t, 1, ng, l, E]
   - grapheme: interestingly(2)
-    phonemes: [i, n, t, r, e, s, t, 1, ng, l, E]
+    phonemes: [i, n, ch, r, e, s, t, 1, ng, l, E]
   - grapheme: interests
     phonemes: [i, n, t, r, e, s, t, s]
   - grapheme: internal
-    phonemes: [i, n, t, 3, n, 0, l]
+    phonemes: [i, n, t, 3, n, 6, l]
   - grapheme: international
-    phonemes: [i, n, t, 3, n, '@', sh, i, n, O, l]
+    phonemes: [i, n, 3, n, '@', sh, i, n, 6, l]
   - grapheme: internationals
-    phonemes: [i, n, t, 3, n, '@', sh, i, n, O, l, z]
+    phonemes: [i, n, 3, n, '@', sh, i, n, 6, l, z]
   - grapheme: internet
-    phonemes: [i, n, t, 3, n, e, t]
+    phonemes: [i, n, 3, n, e, t]
   - grapheme: internets
-    phonemes: [i, n, t, 3, n, e, t, s]
+    phonemes: [i, n, 3, n, e, t, s]
   - grapheme: intervention
-    phonemes: [i, n, t, 3, v, e, n, sh, i, n]
+    phonemes: [i, n, 3, v, e, n, sh, i, n]
   - grapheme: interventions
-    phonemes: [i, n, t, 3, v, e, n, sh, i, n, z]
+    phonemes: [i, n, 3, v, e, n, sh, i, n, z]
   - grapheme: interview
-    phonemes: [i, n, t, 3, v, y, o]
+    phonemes: [i, n, 3, v, y, o]
   - grapheme: interviewed
-    phonemes: [i, n, t, 3, v, y, o, d]
+    phonemes: [i, n, 3, v, y, o, d]
   - grapheme: interviewing
-    phonemes: [i, n, t, 3, v, y, o, 1, ng]
+    phonemes: [i, n, 3, v, y, o, 1, ng]
   - grapheme: interviews
-    phonemes: [i, n, t, 3, v, y, o, z]
+    phonemes: [i, n, 3, v, y, o, z]
   - grapheme: into
     phonemes: [i, n, t, o]
   - grapheme: introduce
@@ -5075,11 +5107,11 @@ entries:
   - grapheme: investigate
     phonemes: [i, n, v, e, s, t, i, g, A, t]
   - grapheme: investigated
-    phonemes: [i, n, v, e, s, t, i, g, A, t, i, d]
+    phonemes: [i, n, v, e, s, t, i, g, A, dd, i, d]
   - grapheme: investigates
     phonemes: [i, n, v, e, s, t, i, g, A, t, s]
   - grapheme: investigating
-    phonemes: [i, n, v, e, s, t, i, g, A, t, 1, ng]
+    phonemes: [i, n, v, e, s, t, i, g, A, dd, 1, ng]
   - grapheme: investigation
     phonemes: [i, n, v, e, s, t, i, g, A, sh, i, n]
   - grapheme: investigations
@@ -5097,21 +5129,21 @@ entries:
   - grapheme: invests
     phonemes: [i, n, v, e, s, t, s]
   - grapheme: invite
-    phonemes: [i, n, v, I, t]
+    phonemes: [i, n, v, Y, t]
   - grapheme: invited
-    phonemes: [i, n, v, I, dd, i, d]
+    phonemes: [i, n, v, Y, dd, i, d]
   - grapheme: invites
-    phonemes: [i, n, v, I, t, s]
+    phonemes: [i, n, v, Y, t, s]
   - grapheme: inviting
-    phonemes: [i, n, v, I, dd, 1, ng]
+    phonemes: [i, n, v, Y, dd, 1, ng]
   - grapheme: involve
-    phonemes: [i, n, v, 0, l, v]
+    phonemes: [i, n, v, 9, l, v]
   - grapheme: involved
-    phonemes: [i, n, v, 0, l, v, t]
+    phonemes: [i, n, v, 9, l, v, t]
   - grapheme: involves
-    phonemes: [i, n, v, 0, l, v, z]
+    phonemes: [i, n, v, 9, l, v, z]
   - grapheme: involving
-    phonemes: [i, n, v, 0, l, v, 1, ng]
+    phonemes: [i, n, v, 9, l, v, 1, ng]
   - grapheme: is
     phonemes: [i, z]
   - grapheme: island
@@ -5129,13 +5161,13 @@ entries:
   - grapheme: it
     phonemes: [i, t]
   - grapheme: it'll
-    phonemes: [i, dd, 0, l]
+    phonemes: [i, dd, 6, l]
   - grapheme: it's
     phonemes: [i, t, s]
   - grapheme: item
-    phonemes: [I, d, u, m]
+    phonemes: [I, dd, u, m]
   - grapheme: items
-    phonemes: [I, d, u, m, z]
+    phonemes: [I, dd, u, m, z]
   - grapheme: its
     phonemes: [i, t, s]
   - grapheme: itself
@@ -5157,9 +5189,9 @@ entries:
   - grapheme: joint
     phonemes: [j, Q, n, t]
   - grapheme: journalist
-    phonemes: [j, 3, n, 0, l, l, i, s, t]
+    phonemes: [j, 3, n, 6, l, l, i, s, t]
   - grapheme: journalists
-    phonemes: [j, 3, n, 0, l, l, i, s, t, s]
+    phonemes: [j, 3, n, 6, l, l, i, s, t, s]
   - grapheme: judge
     phonemes: [j, u, j]
   - grapheme: judges
@@ -5167,7 +5199,7 @@ entries:
   - grapheme: judgment
     phonemes: [j, u, j, m, i, n, t]
   - grapheme: judgmental
-    phonemes: [j, u, j, m, e, n, t, 0, l]
+    phonemes: [j, u, j, m, e, n, 6, l]
   - grapheme: judgments
     phonemes: [j, u, j, m, i, n, t, s]
   - grapheme: juliet
@@ -5183,7 +5215,7 @@ entries:
   - grapheme: junk
     phonemes: [j, u, n, k]
   - grapheme: jupiter
-    phonemes: [j, o, p, i, d, 3]
+    phonemes: [j, o, p, i, dd, 3]
   - grapheme: juries
     phonemes: [j, 3, r, E, z]
   - grapheme: jury
@@ -5223,7 +5255,7 @@ entries:
   - grapheme: kid
     phonemes: [k, i, d]
   - grapheme: kidding
-    phonemes: [k, i, d, 1, ng]
+    phonemes: [k, i, dd, 1, ng]
   - grapheme: kids
     phonemes: [k, i, d, z]
   - grapheme: kill
@@ -5255,7 +5287,7 @@ entries:
   - grapheme: knew
     phonemes: [n, o]
   - grapheme: knife
-    phonemes: [n, I, f]
+    phonemes: [n, Y, f]
   - grapheme: knock
     phonemes: [n, 9, k]
   - grapheme: knocked
@@ -5283,7 +5315,7 @@ entries:
   - grapheme: labored
     phonemes: [l, A, b, 3, d]
   - grapheme: laboring
-    phonemes: [l, A, b, 3, 1, ng]
+    phonemes: [l, A, b, r, 1, ng]
   - grapheme: labors
     phonemes: [l, A, b, 3, z]
   - grapheme: labs
@@ -5299,11 +5331,11 @@ entries:
   - grapheme: lacks
     phonemes: [l, '@', k, s]
   - grapheme: ladies
-    phonemes: [l, A, d, E, z]
+    phonemes: [l, A, dd, E, z]
   - grapheme: lady
-    phonemes: [l, A, d, E]
+    phonemes: [l, A, dd, E]
   - grapheme: ladys
-    phonemes: [l, A, d, E, z]
+    phonemes: [l, A, dd, E, z]
   - grapheme: land
     phonemes: [l, '&', n, d]
   - grapheme: landed
@@ -5311,13 +5343,13 @@ entries:
   - grapheme: lands
     phonemes: [l, '&', n, z]
   - grapheme: landscape
-    phonemes: [l, '&', n, d, s, k, A, p]
+    phonemes: [l, '&', n, s, k, A, p]
   - grapheme: landscaped
-    phonemes: [l, '&', n, d, s, k, A, p, t]
+    phonemes: [l, '&', n, s, k, A, p, t]
   - grapheme: landscapes
-    phonemes: [l, '&', n, d, s, k, A, p, s]
+    phonemes: [l, '&', n, s, k, A, p, s]
   - grapheme: landscaping
-    phonemes: [l, '&', n, d, s, k, A, p, 1, ng]
+    phonemes: [l, '&', n, s, k, A, p, 1, ng]
   - grapheme: language
     phonemes: [l, A, ng, g, w, i, j]
   - grapheme: languages
@@ -5341,9 +5373,9 @@ entries:
   - grapheme: lately
     phonemes: [l, A, t, l, E]
   - grapheme: later
-    phonemes: [l, A, d, 3]
+    phonemes: [l, A, dd, 3]
   - grapheme: latest
-    phonemes: [l, A, d, i, s, t]
+    phonemes: [l, A, dd, i, s, t]
   - grapheme: laugh
     phonemes: [l, '@', f]
   - grapheme: laughed
@@ -5379,11 +5411,11 @@ entries:
   - grapheme: lead(2)
     phonemes: [l, e, d]
   - grapheme: leader
-    phonemes: [l, E, d, 3]
+    phonemes: [l, E, dd, 3]
   - grapheme: leaders
-    phonemes: [l, E, d, 3, s]
+    phonemes: [l, E, dd, 3, s]
   - grapheme: leadership
-    phonemes: [l, E, d, 3, sh, i, p]
+    phonemes: [l, E, dd, 3, sh, i, p]
   - grapheme: leads
     phonemes: [l, E, d, z]
   - grapheme: leaf
@@ -5431,9 +5463,9 @@ entries:
   - grapheme: leg
     phonemes: [l, e, g]
   - grapheme: legal
-    phonemes: [l, E, g, 0, l]
+    phonemes: [l, E, g, 6, l]
   - grapheme: legals
-    phonemes: [l, E, g, 0, l, z]
+    phonemes: [l, E, g, 6, l, z]
   - grapheme: legislation
     phonemes: [l, e, j, i, s, l, A, sh, i, n]
   - grapheme: legs
@@ -5441,11 +5473,11 @@ entries:
   - grapheme: lemme
     phonemes: [l, e, m, E]
   - grapheme: length
-    phonemes: [l, A, ng, th]
+    phonemes: [l, A, nk, th]
   - grapheme: length(2)
     phonemes: [l, e, ng, th]
   - grapheme: lengths
-    phonemes: [l, A, ng, th, s]
+    phonemes: [l, A, nk, th, s]
   - grapheme: less
     phonemes: [l, e, s]
   - grapheme: lesser
@@ -5459,25 +5491,25 @@ entries:
   - grapheme: let's
     phonemes: [l, e, t, s]
   - grapheme: letter
-    phonemes: [l, e, d, 3]
+    phonemes: [l, e, dd, 3]
   - grapheme: lettered
-    phonemes: [l, e, d, 3, d]
+    phonemes: [l, e, dd, 3, d]
   - grapheme: letters
-    phonemes: [l, e, d, 3, z]
+    phonemes: [l, e, dd, 3, z]
   - grapheme: letting
-    phonemes: [l, e, d, 1, ng]
+    phonemes: [l, e, dd, 1, ng]
   - grapheme: level
-    phonemes: [l, e, v, 0, l]
+    phonemes: [l, e, v, 6, l]
   - grapheme: leveled
-    phonemes: [l, e, v, 0, l, d]
+    phonemes: [l, e, v, 6, l, d]
   - grapheme: levels
-    phonemes: [l, e, v, 0, l, z]
+    phonemes: [l, e, v, 6, l, z]
   - grapheme: liar
     phonemes: [l, I, 3]
   - grapheme: liberal
-    phonemes: [l, i, b, r, 0, l]
+    phonemes: [l, i, b, r, 6, l]
   - grapheme: liberals
-    phonemes: [l, i, b, r, 0, l, z]
+    phonemes: [l, i, b, r, 6, l, z]
   - grapheme: libraries
     phonemes: [l, I, b, r, A, r, r, E, z]
   - grapheme: library
@@ -5499,39 +5531,39 @@ entries:
   - grapheme: lifting
     phonemes: [l, i, f, t, 1, ng]
   - grapheme: lifts
-    phonemes: [l, i, f, t, s]
+    phonemes: [l, i, f, s]
   - grapheme: light
-    phonemes: [l, I, t]
+    phonemes: [l, Y, t]
   - grapheme: lighted
-    phonemes: [l, I, t, i, d]
+    phonemes: [l, Y, dd, i, d]
   - grapheme: lighter
-    phonemes: [l, I, d, 3]
+    phonemes: [l, Y, dd, 3]
   - grapheme: lightest
-    phonemes: [l, I, d, i, s, t]
+    phonemes: [l, Y, dd, i, s, t]
   - grapheme: lightning
-    phonemes: [l, I, t, n, 1, ng]
+    phonemes: [l, Y, t, n, 1, ng]
   - grapheme: lights
-    phonemes: [l, I, t, s]
+    phonemes: [l, Y, t, s]
   - grapheme: like
-    phonemes: [l, I, k]
+    phonemes: [l, Y, k]
   - grapheme: liked
-    phonemes: [l, I, k, t]
+    phonemes: [l, Y, k, t]
   - grapheme: likelihood
-    phonemes: [l, I, k, l, E, h, 6, d]
+    phonemes: [l, Y, k, l, E, h, 6, d]
   - grapheme: likely
-    phonemes: [l, I, k, l, E]
+    phonemes: [l, Y, k, l, E]
   - grapheme: likes
-    phonemes: [l, I, k, s]
+    phonemes: [l, Y, k, s]
   - grapheme: liking
-    phonemes: [l, I, k, 1, ng]
+    phonemes: [l, Y, k, 1, ng]
   - grapheme: limit
     phonemes: [l, i, m, i, t]
   - grapheme: limited
-    phonemes: [l, i, m, i, t, i, d]
+    phonemes: [l, i, m, i, dd, i, d]
   - grapheme: limiter
-    phonemes: [l, i, m, i, t, 3]
+    phonemes: [l, i, m, i, dd, 3]
   - grapheme: limiting
-    phonemes: [l, i, m, i, t, 1, ng]
+    phonemes: [l, i, m, i, dd, 1, ng]
   - grapheme: limits
     phonemes: [l, i, m, i, t, s]
   - grapheme: line
@@ -5569,9 +5601,9 @@ entries:
   - grapheme: literature
     phonemes: [l, i, dd, 3, u, ch, 3]
   - grapheme: little
-    phonemes: [l, i, dd, 0, l]
+    phonemes: [l, i, dd, 6, l]
   - grapheme: littler
-    phonemes: [l, i, dd, 0, l, l, 3]
+    phonemes: [l, i, dd, 6, l, l, 3]
   - grapheme: live
     phonemes: [l, i, v]
   - grapheme: lived
@@ -5589,17 +5621,17 @@ entries:
   - grapheme: loans
     phonemes: [l, O, n, z]
   - grapheme: local
-    phonemes: [l, O, k, 0, l]
+    phonemes: [l, O, k, 6, l]
   - grapheme: locals
-    phonemes: [l, O, k, 0, l, s]
+    phonemes: [l, O, k, 6, l, s]
   - grapheme: locate
     phonemes: [l, O, k, A, t]
   - grapheme: located
-    phonemes: [l, O, k, A, d, i, d]
+    phonemes: [l, O, k, A, dd, i, d]
   - grapheme: locates
     phonemes: [l, O, k, A, t, s]
   - grapheme: locating
-    phonemes: [l, O, k, A, d, 1, ng]
+    phonemes: [l, O, k, A, dd, 1, ng]
   - grapheme: location
     phonemes: [l, O, k, A, sh, i, n]
   - grapheme: locations
@@ -5607,13 +5639,13 @@ entries:
   - grapheme: locked
     phonemes: [l, 9, k, t]
   - grapheme: long
-    phonemes: [l, a, ng]
+    phonemes: [l, 9, ng]
   - grapheme: longer
-    phonemes: [l, a, ng, g, 3]
+    phonemes: [l, 9, ng, g, 3]
   - grapheme: longest
-    phonemes: [l, a, ng, g, i, s, t]
+    phonemes: [l, 9, ng, g, i, s, t]
   - grapheme: longs
-    phonemes: [l, a, ng, z]
+    phonemes: [l, 9, ng, z]
   - grapheme: longs(2)
     phonemes: [l, A, ng, z]
   - grapheme: look
@@ -5625,7 +5657,7 @@ entries:
   - grapheme: looks
     phonemes: [l, 6, k, s]
   - grapheme: lose
-    phonemes: [l, o, s]
+    phonemes: [l, o, z]
   - grapheme: loser
     phonemes: [l, o, z, 3]
   - grapheme: loses
@@ -5663,7 +5695,7 @@ entries:
   - grapheme: luck
     phonemes: [l, u, k]
   - grapheme: luckily
-    phonemes: [l, u, k, u, l, E]
+    phonemes: [l, u, k, l, E]
   - grapheme: lucky
     phonemes: [l, u, k, E]
   - grapheme: lunch
@@ -5703,11 +5735,11 @@ entries:
   - grapheme: major
     phonemes: [m, A, j, 3]
   - grapheme: majorities
-    phonemes: [m, u, j, 0, r, r, i, d, E, z]
+    phonemes: [m, u, j, 0, r, r, i, dd, E, z]
   - grapheme: majority
-    phonemes: [m, u, j, 0, r, r, i, d, E]
+    phonemes: [m, u, j, 0, r, r, i, dd, E]
   - grapheme: majoritys
-    phonemes: [m, u, j, 0, r, r, i, d, E, z]
+    phonemes: [m, u, j, 0, r, r, i, dd, E, z]
   - grapheme: majors
     phonemes: [m, A, j, 3, z]
   - grapheme: make
@@ -5761,7 +5793,7 @@ entries:
   - grapheme: market
     phonemes: [m, a, r, k, i, t]
   - grapheme: marketed
-    phonemes: [m, a, r, k, i, t, i, d]
+    phonemes: [m, a, r, k, i, dd, i, d]
   - grapheme: markets
     phonemes: [m, a, r, k, i, t, s]
   - grapheme: marking
@@ -5777,7 +5809,7 @@ entries:
   - grapheme: marries
     phonemes: [m, A, r, r, E, z]
   - grapheme: marring
-    phonemes: [m, A, r, r, E, 1, ng]
+    phonemes: [m, a, r, r, 1, ng]
   - grapheme: marry
     phonemes: [m, A, r, r, E]
   - grapheme: marrying
@@ -5795,7 +5827,7 @@ entries:
   - grapheme: mastered
     phonemes: [m, '@', s, t, 3, d]
   - grapheme: mastering
-    phonemes: [m, '@', s, t, 3, r, 1, ng]
+    phonemes: [m, '@', s, t, r, 1, ng]
   - grapheme: masters
     phonemes: [m, '@', s, t, 3, z]
   - grapheme: match
@@ -5807,15 +5839,15 @@ entries:
   - grapheme: matching
     phonemes: [m, '@', ch, 1, ng]
   - grapheme: material
-    phonemes: [m, u, t, E, r, r, E, 0, l]
+    phonemes: [m, u, t, E, r, r, E, 6, l]
   - grapheme: materials
-    phonemes: [m, u, t, E, r, r, E, 0, l, z]
+    phonemes: [m, u, t, E, r, r, E, 6, l, z]
   - grapheme: matter
-    phonemes: [m, '@', d, 3]
+    phonemes: [m, '@', dd, 3]
   - grapheme: mattered
-    phonemes: [m, '@', d, 3, d]
+    phonemes: [m, '@', dd, 3, d]
   - grapheme: matters
-    phonemes: [m, '@', d, 3, z]
+    phonemes: [m, '@', dd, 3, z]
   - grapheme: may
     phonemes: [m, A]
   - grapheme: maybe
@@ -5833,7 +5865,7 @@ entries:
   - grapheme: meaning
     phonemes: [m, E, n, 1, ng]
   - grapheme: meaningful
-    phonemes: [m, E, n, 1, ng, f, 0, l]
+    phonemes: [m, E, n, 1, ng, f, 6, l]
   - grapheme: meanings
     phonemes: [m, E, n, 1, ng, z]
   - grapheme: means
@@ -5843,7 +5875,7 @@ entries:
   - grapheme: meanwhile
     phonemes: [m, E, n, w, I, l]
   - grapheme: meanwhile(2)
-    phonemes: [m, E, n, w, I, 0, l]
+    phonemes: [m, E, n, w, I, 6, l]
   - grapheme: measure
     phonemes: [m, e, zh, 3]
   - grapheme: measured
@@ -5851,7 +5883,7 @@ entries:
   - grapheme: measures
     phonemes: [m, e, zh, 3, z]
   - grapheme: measuring
-    phonemes: [m, e, zh, 3, r, 1, ng]
+    phonemes: [m, e, zh, r, 1, ng]
   - grapheme: meat
     phonemes: [m, E, t]
   - grapheme: meats
@@ -5861,17 +5893,17 @@ entries:
   - grapheme: medias
     phonemes: [m, E, d, E, u, z]
   - grapheme: medical
-    phonemes: [m, e, d, i, k, 0, l]
+    phonemes: [m, e, dd, i, k, 6, l]
   - grapheme: medicine
-    phonemes: [m, e, d, i, s, i, n]
+    phonemes: [m, e, dd, i, s, i, n]
   - grapheme: medicines
-    phonemes: [m, e, d, i, s, i, n, z]
+    phonemes: [m, e, dd, i, s, i, n, z]
   - grapheme: meet
     phonemes: [m, E, t]
   - grapheme: meeting
-    phonemes: [m, E, d, 1, ng]
+    phonemes: [m, E, dd, 1, ng]
   - grapheme: meetings
-    phonemes: [m, E, d, 1, ng, z]
+    phonemes: [m, E, dd, 1, ng, z]
   - grapheme: meets
     phonemes: [m, E, t, s]
   - grapheme: melt
@@ -5891,7 +5923,7 @@ entries:
   - grapheme: men
     phonemes: [m, e, n]
   - grapheme: mental
-    phonemes: [m, e, n, t, 0, l]
+    phonemes: [m, e, n, t, 6, l]
   - grapheme: mention
     phonemes: [m, e, n, sh, i, n]
   - grapheme: mentioned
@@ -5919,17 +5951,17 @@ entries:
   - grapheme: met
     phonemes: [m, e, t]
   - grapheme: metal
-    phonemes: [m, e, dd, 0, l]
+    phonemes: [m, e, dd, 6, l]
   - grapheme: metals
-    phonemes: [m, e, dd, 0, l, z]
+    phonemes: [m, e, dd, 6, l, z]
   - grapheme: method
     phonemes: [m, e, th, i, d]
   - grapheme: methods
     phonemes: [m, e, th, i, d, z]
   - grapheme: middle
-    phonemes: [m, i, d, 0, l]
+    phonemes: [m, i, d, 6, l]
   - grapheme: middles
-    phonemes: [m, i, d, 0, l, z]
+    phonemes: [m, i, d, 6, l, z]
   - grapheme: might
     phonemes: [m, I, t]
   - grapheme: might've
@@ -5972,6 +6004,8 @@ entries:
     phonemes: [m, I, n, 0, r, r, i, dd, E]
   - grapheme: minute
     phonemes: [m, i, n, i, t]
+  - grapheme: minute(2)
+    phonemes: [m, i, n, o, t]
   - grapheme: minutes
     phonemes: [m, i, n, i, t, s]
   - grapheme: mirror
@@ -6011,13 +6045,13 @@ entries:
   - grapheme: mo
     phonemes: [m, O]
   - grapheme: model
-    phonemes: [m, a, d, 0, l]
+    phonemes: [m, a, d, 6, l]
   - grapheme: modeled
-    phonemes: [m, a, d, 0, l, d]
+    phonemes: [m, a, d, 6, l, d]
   - grapheme: models
-    phonemes: [m, a, d, 0, l, z]
+    phonemes: [m, a, d, 6, l, z]
   - grapheme: modern
-    phonemes: [m, a, d, 3, n]
+    phonemes: [m, a, dd, 3, n]
   - grapheme: mom
     phonemes: [m, a, m]
   - grapheme: moment
@@ -6043,11 +6077,11 @@ entries:
   - grapheme: moon
     phonemes: [m, o, n]
   - grapheme: moral
-    phonemes: [m, 0, r, r, 0, l]
+    phonemes: [m, 0, r, r, 6, l]
   - grapheme: morality
     phonemes: [m, 0, r, r, '@', l, i, dd, E]
   - grapheme: morals
-    phonemes: [m, 0, r, r, 0, l, z]
+    phonemes: [m, 0, r, r, 6, l, z]
   - grapheme: more
     phonemes: [m, 0, r]
   - grapheme: morning
@@ -6057,7 +6091,7 @@ entries:
   - grapheme: most
     phonemes: [m, O, s, t]
   - grapheme: mostly
-    phonemes: [m, O, s, t, l, E]
+    phonemes: [m, O, s, l, E]
   - grapheme: mother
     phonemes: [m, u, dh, 3]
   - grapheme: mother'd
@@ -6081,9 +6115,9 @@ entries:
   - grapheme: mourn
     phonemes: [m, 0, r, n]
   - grapheme: mouth
-    phonemes: [m, 8, th]
+    phonemes: [m, W, th]
   - grapheme: mouths
-    phonemes: [m, 8, th, s]
+    phonemes: [m, W, th, s]
   - grapheme: move
     phonemes: [m, o, v]
   - grapheme: moved
@@ -6100,8 +6134,8 @@ entries:
     phonemes: [m, o, v, E, z]
   - grapheme: moving
     phonemes: [m, o, v, 1, ng]
-  - grapheme: mozaik
-    phonemes: [m, O, z, I, k]
+  - grapheme: mozaic
+    phonemes: [m, O, z, A, i, k]
   - grapheme: mr
     phonemes: [m, i, s, t, 3]
   - grapheme: mrs
@@ -6111,13 +6145,13 @@ entries:
   - grapheme: much
     phonemes: [m, u, ch]
   - grapheme: multiple
-    phonemes: [m, 0, l, t, i, p, 0, l]
+    phonemes: [m, x, l, t, i, p, 6, l]
   - grapheme: multiplied
-    phonemes: [m, 0, l, t, i, p, l, I, d]
+    phonemes: [m, x, l, t, i, p, l, I, d]
   - grapheme: multiplies
-    phonemes: [m, 0, l, t, i, p, 0, l, z]
+    phonemes: [m, x, l, t, i, p, 6, l, z]
   - grapheme: multiplying
-    phonemes: [m, 0, l, t, i, p, l, I, 1, ng]
+    phonemes: [m, x, l, t, i, p, l, I, 1, ng]
   - grapheme: murder
     phonemes: [m, 3, d, 3]
   - grapheme: murdered
@@ -6127,9 +6161,9 @@ entries:
   - grapheme: murders
     phonemes: [m, 3, d, 3, z]
   - grapheme: muscle
-    phonemes: [m, u, s, 0, l]
+    phonemes: [m, u, s, 6, l]
   - grapheme: muscles
-    phonemes: [m, u, s, 0, l, z]
+    phonemes: [m, u, s, 6, l, z]
   - grapheme: museum
     phonemes: [m, y, o, z, E, u, m]
   - grapheme: museums
@@ -6137,11 +6171,11 @@ entries:
   - grapheme: music
     phonemes: [m, y, o, z, i, k]
   - grapheme: musical
-    phonemes: [m, y, o, z, i, k, 0, l]
+    phonemes: [m, y, o, z, i, k, 6, l]
   - grapheme: musically
     phonemes: [m, y, o, z, i, k, l, E]
   - grapheme: musicals
-    phonemes: [m, y, o, z, i, k, 0, l, z]
+    phonemes: [m, y, o, z, i, k, 6, l, z]
   - grapheme: musics
     phonemes: [m, y, o, z, i, k, s]
   - grapheme: must
@@ -6171,11 +6205,11 @@ entries:
   - grapheme: nation
     phonemes: [n, A, sh, i, n]
   - grapheme: national
-    phonemes: [n, '@', sh, i, n, 0, l]
+    phonemes: [n, '@', sh, i, n, 6, l]
   - grapheme: nationality
-    phonemes: [n, '@', sh, i, n, '@', l, i, d, E]
+    phonemes: [n, '@', sh, i, n, '@', l, i, dd, E]
   - grapheme: nationals
-    phonemes: [n, '@', sh, u, n, 0, l, z]
+    phonemes: [n, '@', sh, u, n, 6, l, z]
   - grapheme: nations
     phonemes: [n, A, sh, i, n, z]
   - grapheme: native
@@ -6183,13 +6217,13 @@ entries:
   - grapheme: natives
     phonemes: [n, A, dd, i, v, z]
   - grapheme: natural
-    phonemes: [n, '@', ch, 3, 0, l]
+    phonemes: [n, '@', ch, 3, 6, l]
   - grapheme: naturally
-    phonemes: [n, '@', t, r, a, l, E]
+    phonemes: [n, '@', t, r, x, l, E]
   - grapheme: naturally(2)
     phonemes: [n, '@', ch, 3, r, u, l, E]
   - grapheme: naturals
-    phonemes: [n, '@', ch, 3, r, 0, l, z]
+    phonemes: [n, '@', ch, 3, r, 6, l, z]
   - grapheme: nature
     phonemes: [n, A, ch, 3]
   - grapheme: natured
@@ -6217,15 +6251,15 @@ entries:
   - grapheme: need
     phonemes: [n, E, d]
   - grapheme: needed
-    phonemes: [n, E, d, i, d]
+    phonemes: [n, E, dd, i, d]
   - grapheme: needless
     phonemes: [n, E, d, l, e, s]
   - grapheme: needs
     phonemes: [n, E, d, z]
   - grapheme: negative
-    phonemes: [n, e, g, a, d, i, v]
+    phonemes: [n, e, g, a, dd, i, v]
   - grapheme: negativity
-    phonemes: [n, e, g, u, t, i, v, u, d, E]
+    phonemes: [n, e, g, u, t, i, v, u, dd, E]
   - grapheme: neighbor
     phonemes: [n, A, b, 3]
   - grapheme: neighbored
@@ -6237,7 +6271,7 @@ entries:
   - grapheme: neighbors
     phonemes: [n, A, b, 3, z]
   - grapheme: neither
-    phonemes: [n, E, th, 3]
+    phonemes: [n, E, dh, 3]
   - grapheme: neon
     phonemes: [n, E, a, n]
   - grapheme: network
@@ -6267,27 +6301,27 @@ entries:
   - grapheme: nexts
     phonemes: [n, e, k, s, t, s]
   - grapheme: nice
-    phonemes: [n, I, s]
+    phonemes: [n, Y, s]
   - grapheme: nicely
-    phonemes: [n, I, s, l, E]
+    phonemes: [n, Y, s, l, E]
   - grapheme: nicer
-    phonemes: [n, I, s, 3]
+    phonemes: [n, Y, s, 3]
   - grapheme: nicest
-    phonemes: [n, I, s, i, s, t]
+    phonemes: [n, Y, s, i, s, t]
   - grapheme: night
-    phonemes: [n, I, t]
+    phonemes: [n, Y, t]
   - grapheme: nights
-    phonemes: [n, I, t, s]
+    phonemes: [n, Y, t, s]
   - grapheme: nine
     phonemes: [n, I, n]
   - grapheme: no
     phonemes: [n, O]
   - grapheme: nobodies
-    phonemes: [n, O, b, a, d, E, z]
+    phonemes: [n, O, b, a, dd, E, z]
   - grapheme: nobody
-    phonemes: [n, O, b, a, d, E]
+    phonemes: [n, O, b, a, dd, E]
   - grapheme: nobodys
-    phonemes: [n, O, b, a, d, E, z]
+    phonemes: [n, O, b, a, dd, E, z]
   - grapheme: nod
     phonemes: [n, a, d]
   - grapheme: nodded
@@ -6307,11 +6341,11 @@ entries:
   - grapheme: nor
     phonemes: [n, 0, r]
   - grapheme: normal
-    phonemes: [n, 0, r, m, 0, l]
+    phonemes: [n, 0, r, m, 6, l]
   - grapheme: normally
     phonemes: [n, 0, r, m, u, l, E]
   - grapheme: normals
-    phonemes: [n, 0, r, m, 0, l, z]
+    phonemes: [n, 0, r, m, 6, l, z]
   - grapheme: north
     phonemes: [n, 0, r, th]
   - grapheme: northern
@@ -6325,7 +6359,7 @@ entries:
   - grapheme: note
     phonemes: [n, O, t]
   - grapheme: noted
-    phonemes: [n, O, d, i, d]
+    phonemes: [n, O, dd, i, d]
   - grapheme: notes
     phonemes: [n, O, t, s]
   - grapheme: nothing
@@ -6335,13 +6369,13 @@ entries:
   - grapheme: nothings
     phonemes: [n, u, th, 1, ng, z]
   - grapheme: notice
-    phonemes: [n, O, d, i, s]
+    phonemes: [n, O, dd, i, s]
   - grapheme: noticed
-    phonemes: [n, O, d, i, s, t]
+    phonemes: [n, O, dd, i, s, t]
   - grapheme: notices
-    phonemes: [n, O, d, i, s, i, z]
+    phonemes: [n, O, dd, i, s, i, z]
   - grapheme: noticing
-    phonemes: [n, O, d, i, s, 1, ng]
+    phonemes: [n, O, dd, i, s, 1, ng]
   - grapheme: notion
     phonemes: [n, O, sh, i, n]
   - grapheme: notions
@@ -6349,9 +6383,9 @@ entries:
   - grapheme: nots
     phonemes: [n, a, t, s]
   - grapheme: novel
-    phonemes: [n, 9, v, 0, l]
+    phonemes: [n, 9, v, 6, l]
   - grapheme: novels
-    phonemes: [n, 9, v, 0, l, z]
+    phonemes: [n, 9, v, 6, l, z]
   - grapheme: now
     phonemes: [n, 8]
   - grapheme: now'd
@@ -6369,7 +6403,7 @@ entries:
   - grapheme: number
     phonemes: [n, u, m, b, 3]
   - grapheme: numbers
-    phonemes: [n, u, m, b, 3, s]
+    phonemes: [n, u, m, b, 3, z]
   - grapheme: nurse
     phonemes: [n, 3, s]
   - grapheme: nursed
@@ -6435,7 +6469,7 @@ entries:
   - grapheme: offered
     phonemes: [a, f, 3, d]
   - grapheme: offers
-    phonemes: [a, f, 3, s]
+    phonemes: [a, f, 3, z]
   - grapheme: office
     phonemes: [9, f, i, s]
   - grapheme: officer
@@ -6445,21 +6479,21 @@ entries:
   - grapheme: offices
     phonemes: [9, f, i, s, i, z]
   - grapheme: official
-    phonemes: [u, f, i, sh, 0, l]
+    phonemes: [u, f, i, sh, 6, l]
   - grapheme: officially
-    phonemes: [u, f, i, sh, u, l, E]
+    phonemes: [u, f, i, sh, l, E]
   - grapheme: officials
-    phonemes: [u, f, i, sh, 0, l, z]
+    phonemes: [u, f, i, sh, 6, l, z]
   - grapheme: often
-    phonemes: [a, f, t, i, n]
+    phonemes: [a, f, i, n]
   - grapheme: oh
     phonemes: [O]
   - grapheme: oil
-    phonemes: [Q, 0, l]
+    phonemes: [Q, l]
   - grapheme: oiled
-    phonemes: [Q, 0, l, d]
+    phonemes: [Q, l, d]
   - grapheme: oils
-    phonemes: [Q, 0, l, s]
+    phonemes: [Q, l, s]
   - grapheme: ok
     phonemes: [O, k, A]
   - grapheme: okay
@@ -6489,35 +6523,35 @@ entries:
   - grapheme: opened
     phonemes: [O, p, i, n, d]
   - grapheme: opening
-    phonemes: [O, p, i, n, 1, ng]
+    phonemes: [O, p, n, 1, ng]
   - grapheme: opens
     phonemes: [O, p, i, n, z]
   - grapheme: operate
     phonemes: [a, p, 3, r, A, t]
   - grapheme: operated
-    phonemes: [a, p, 3, r, A, d, i, d]
+    phonemes: [a, p, 3, r, A, dd, i, d]
   - grapheme: operates
     phonemes: [a, p, 3, r, A, t, s]
   - grapheme: operating
-    phonemes: [a, p, 3, r, A, d, 1, ng]
+    phonemes: [a, p, 3, r, A, dd, 1, ng]
   - grapheme: operation
     phonemes: [a, p, 3, r, A, sh, i, n]
   - grapheme: operations
     phonemes: [a, p, 3, r, A, sh, i, n, z]
   - grapheme: operator
-    phonemes: [a, p, 3, r, A, d, 3]
+    phonemes: [a, p, 3, r, A, dd, 3]
   - grapheme: opinion
     phonemes: [u, p, i, n, y, i, n]
   - grapheme: opinions
     phonemes: [u, p, i, n, y, i, n, z]
   - grapheme: opportunities
-    phonemes: [a, p, r, u, t, o, n, i, d, E, z]
+    phonemes: [a, p, 3, t, o, n, i, dd, E, z]
   - grapheme: opportunity
-    phonemes: [a, p, r, u, t, o, n, i, d, E]
+    phonemes: [a, p, 3, t, o, n, i, dd, E]
   - grapheme: oppose
     phonemes: [u, p, O, z]
   - grapheme: opposed
-    phonemes: [u, p, O, z, t]
+    phonemes: [u, p, O, z, d]
   - grapheme: opposes
     phonemes: [u, p, O, z, i, z]
   - grapheme: opposing
@@ -6551,11 +6585,11 @@ entries:
   - grapheme: organizing
     phonemes: [0, r, g, i, n, I, z, 1, ng]
   - grapheme: original
-    phonemes: [0, r, r, i, j, i, n, 0, l]
+    phonemes: [3, i, j, i, n, 6, l]
   - grapheme: originally
-    phonemes: [0, r, r, i, j, i, n, 0, l, l, E]
+    phonemes: [3, i, j, i, n, 6, l, l, E]
   - grapheme: originals
-    phonemes: [0, r, r, i, j, i, n, 0, l, z]
+    phonemes: [3, i, j, i, n, 6, l, z]
   - grapheme: ors
     phonemes: [0, r, z]
   - grapheme: other
@@ -6573,17 +6607,17 @@ entries:
   - grapheme: ourselves
     phonemes: [a, r, s, e, l, v, z]
   - grapheme: out
-    phonemes: [8, t]
+    phonemes: [W, t]
   - grapheme: outcome
-    phonemes: [8, t, k, u, m]
+    phonemes: [W, t, k, u, m]
   - grapheme: outcomes
-    phonemes: [8, t, k, u, m, z]
+    phonemes: [W, t, k, u, m, z]
   - grapheme: outs
-    phonemes: [8, t, s]
+    phonemes: [W, t, s]
   - grapheme: outside
-    phonemes: [8, t, s, I, d]
+    phonemes: [W, t, s, I, d]
   - grapheme: outsides
-    phonemes: [8, t, s, I, d, z]
+    phonemes: [W, t, s, I, d, z]
   - grapheme: over
     phonemes: [O, v, 3]
   - grapheme: overall
@@ -6601,7 +6635,7 @@ entries:
   - grapheme: owns
     phonemes: [O, n, z]
   - grapheme: pa
-    phonemes: [p, u]
+    phonemes: [p, a]
   - grapheme: pace
     phonemes: [p, A, s]
   - grapheme: paced
@@ -6631,9 +6665,9 @@ entries:
   - grapheme: painted
     phonemes: [p, A, n, t, i, d]
   - grapheme: painting
-    phonemes: [p, A, n, t, 1, ng]
+    phonemes: [p, A, n, 1, ng]
   - grapheme: paintings
-    phonemes: [p, A, n, t, 1, ng, z]
+    phonemes: [p, A, n, 1, ng, z]
   - grapheme: paints
     phonemes: [p, A, n, t, s]
   - grapheme: pair
@@ -6645,15 +6679,15 @@ entries:
   - grapheme: pans
     phonemes: [p, '&', n, z]
   - grapheme: panel
-    phonemes: [p, '&', n, 0, l]
+    phonemes: [p, '&', n, 6, l]
   - grapheme: panels
-    phonemes: [p, '&', n, 0, l, s]
+    phonemes: [p, '&', n, 6, l, s]
   - grapheme: paper
     phonemes: [p, A, p, 3]
   - grapheme: papers
     phonemes: [p, A, p, 3, s]
   - grapheme: paradise
-    phonemes: [p, A, r, r, u, d, I, s]
+    phonemes: [p, A, r, r, u, d, Y, s]
   - grapheme: parent
     phonemes: [p, A, r, r, i, n, t]
   - grapheme: parented
@@ -6671,7 +6705,7 @@ entries:
   - grapheme: part
     phonemes: [p, a, r, t]
   - grapheme: parted
-    phonemes: [p, a, r, t, i, d]
+    phonemes: [p, a, r, dd, i, d]
   - grapheme: participant
     phonemes: [p, a, r, t, i, s, u, p, i, n, t]
   - grapheme: participants
@@ -6679,19 +6713,19 @@ entries:
   - grapheme: participate
     phonemes: [p, a, r, t, i, s, u, p, A, t]
   - grapheme: participated
-    phonemes: [p, a, r, t, i, s, u, p, A, t, i, d]
+    phonemes: [p, a, r, t, i, s, u, p, A, dd, i, d]
   - grapheme: participates
     phonemes: [p, a, r, t, i, s, u, p, A, t, s]
   - grapheme: participating
-    phonemes: [p, a, r, t, i, s, u, p, A, t, 1, ng]
+    phonemes: [p, a, r, t, i, s, u, p, A, dd, 1, ng]
   - grapheme: particular
-    phonemes: [p, a, r, t, i, k, y, o, l, 3]
+    phonemes: [p, a, r, t, i, k, y, x, l, 3]
   - grapheme: particularly
-    phonemes: [p, a, r, t, i, k, y, o, l, 3, l, E]
+    phonemes: [p, a, r, t, i, k, y, x, l, 3, l, E]
   - grapheme: particulars
-    phonemes: [p, a, r, t, i, k, y, o, l, 3, z]
+    phonemes: [p, a, r, t, i, k, y, x, l, 3, z]
   - grapheme: parties
-    phonemes: [p, a, r, t, E, s]
+    phonemes: [p, a, r, dd, E, s]
   - grapheme: partner
     phonemes: [p, a, r, t, n, 3]
   - grapheme: partners
@@ -6699,9 +6733,9 @@ entries:
   - grapheme: parts
     phonemes: [p, a, r, t, s]
   - grapheme: party
-    phonemes: [p, a, r, t, E]
+    phonemes: [p, a, r, dd, E]
   - grapheme: partys
-    phonemes: [p, a, r, t, E, s]
+    phonemes: [p, a, r, dd, E, s]
   - grapheme: pass
     phonemes: [p, '@', s]
   - grapheme: passed
@@ -6731,11 +6765,11 @@ entries:
   - grapheme: patients
     phonemes: [p, A, sh, i, n, t, s]
   - grapheme: pattern
-    phonemes: [p, '@', d, 3, n]
+    phonemes: [p, '@', dd, 3, n]
   - grapheme: patterned
-    phonemes: [p, '@', d, 3, n, d]
+    phonemes: [p, '@', dd, 3, n, d]
   - grapheme: patterns
-    phonemes: [p, '@', d, 3, n, z]
+    phonemes: [p, '@', dd, 3, n, z]
   - grapheme: paving
     phonemes: [p, A, v, 1, ng]
   - grapheme: pay
@@ -6745,25 +6779,25 @@ entries:
   - grapheme: payments
     phonemes: [p, A, m, i, n, t, s]
   - grapheme: pays
-    phonemes: [p, A, s]
+    phonemes: [p, A, z]
   - grapheme: peace
     phonemes: [p, E, s]
   - grapheme: peaces
     phonemes: [p, E, s, i, z]
   - grapheme: pedo
-    phonemes: [p, e, d, O]
+    phonemes: [p, e, dd, O]
   - grapheme: people
-    phonemes: [p, E, p, 0, l]
+    phonemes: [p, E, p, 6, l]
   - grapheme: pepper
     phonemes: [p, e, p, 3]
   - grapheme: peppers
-    phonemes: [p, e, p, 3, s]
+    phonemes: [p, e, p, 3, z]
   - grapheme: per
     phonemes: [p, 3]
   - grapheme: percentage
-    phonemes: [p, 3, s, e, n, t, i, j]
+    phonemes: [p, 3, s, e, n, i, j]
   - grapheme: percentages
-    phonemes: [p, 3, s, e, n, t, i, j, i, z]
+    phonemes: [p, 3, s, e, n, i, j, i, z]
   - grapheme: perception
     phonemes: [p, 3, s, e, p, sh, i, n]
   - grapheme: perceptions
@@ -6777,7 +6811,7 @@ entries:
   - grapheme: perform
     phonemes: [p, 3, f, 0, r, m]
   - grapheme: performance
-    phonemes: [p, 3, f, 0, r, m, i, n, z]
+    phonemes: [p, 3, f, 0, r, m, i, n, s]
   - grapheme: performances
     phonemes: [p, 3, f, 0, r, m, i, n, s, i, z]
   - grapheme: performed
@@ -6785,7 +6819,7 @@ entries:
   - grapheme: performing
     phonemes: [p, 3, f, 0, r, m, 1, ng]
   - grapheme: performs
-    phonemes: [p, 3, f, 0, r, m, s]
+    phonemes: [p, 3, f, 0, r, m, z]
   - grapheme: perhaps
     phonemes: [p, 3, h, '@', p, s]
   - grapheme: period
@@ -6797,19 +6831,19 @@ entries:
   - grapheme: permits
     phonemes: [p, 3, m, i, t, s]
   - grapheme: permitted
-    phonemes: [p, 3, m, i, d, i, d]
+    phonemes: [p, 3, m, i, dd, i, d]
   - grapheme: permitting
-    phonemes: [p, 3, m, i, d, 1, ng]
+    phonemes: [p, 3, m, i, dd, 1, ng]
   - grapheme: person
     phonemes: [p, 3, s, i, n]
   - grapheme: personal
-    phonemes: [p, 3, s, i, n, 0, l]
+    phonemes: [p, 3, s, i, n, 6, l]
   - grapheme: personalities
-    phonemes: [p, 3, s, i, n, '@', l, i, t, E, z]
+    phonemes: [p, 3, s, i, n, '@', l, i, dd, E, z]
   - grapheme: personality
-    phonemes: [p, 3, s, i, n, '@', l, i, t, E]
+    phonemes: [p, 3, s, i, n, '@', l, i, dd, E]
   - grapheme: personals
-    phonemes: [p, 3, s, i, n, 0, l, s]
+    phonemes: [p, 3, s, i, n, 6, l, s]
   - grapheme: persons
     phonemes: [p, 3, s, i, n, z]
   - grapheme: perspective
@@ -6823,19 +6857,19 @@ entries:
   - grapheme: phones
     phonemes: [f, O, n, z]
   - grapheme: photo
-    phonemes: [f, O, t, O]
+    phonemes: [f, O, dd, O]
   - grapheme: photograph
-    phonemes: [f, O, dd, O, g, r, '@', f]
+    phonemes: [f, O, dd, x, g, r, '@', f]
   - grapheme: photographed
-    phonemes: [f, O, dd, O, g, r, '@', f, d]
+    phonemes: [f, O, dd, x, g, r, '@', f, d]
   - grapheme: photographing
-    phonemes: [f, o, d, O, g, r, '@', f, 1, ng]
+    phonemes: [f, o, dd, x, g, r, '@', f, 1, ng]
   - grapheme: photographs
-    phonemes: [f, O, dd, O, g, r, '@', f, s]
+    phonemes: [f, O, dd, x, g, r, '@', f, s]
   - grapheme: photos
     phonemes: [f, O, dd, O, z]
   - grapheme: physical
-    phonemes: [f, i, z, i, k, 0, l]
+    phonemes: [f, i, z, i, k, 6, l]
   - grapheme: physician
     phonemes: [f, i, z, i, sh, i, n]
   - grapheme: piano
@@ -6861,7 +6895,7 @@ entries:
   - grapheme: pile
     phonemes: [p, I, l]
   - grapheme: piled
-    phonemes: [p, I, y, 0, l, d]
+    phonemes: [p, I, y, 6, l, d]
   - grapheme: pilot
     phonemes: [p, I, l, i, t]
   - grapheme: piloted
@@ -6909,11 +6943,11 @@ entries:
   - grapheme: plate
     phonemes: [p, l, A, t]
   - grapheme: plated
-    phonemes: [p, l, A, t, i, d]
+    phonemes: [p, l, A, dd, i, d]
   - grapheme: plates
     phonemes: [p, l, A, t, s]
   - grapheme: plating
-    phonemes: [p, l, A, t, 1, ng]
+    phonemes: [p, l, A, dd, 1, ng]
   - grapheme: play
     phonemes: [p, l, A]
   - grapheme: played
@@ -6927,7 +6961,7 @@ entries:
   - grapheme: plays
     phonemes: [p, l, A, s]
   - grapheme: pleading
-    phonemes: [p, l, E, d, 1, ng]
+    phonemes: [p, l, E, dd, 1, ng]
   - grapheme: please
     phonemes: [p, l, E, z]
   - grapheme: pleased
@@ -6947,9 +6981,9 @@ entries:
   - grapheme: pledging
     phonemes: [p, l, e, j, 1, ng]
   - grapheme: plentiful
-    phonemes: [p, l, e, n, t, i, f, 0, l]
+    phonemes: [p, l, e, n, t, i, f, 6, l]
   - grapheme: plenty
-    phonemes: [p, l, e, n, t, E]
+    phonemes: [p, l, e, n, E]
   - grapheme: plus
     phonemes: [p, l, u, s]
   - grapheme: pm
@@ -6961,23 +6995,23 @@ entries:
   - grapheme: point
     phonemes: [p, Q, n, t]
   - grapheme: pointed
-    phonemes: [p, Q, n, t, i, d]
+    phonemes: [p, Q, n, i, d]
   - grapheme: points
     phonemes: [p, Q, n, t, s]
   - grapheme: poison
     phonemes: [p, Q, z, i, n]
   - grapheme: police
-    phonemes: [p, O, l, E, s]
+    phonemes: [p, x, l, E, s]
   - grapheme: polices
-    phonemes: [p, O, l, E, s, i, z]
+    phonemes: [p, x, l, E, s, i, z]
   - grapheme: policies
-    phonemes: [p, a, l, i, s, E, s]
+    phonemes: [p, a, l, i, s, E, z]
   - grapheme: policy
     phonemes: [p, a, l, i, s, E]
   - grapheme: policys
-    phonemes: [p, a, l, i, s, E, s]
+    phonemes: [p, a, l, i, s, E, z]
   - grapheme: political
-    phonemes: [p, O, l, i, t, i, k, O, l]
+    phonemes: [p, O, l, i, t, i, k, 6, l]
   - grapheme: politician
     phonemes: [p, a, l, i, t, i, sh, i, n]
   - grapheme: politicians
@@ -7007,7 +7041,7 @@ entries:
   - grapheme: popular
     phonemes: [p, a, p, y, o, l, 3]
   - grapheme: populated
-    phonemes: [p, a, p, y, o, l, A, t, i, d]
+    phonemes: [p, a, p, y, o, l, A, dd, i, d]
   - grapheme: population
     phonemes: [p, a, p, y, o, l, A, sh, i, n]
   - grapheme: populations
@@ -7019,23 +7053,23 @@ entries:
   - grapheme: positions
     phonemes: [p, O, z, i, sh, i, n, z]
   - grapheme: positive
-    phonemes: [p, a, z, i, t, i, v]
+    phonemes: [p, a, z, i, dd, i, v]
   - grapheme: possibilities
-    phonemes: [p, a, s, i, b, i, l, i, t, E, z]
+    phonemes: [p, a, s, i, b, i, l, i, dd, E, z]
   - grapheme: possibility
-    phonemes: [p, a, s, i, b, i, l, i, t, E]
+    phonemes: [p, a, s, i, b, i, l, i, dd, E]
   - grapheme: possible
-    phonemes: [p, a, s, i, b, 0, l]
+    phonemes: [p, a, s, i, b, 6, l]
   - grapheme: possibly
     phonemes: [p, a, s, i, b, l, E]
   - grapheme: possiblyd
     phonemes: [p, a, s, i, b, l, E, d]
   - grapheme: potential
-    phonemes: [p, u, t, e, n, sh, 0, l]
+    phonemes: [p, u, t, e, n, sh, 6, l]
   - grapheme: potentially
-    phonemes: [p, u, t, e, n, sh, 0, l, l, E]
+    phonemes: [p, u, t, e, n, sh, 6, l, l, E]
   - grapheme: potentials
-    phonemes: [p, u, t, e, n, sh, 0, l, s]
+    phonemes: [p, u, t, e, n, sh, 6, l, s]
   - grapheme: pound
     phonemes: [p, 8, n, d]
   - grapheme: pounded
@@ -7057,9 +7091,9 @@ entries:
   - grapheme: powered
     phonemes: [p, 8, w, 3, d]
   - grapheme: powerful
-    phonemes: [p, 8, w, 3, f, 0, l]
+    phonemes: [p, 8, w, 3, f, 6, l]
   - grapheme: powerfully
-    phonemes: [p, 8, w, 3, f, 0, l, l, E]
+    phonemes: [p, 8, w, 3, f, 6, l, l, E]
   - grapheme: powerless
     phonemes: [p, 8, w, 3, l, e, s]
   - grapheme: powers
@@ -7083,7 +7117,7 @@ entries:
   - grapheme: predicting
     phonemes: [p, r, i, d, i, k, t, 1, ng]
   - grapheme: predicts
-    phonemes: [p, r, i, d, i, k, t, s]
+    phonemes: [p, r, i, d, i, k, s]
   - grapheme: prefer
     phonemes: [p, r, i, f, 3]
   - grapheme: preferred
@@ -7093,11 +7127,11 @@ entries:
   - grapheme: prefers
     phonemes: [p, r, i, f, 3, z]
   - grapheme: prepare
-    phonemes: [p, r, E, p, A, r]
+    phonemes: [p, r, i, p, A, r]
   - grapheme: prepared
-    phonemes: [p, r, E, p, A, r, d]
+    phonemes: [p, r, i, p, A, r, d]
   - grapheme: prepares
-    phonemes: [p, r, E, p, A, r, z]
+    phonemes: [p, r, i, p, A, r, z]
   - grapheme: presence
     phonemes: [p, r, e, z, i, n, s]
   - grapheme: presences
@@ -7105,15 +7139,15 @@ entries:
   - grapheme: present
     phonemes: [p, r, e, z, i, n, t]
   - grapheme: presented
-    phonemes: [p, r, E, z, e, n, t, i, d]
+    phonemes: [p, r, i, z, e, n, t, i, d]
   - grapheme: presenting
-    phonemes: [p, r, E, z, e, n, t, 1, ng]
+    phonemes: [p, r, i, z, e, n, t, 1, ng]
   - grapheme: presents
     phonemes: [p, r, e, z, i, n, t, s]
   - grapheme: president
     phonemes: [p, r, e, z, i, d, i, n, t]
   - grapheme: presidential
-    phonemes: [p, r, e, z, i, d, e, n, sh, 0, l]
+    phonemes: [p, r, e, z, i, d, e, n, sh, 6, l]
   - grapheme: presidents
     phonemes: [p, r, e, z, i, d, i, n, t, s]
   - grapheme: press
@@ -7129,27 +7163,27 @@ entries:
   - grapheme: pressures
     phonemes: [p, r, e, sh, 3, z]
   - grapheme: prettier
-    phonemes: [p, r, i, t, E, y, 3]
+    phonemes: [p, r, i, dd, E, y, 3]
   - grapheme: prettiest
-    phonemes: [p, r, i, t, E, y, i, s, t]
+    phonemes: [p, r, i, dd, E, y, i, s, t]
   - grapheme: pretty
-    phonemes: [p, r, i, t, E]
+    phonemes: [p, r, i, dd, E]
   - grapheme: prevent
-    phonemes: [p, r, E, v, e, n, t]
+    phonemes: [p, r, i, v, e, n, t]
   - grapheme: prevented
-    phonemes: [p, r, E, v, e, n, t, i, d]
+    phonemes: [p, r, i, v, e, n, t, i, d]
   - grapheme: prevents
-    phonemes: [p, r, E, v, e, n, t, s]
+    phonemes: [p, r, i, v, e, n, t, s]
   - grapheme: previous
     phonemes: [p, r, E, v, E, y, i, s]
   - grapheme: previously
     phonemes: [p, r, E, v, E, i, s, l, E]
   - grapheme: price
-    phonemes: [p, r, I, s]
+    phonemes: [p, r, Y, s]
   - grapheme: priced
-    phonemes: [p, r, I, s, t]
+    phonemes: [p, r, Y, s, t]
   - grapheme: prices
-    phonemes: [p, r, I, s, i, s]
+    phonemes: [p, r, Y, s, i, s]
   - grapheme: primaries
     phonemes: [p, r, I, m, A, r, E, z]
   - grapheme: primary
@@ -7161,15 +7195,15 @@ entries:
   - grapheme: primes
     phonemes: [p, r, I, m, z]
   - grapheme: principle
-    phonemes: [p, r, i, n, s, i, p, 0, l]
+    phonemes: [p, r, i, n, s, i, p, 6, l]
   - grapheme: principled
-    phonemes: [p, r, i, n, s, i, p, 0, l, d]
+    phonemes: [p, r, i, n, s, i, p, 6, l, d]
   - grapheme: principles
-    phonemes: [p, r, i, n, s, i, b, 0, l, s]
+    phonemes: [p, r, i, n, s, i, p, 6, l, s]
   - grapheme: priorities
-    phonemes: [p, r, I, 0, r, r, i, t, E, z]
+    phonemes: [p, r, I, 0, r, r, i, dd, E, z]
   - grapheme: priority
-    phonemes: [p, r, I, 0, r, r, i, t, E]
+    phonemes: [p, r, I, 0, r, r, i, dd, E]
   - grapheme: prison
     phonemes: [p, r, i, z, i, n]
   - grapheme: prisons
@@ -7185,9 +7219,9 @@ entries:
   - grapheme: problems
     phonemes: [p, r, a, b, l, e, m, z]
   - grapheme: procedure
-    phonemes: [p, r, O, s, E, j, 3]
+    phonemes: [p, r, x, s, E, j, 3]
   - grapheme: procedures
-    phonemes: [p, r, O, s, E, j, 3, z]
+    phonemes: [p, r, x, s, E, j, 3, z]
   - grapheme: process
     phonemes: [p, r, a, s, e, s]
   - grapheme: processed
@@ -7195,27 +7229,27 @@ entries:
   - grapheme: processes
     phonemes: [p, r, a, s, e, s, i, s]
   - grapheme: produce
-    phonemes: [p, r, O, d, o, s]
+    phonemes: [p, r, x, d, o, s]
   - grapheme: produced
-    phonemes: [p, r, O, d, u, s, t]
+    phonemes: [p, r, x, d, u, s, t]
   - grapheme: producer
     phonemes: [p, r, u, d, o, s, 3]
   - grapheme: producers
     phonemes: [p, r, u, d, o, s, 3, z]
   - grapheme: produces
-    phonemes: [p, r, O, d, o, s, i, z]
+    phonemes: [p, r, x, d, o, s, i, z]
   - grapheme: product
     phonemes: [p, r, a, d, u, c, t]
   - grapheme: production
-    phonemes: [p, r, O, d, u, k, sh, i, n]
+    phonemes: [p, r, x, d, u, k, sh, i, n]
   - grapheme: products
     phonemes: [p, r, a, d, u, c, t, s]
   - grapheme: professional
-    phonemes: [p, r, u, f, e, sh, i, n, n, 0, l]
+    phonemes: [p, r, u, f, e, sh, i, n, n, 6, l]
   - grapheme: professionally
-    phonemes: [p, r, u, f, e, sh, i, n, n, 0, l, l, E]
+    phonemes: [p, r, u, f, e, sh, i, n, n, 6, l, l, E]
   - grapheme: professionals
-    phonemes: [p, r, u, f, e, sh, i, n, n, 0, l, s]
+    phonemes: [p, r, u, f, e, sh, i, n, n, 6, l, s]
   - grapheme: professor
     phonemes: [p, r, O, f, e, s, 3]
   - grapheme: professors
@@ -7223,7 +7257,7 @@ entries:
   - grapheme: profit
     phonemes: [p, r, a, f, i, t]
   - grapheme: profited
-    phonemes: [p, r, a, f, i, d, i, d]
+    phonemes: [p, r, a, f, i, dd, i, d]
   - grapheme: profiting
     phonemes: [p, r, a, f, i, dd, 1, ng]
   - grapheme: profits
@@ -7237,17 +7271,17 @@ entries:
   - grapheme: progress
     phonemes: [p, r, a, g, r, e, s]
   - grapheme: progressed
-    phonemes: [p, r, a, g, r, e, s, t]
+    phonemes: [p, r, x, g, r, e, s, t]
   - grapheme: progresses
-    phonemes: [p, r, a, g, r, e, s, i, s]
+    phonemes: [p, r, x, g, r, e, s, i, s]
   - grapheme: progressing
-    phonemes: [p, r, a, g, r, e, s, 1, ng]
+    phonemes: [p, r, x, g, r, e, s, 1, ng]
   - grapheme: progressive
     phonemes: [p, r, u, g, r, e, s, i, v]
   - grapheme: project
     phonemes: [p, r, a, j, e, k, t]
   - grapheme: projected
-    phonemes: [p, r, a, j, e, k, t, i, d]
+    phonemes: [p, r, x, j, e, k, t, i, d]
   - grapheme: projects
     phonemes: [p, r, a, j, e, k, t, s]
   - grapheme: promise
@@ -7259,25 +7293,25 @@ entries:
   - grapheme: promising
     phonemes: [p, r, a, m, i, s, 1, ng]
   - grapheme: promote
-    phonemes: [p, r, O, m, O, t]
+    phonemes: [p, r, x, m, O, t]
   - grapheme: promoted
-    phonemes: [p, r, O, m, O, t, i, d]
+    phonemes: [p, r, x, m, O, dd, i, d]
   - grapheme: promotes
-    phonemes: [p, r, O, m, O, t, s]
+    phonemes: [p, r, x, m, O, t, s]
   - grapheme: promoting
-    phonemes: [p, r, O, m, O, t, 1, ng]
+    phonemes: [p, r, x, m, O, dd, 1, ng]
   - grapheme: proper
     phonemes: [p, r, a, p, 3]
   - grapheme: properties
-    phonemes: [p, r, a, p, 3, t, E, z]
+    phonemes: [p, r, a, p, 3, dd, E, z]
   - grapheme: property
-    phonemes: [p, r, a, p, 3, t, E]
+    phonemes: [p, r, a, p, 3, dd, E]
   - grapheme: propertys
-    phonemes: [p, r, a, p, 3, t, E, z]
+    phonemes: [p, r, a, p, 3, dd, E, z]
   - grapheme: proposal
-    phonemes: [p, r, u, p, O, z, 0, l]
+    phonemes: [p, r, u, p, O, z, 6, l]
   - grapheme: proposals
-    phonemes: [p, r, u, p, O, z, 0, l, s]
+    phonemes: [p, r, u, p, O, z, 6, l, s]
   - grapheme: propose
     phonemes: [p, r, u, p, O, z]
   - grapheme: proposed
@@ -7287,25 +7321,25 @@ entries:
   - grapheme: proposing
     phonemes: [p, r, u, p, O, z, 1, ng]
   - grapheme: prosecutor
-    phonemes: [p, r, a, s, i, k, y, o, t, 3]
+    phonemes: [p, r, a, s, i, k, y, o, dd, 3]
   - grapheme: prosecutors
-    phonemes: [p, r, a, s, i, k, y, o, t, 3, z]
+    phonemes: [p, r, a, s, i, k, y, o, dd, 3, z]
   - grapheme: protect
-    phonemes: [p, r, O, t, e, k, t]
+    phonemes: [p, r, x, t, e, k, t]
   - grapheme: protected
-    phonemes: [p, r, O, t, e, k, t, i, d]
+    phonemes: [p, r, x, t, e, k, t, i, d]
   - grapheme: protection
-    phonemes: [p, r, O, t, e, k, sh, i, n]
+    phonemes: [p, r, x, t, e, k, sh, i, n]
   - grapheme: protections
-    phonemes: [p, r, O, t, e, k, sh, i, n, z]
+    phonemes: [p, r, x, t, e, k, sh, i, n, z]
   - grapheme: protects
-    phonemes: [p, r, O, t, e, k, t, s]
+    phonemes: [p, r, x, t, e, k, t, s]
   - grapheme: proud
     phonemes: [p, r, 8, d]
   - grapheme: prouder
-    phonemes: [p, r, 8, d, 3]
+    phonemes: [p, r, 8, dd, 3]
   - grapheme: proudest
-    phonemes: [p, r, 8, d, i, s, t]
+    phonemes: [p, r, 8, dd, i, s, t]
   - grapheme: prove
     phonemes: [p, r, o, v]
   - grapheme: proved
@@ -7313,11 +7347,11 @@ entries:
   - grapheme: proves
     phonemes: [p, r, o, v, z]
   - grapheme: provide
-    phonemes: [p, r, O, v, I, d]
+    phonemes: [p, r, x, v, I, d]
   - grapheme: provided
-    phonemes: [p, r, O, v, I, d, i, d]
+    phonemes: [p, r, x, v, I, d, i, d]
   - grapheme: provides
-    phonemes: [p, r, O, v, I, d, z]
+    phonemes: [p, r, x, v, I, d, z]
   - grapheme: proving
     phonemes: [p, r, o, v, 1, ng]
   - grapheme: public
@@ -7375,9 +7409,9 @@ entries:
   - grapheme: qualified
     phonemes: [k, w, 9, l, i, f, I, d]
   - grapheme: qualities
-    phonemes: [k, w, 9, l, i, d, E, z]
+    phonemes: [k, w, 9, l, i, dd, E, z]
   - grapheme: quality
-    phonemes: [k, w, 9, l, i, d, E]
+    phonemes: [k, w, 9, l, i, dd, E]
   - grapheme: quarter
     phonemes: [k, 0, r, dd, 3]
   - grapheme: quartered
@@ -7409,7 +7443,7 @@ entries:
   - grapheme: quietly
     phonemes: [k, w, I, i, t, l, E]
   - grapheme: quite
-    phonemes: [k, w, I, t]
+    phonemes: [k, w, Y, t]
   - grapheme: r
     phonemes: [a, r]
   - grapheme: race
@@ -7433,7 +7467,7 @@ entries:
   - grapheme: raise
     phonemes: [r, A, z]
   - grapheme: raised
-    phonemes: [r, A, s, t]
+    phonemes: [r, A, z, d]
   - grapheme: raises
     phonemes: [r, A, z, i, z]
   - grapheme: ran
@@ -7453,7 +7487,7 @@ entries:
   - grapheme: rate
     phonemes: [r, A, t]
   - grapheme: rated
-    phonemes: [r, A, d, i, d]
+    phonemes: [r, A, dd, i, d]
   - grapheme: rates
     phonemes: [r, A, t, s]
   - grapheme: rather
@@ -7463,7 +7497,7 @@ entries:
   - grapheme: ratings
     phonemes: [r, A, dd, 1, ng, z]
   - grapheme: rational
-    phonemes: [r, '@', sh, i, n, 0, l]
+    phonemes: [r, '@', sh, i, n, 6, l]
   - grapheme: rats
     phonemes: [r, '@', t, s]
   - grapheme: ray
@@ -7485,31 +7519,31 @@ entries:
   - grapheme: read
     phonemes: [r, E, d]
   - grapheme: reader
-    phonemes: [r, E, d, 3]
+    phonemes: [r, E, dd, 3]
   - grapheme: readers
-    phonemes: [r, E, d, 3, z]
+    phonemes: [r, E, dd, 3, z]
   - grapheme: readied
-    phonemes: [r, e, d, E, d]
+    phonemes: [r, e, dd, E, d]
   - grapheme: readies
-    phonemes: [r, e, d, E, z]
+    phonemes: [r, e, dd, E, z]
   - grapheme: reading
-    phonemes: [r, E, d, 1, ng]
+    phonemes: [r, E, dd, 1, ng]
   - grapheme: readings
-    phonemes: [r, E, d, 1, ng, z]
+    phonemes: [r, E, dd, 1, ng, z]
   - grapheme: reads
     phonemes: [r, E, d, z]
   - grapheme: ready
-    phonemes: [r, e, d, E]
+    phonemes: [r, e, dd, E]
   - grapheme: real
     phonemes: [r, E, l]
   - grapheme: real(2)
     phonemes: [r, E, u, l]
   - grapheme: realities
-    phonemes: [r, E, y, '@', l, i, t, E, z]
+    phonemes: [r, E, y, '@', l, i, dd, E, z]
   - grapheme: reality
-    phonemes: [r, E, y, '@', l, i, t, E]
+    phonemes: [r, E, y, '@', l, i, dd, E]
   - grapheme: realitys
-    phonemes: [r, E, y, '@', l, i, t, E, z]
+    phonemes: [r, E, y, '@', l, i, dd, E, z]
   - grapheme: realize
     phonemes: [r, E, l, l, I, z]
   - grapheme: realized
@@ -7527,19 +7561,19 @@ entries:
   - grapheme: reasons
     phonemes: [r, E, z, i, n, z]
   - grapheme: recall
-    phonemes: [r, E, k, 9, l]
+    phonemes: [r, i, k, 9, l]
   - grapheme: recalled
-    phonemes: [r, E, k, 9, l, d]
+    phonemes: [r, i, k, 9, l, d]
   - grapheme: recalling
-    phonemes: [r, E, k, 9, l, 1, ng]
+    phonemes: [r, i, k, 9, l, 1, ng]
   - grapheme: recalls
-    phonemes: [r, E, k, 9, l, s]
+    phonemes: [r, i, k, 9, l, s]
   - grapheme: receive
-    phonemes: [r, E, s, E, v]
+    phonemes: [r, i, s, E, v]
   - grapheme: received
-    phonemes: [r, E, s, E, v, d]
+    phonemes: [r, i, s, E, v, d]
   - grapheme: receives
-    phonemes: [r, E, s, E, v, z]
+    phonemes: [r, i, s, E, v, z]
   - grapheme: recent
     phonemes: [r, E, s, i, n, t]
   - grapheme: recently
@@ -7565,41 +7599,41 @@ entries:
   - grapheme: recorded
     phonemes: [r, i, k, 0, r, d, i, d]
   - grapheme: records
-    phonemes: [r, i, k, 0, r, d, z]
+    phonemes: [r, e, k, 0, r, d, z]
   - grapheme: recover
-    phonemes: [r, E, k, u, v, 3]
+    phonemes: [r, i, k, u, v, 3]
   - grapheme: recovered
-    phonemes: [r, E, k, u, v, 3, d]
+    phonemes: [r, i, k, u, v, 3, d]
   - grapheme: recovering
-    phonemes: [r, E, k, u, v, 3, r, 1, ng]
+    phonemes: [r, i, k, u, v, 3, r, 1, ng]
   - grapheme: recovers
-    phonemes: [r, E, k, u, v, 3, z]
+    phonemes: [r, i, k, u, v, 3, z]
   - grapheme: red
     phonemes: [r, e, d]
   - grapheme: reds
     phonemes: [r, e, d, z]
   - grapheme: reduce
-    phonemes: [r, E, d, o, s]
+    phonemes: [r, i, d, o, s]
   - grapheme: reduced
-    phonemes: [r, E, d, o, s, t]
+    phonemes: [r, i, d, o, s, t]
   - grapheme: reduces
-    phonemes: [r, E, d, o, s, i, z]
+    phonemes: [r, i, d, o, s, i, z]
   - grapheme: ree
     phonemes: [r, E]
   - grapheme: reeling
     phonemes: [r, E, l, l, 1, ng]
   - grapheme: refer
-    phonemes: [r, E, f, 3]
+    phonemes: [r, i, f, 3]
   - grapheme: reference
     phonemes: [r, e, f, r, i, n, s]
   - grapheme: references
     phonemes: [r, e, f, r, i, n, s, i, z]
   - grapheme: referred
-    phonemes: [r, E, f, 3, d]
+    phonemes: [r, i, f, 3, d]
   - grapheme: referring
-    phonemes: [r, E, f, 3, 1, ng]
+    phonemes: [r, i, f, 3, 1, ng]
   - grapheme: refers
-    phonemes: [r, E, f, 3, z]
+    phonemes: [r, i, f, 3, z]
   - grapheme: reflect
     phonemes: [r, i, f, l, e, k, t]
   - grapheme: reflected
@@ -7609,23 +7643,23 @@ entries:
   - grapheme: reflects
     phonemes: [r, i, f, l, e, k, t, s]
   - grapheme: reform
-    phonemes: [r, E, f, 0, r, m]
+    phonemes: [r, i, f, 0, r, m]
   - grapheme: reformed
-    phonemes: [r, E, f, 0, r, m, d]
+    phonemes: [r, i, f, 0, r, m, d]
   - grapheme: reforming
-    phonemes: [r, E, f, 0, r, m, 1, ng]
+    phonemes: [r, i, f, 0, r, m, 1, ng]
   - grapheme: reforms
-    phonemes: [r, E, f, 0, r, m, s]
+    phonemes: [r, i, f, 0, r, m, s]
   - grapheme: refusal
-    phonemes: [r, E, f, y, o, z, 0, l]
+    phonemes: [r, i, f, y, o, z, 0, l]
   - grapheme: refuse
-    phonemes: [r, E, f, o, z]
+    phonemes: [r, i, f, o, z]
   - grapheme: refused
-    phonemes: [r, E, f, y, o, z, d]
+    phonemes: [r, i, f, y, o, z, d]
   - grapheme: refuses
-    phonemes: [r, E, f, y, o, z, i, z]
+    phonemes: [r, i, f, y, o, z, i, z]
   - grapheme: refusing
-    phonemes: [r, E, f, y, o, z, 1, ng]
+    phonemes: [r, i, f, y, o, z, 1, ng]
   - grapheme: regard
     phonemes: [r, i, g, a, r, d]
   - grapheme: regarded
@@ -7641,13 +7675,13 @@ entries:
   - grapheme: region
     phonemes: [r, E, j, i, n]
   - grapheme: regional
-    phonemes: [r, E, g, i, n, n, 0, l]
+    phonemes: [r, E, g, i, n, n, 6, l]
   - grapheme: regionals
-    phonemes: [r, E, g, i, n, n, 0, l, z]
+    phonemes: [r, E, g, i, n, n, 6, l, z]
   - grapheme: regions
     phonemes: [r, E, j, i, n, z]
   - grapheme: regret
-    phonemes: [r, E, g, r, e, t]
+    phonemes: [r, i, g, r, e, t]
   - grapheme: regular
     phonemes: [r, e, g, y, o, l, 3]
   - grapheme: regulars
@@ -7657,71 +7691,71 @@ entries:
   - grapheme: regulations
     phonemes: [r, e, g, y, o, l, A, sh, i, n, z]
   - grapheme: reject
-    phonemes: [r, E, j, e, k, t]
+    phonemes: [r, i, j, e, k, t]
   - grapheme: rejected
-    phonemes: [r, E, j, e, k, t, i, d]
+    phonemes: [r, i, j, e, k, t, i, d]
   - grapheme: rejecting
-    phonemes: [r, E, j, e, k, t, 1, ng]
+    phonemes: [r, i, j, e, k, t, 1, ng]
   - grapheme: rejects
     phonemes: [r, E, j, e, k, t, s]
   - grapheme: relate
-    phonemes: [r, E, l, A, t]
+    phonemes: [r, i, l, A, t]
   - grapheme: related
-    phonemes: [r, E, l, A, t, i, d]
+    phonemes: [r, i, l, A, t, i, d]
   - grapheme: relates
-    phonemes: [r, E, l, A, t, s]
+    phonemes: [r, i, l, A, t, s]
   - grapheme: relating
-    phonemes: [r, E, l, A, d, 1, ng]
+    phonemes: [r, i, l, A, d, 1, ng]
   - grapheme: relation
-    phonemes: [r, E, l, A, sh, i, n]
+    phonemes: [r, i, l, A, sh, i, n]
   - grapheme: relations
-    phonemes: [r, E, l, A, sh, i, n, z]
+    phonemes: [r, i, l, A, sh, i, n, z]
   - grapheme: relationship
-    phonemes: [r, E, l, A, sh, u, n, sh, i, p]
+    phonemes: [r, i, l, A, sh, u, n, sh, i, p]
   - grapheme: relationships
-    phonemes: [r, E, l, A, sh, u, n, sh, i, p, s]
+    phonemes: [r, i, l, A, sh, u, n, sh, i, p, s]
   - grapheme: relatively
     phonemes: [r, e, l, i, t, i, v, l, E]
   - grapheme: release
-    phonemes: [r, E, l, E, s]
+    phonemes: [r, i, l, E, s]
   - grapheme: released
-    phonemes: [r, E, l, E, s, t]
+    phonemes: [r, i, l, E, s, t]
   - grapheme: releases
-    phonemes: [r, E, l, E, s, i, z]
+    phonemes: [r, i, l, E, s, i, z]
   - grapheme: releasing
-    phonemes: [r, E, l, E, s, 1, ng]
+    phonemes: [r, i, l, E, s, 1, ng]
   - grapheme: relied
     phonemes: [r, i, l, I, d]
   - grapheme: relief
-    phonemes: [r, E, l, E, f]
+    phonemes: [r, i, l, E, f]
   - grapheme: reliefs
-    phonemes: [r, E, l, E, f, s]
+    phonemes: [r, i, l, E, f, s]
   - grapheme: relies
     phonemes: [r, i, l, I, z]
   - grapheme: relieved
-    phonemes: [r, E, l, E, v, d]
+    phonemes: [r, i, l, E, v, d]
   - grapheme: relieving
-    phonemes: [r, E, l, E, v, 1, ng]
+    phonemes: [r, i, l, E, v, 1, ng]
   - grapheme: religion
-    phonemes: [r, E, l, i, j, i, n]
+    phonemes: [r, i, l, i, j, i, n]
   - grapheme: religions
-    phonemes: [r, E, l, i, j, i, n, z]
+    phonemes: [r, i, l, i, j, i, n, z]
   - grapheme: religious
-    phonemes: [r, E, l, i, j, i, s]
+    phonemes: [r, i, l, i, j, i, s]
   - grapheme: rely
-    phonemes: [r, E, l, I]
+    phonemes: [r, i, l, I]
   - grapheme: relying
     phonemes: [r, i, l, I, 1, ng]
   - grapheme: remain
-    phonemes: [r, E, m, A, n]
+    phonemes: [r, i, m, A, n]
   - grapheme: remains
-    phonemes: [r, E, m, A, n, z]
+    phonemes: [r, i, m, A, n, z]
   - grapheme: remember
-    phonemes: [r, E, m, e, m, b, 3]
+    phonemes: [r, i, m, e, m, b, 3]
   - grapheme: remembered
-    phonemes: [r, E, m, e, m, b, 3, d]
+    phonemes: [r, i, m, e, m, b, 3, d]
   - grapheme: remembers
-    phonemes: [r, E, m, e, m, b, 3, z]
+    phonemes: [r, i, m, e, m, b, 3, z]
   - grapheme: remind
     phonemes: [r, i, m, I, n, d]
   - grapheme: reminded
@@ -7729,17 +7763,17 @@ entries:
   - grapheme: reminding
     phonemes: [r, i, m, I, n, d, 1, ng]
   - grapheme: reminds
-    phonemes: [r, i, m, I, n, d, z]
+    phonemes: [r, i, m, I, n, z]
   - grapheme: remove
-    phonemes: [r, E, m, o, v]
+    phonemes: [r, i, m, o, v]
   - grapheme: removed
-    phonemes: [r, E, m, o, v, d]
+    phonemes: [r, i, m, o, v, d]
   - grapheme: removes
-    phonemes: [r, E, m, o, v, z]
+    phonemes: [r, i, m, o, v, z]
   - grapheme: removing
-    phonemes: [r, E, m, o, v, 1, ng]
+    phonemes: [r, i, m, o, v, 1, ng]
   - grapheme: rendezvous
-    phonemes: [r, a, n, d, e, v, o]
+    phonemes: [r, a, n, d, A, v, o]
   - grapheme: repeat
     phonemes: [r, i, p, E, t]
   - grapheme: repeated
@@ -7749,71 +7783,71 @@ entries:
   - grapheme: repeats
     phonemes: [r, i, p, E, t, s]
   - grapheme: replace
-    phonemes: [r, E, p, l, A, s]
+    phonemes: [r, i, p, l, A, s]
   - grapheme: replaced
-    phonemes: [r, E, p, l, A, s, t]
+    phonemes: [r, i, p, l, A, s, t]
   - grapheme: replaces
-    phonemes: [r, E, p, l, A, s, i, z]
+    phonemes: [r, i, p, l, A, s, i, z]
   - grapheme: replacing
-    phonemes: [r, E, p, l, A, s, 1, ng]
+    phonemes: [r, i, p, l, A, s, 1, ng]
   - grapheme: report
-    phonemes: [r, E, p, 0, r, t]
+    phonemes: [r, i, p, 0, r, t]
   - grapheme: reported
-    phonemes: [r, E, p, 0, r, t, i, d]
+    phonemes: [r, i, p, 0, r, dd, i, d]
   - grapheme: reporter
-    phonemes: [r, E, p, 0, r, d, 3]
+    phonemes: [r, i, p, 0, r, dd, 3]
   - grapheme: reporters
-    phonemes: [r, E, p, 0, r, d, 3, z]
+    phonemes: [r, i, p, 0, r, dd, 3, z]
   - grapheme: reports
-    phonemes: [r, E, p, 0, r, t, s]
+    phonemes: [r, i, p, 0, r, t, s]
   - grapheme: represent
     phonemes: [r, e, p, r, E, z, e, n, t]
   - grapheme: representative
-    phonemes: [r, e, p, r, i, z, e, n, n, i, t, i, v]
+    phonemes: [r, e, p, r, i, z, e, n, n, i, dd, i, v]
   - grapheme: representatives
-    phonemes: [r, e, p, r, i, z, e, n, n, i, t, i, v, z]
+    phonemes: [r, e, p, r, i, z, e, n, n, i, dd, i, v, z]
   - grapheme: represents
     phonemes: [r, e, p, r, E, z, e, n, t, s]
   - grapheme: republican
-    phonemes: [r, E, p, u, b, l, i, k, i, n]
+    phonemes: [r, i, p, u, b, l, i, k, i, n]
   - grapheme: republicans
-    phonemes: [r, E, p, u, b, l, i, k, i, n, s]
+    phonemes: [r, i, p, u, b, l, i, k, i, n, s]
   - grapheme: request
-    phonemes: [r, E, k, w, e, s, t]
+    phonemes: [r, i, k, w, e, s, t]
   - grapheme: requested
-    phonemes: [r, E, k, w, e, s, t, i, d]
+    phonemes: [r, i, k, w, e, s, t, i, d]
   - grapheme: requesting
-    phonemes: [r, E, k, w, e, s, t, 1, ng]
+    phonemes: [r, i, k, w, e, s, t, 1, ng]
   - grapheme: requests
-    phonemes: [r, E, k, w, e, s, t, s]
+    phonemes: [r, i, k, w, e, s, t, s]
   - grapheme: require
-    phonemes: [r, E, k, w, I, 3]
+    phonemes: [r, i, k, w, I, 3]
   - grapheme: required
-    phonemes: [r, E, k, w, I, 3, d]
+    phonemes: [r, i, k, w, I, 3, d]
   - grapheme: requirement
     phonemes: [r, i, k, w, I, 3, m, i, n, t]
   - grapheme: requirements
-    phonemes: [r, i, k, w, I, 3, m, i, n, t, s]
+    phonemes: [r, i, k, w, I, 3, m, i, n, s]
   - grapheme: requires
-    phonemes: [r, E, k, w, I, 3, s]
+    phonemes: [r, i, k, w, I, 3, s]
   - grapheme: research
-    phonemes: [r, E, s, 3, ch]
+    phonemes: [r, i, s, 3, ch]
   - grapheme: researched
-    phonemes: [r, E, s, 3, ch, t]
+    phonemes: [r, i, s, 3, ch, t]
   - grapheme: researcher
-    phonemes: [r, E, s, 3, ch, 3]
+    phonemes: [r, i, s, 3, ch, 3]
   - grapheme: researchers
-    phonemes: [r, E, s, 3, ch, 3, z]
+    phonemes: [r, i, s, 3, ch, 3, z]
   - grapheme: researches
-    phonemes: [r, E, s, 3, ch, i, z]
+    phonemes: [r, i, s, 3, ch, i, z]
   - grapheme: researching
-    phonemes: [r, E, sh, 3, ch, 1, ng]
+    phonemes: [r, i, sh, 3, ch, 1, ng]
   - grapheme: reset
-    phonemes: [r, E, s, e, t]
+    phonemes: [r, i, s, e, t]
   - grapheme: resident
     phonemes: [r, e, z, i, d, i, n, t]
   - grapheme: residential
-    phonemes: [r, e, z, i, d, e, n, sh, 0, l]
+    phonemes: [r, e, z, i, d, e, n, sh, 6, l]
   - grapheme: residents
     phonemes: [r, e, z, i, d, i, n, t, s]
   - grapheme: residing
@@ -7825,9 +7859,9 @@ entries:
   - grapheme: resource
     phonemes: [r, E, s, 0, r, s]
   - grapheme: resourced
-    phonemes: [r, E, s, 0, r, s, d]
+    phonemes: [r, i, s, 0, r, s, d]
   - grapheme: resources
-    phonemes: [r, E, s, 0, r, s, i, z]
+    phonemes: [r, i, s, 0, r, s, i, z]
   - grapheme: respect
     phonemes: [r, i, s, p, e, k, t]
   - grapheme: respected
@@ -7837,17 +7871,17 @@ entries:
   - grapheme: respects
     phonemes: [r, i, s, p, e, k, t, s]
   - grapheme: respond
-    phonemes: [r, e, s, p, a, n, d]
+    phonemes: [r, i, s, p, a, n, d]
   - grapheme: responded
-    phonemes: [r, e, s, p, a, n, d, i, d]
+    phonemes: [r, i, s, p, a, n, d, i, d]
   - grapheme: responding
-    phonemes: [r, e, s, p, a, n, d, 1, ng]
+    phonemes: [r, i, s, p, a, n, d, 1, ng]
   - grapheme: responds
-    phonemes: [r, e, s, p, a, n, d, z]
+    phonemes: [r, i, s, p, a, n, d, z]
   - grapheme: response
-    phonemes: [r, e, s, p, a, n, s]
+    phonemes: [r, i, s, p, a, n, s]
   - grapheme: responses
-    phonemes: [r, e, s, p, a, n, s, i, z]
+    phonemes: [r, i, s, p, a, n, s, i, z]
   - grapheme: responsibilities
     phonemes: [r, i, s, p, a, n, s, i, b, i, l, l, i, d, E, z]
   - grapheme: responsibility
@@ -7867,25 +7901,25 @@ entries:
   - grapheme: rests
     phonemes: [r, e, s, t, s]
   - grapheme: result
-    phonemes: [r, E, z, 0, l, t]
+    phonemes: [r, i, z, 6, l, t]
   - grapheme: resulted
-    phonemes: [r, E, z, 0, l, t, i, d]
+    phonemes: [r, i, z, 6, l, t, i, d]
   - grapheme: results
-    phonemes: [r, E, z, 0, l, t, s]
+    phonemes: [r, i, z, 6, l, t, s]
   - grapheme: return
-    phonemes: [r, E, t, 3, n]
+    phonemes: [r, i, t, 3, n]
   - grapheme: returned
-    phonemes: [r, E, t, 3, n, d]
+    phonemes: [r, i, t, 3, n, d]
   - grapheme: returns
-    phonemes: [r, E, t, 3, n, z]
+    phonemes: [r, i, t, 3, n, z]
   - grapheme: reveal
-    phonemes: [r, E, v, E, l]
+    phonemes: [r, i, v, E, l]
   - grapheme: revealed
-    phonemes: [r, E, v, E, l, d]
+    phonemes: [r, i, v, E, l, d]
   - grapheme: revealing
-    phonemes: [r, E, v, E, l, l, 1, ng]
+    phonemes: [r, i, v, E, l, l, 1, ng]
   - grapheme: reveals
-    phonemes: [r, E, v, E, l, z]
+    phonemes: [r, i, v, E, l, z]
   - grapheme: revenue
     phonemes: [r, e, v, i, n, o]
   - grapheme: revenues
@@ -7911,11 +7945,11 @@ entries:
   - grapheme: rides
     phonemes: [r, I, d, z]
   - grapheme: riding
-    phonemes: [r, I, d, 1, ng]
+    phonemes: [r, I, dd, 1, ng]
   - grapheme: right
-    phonemes: [r, I, t]
+    phonemes: [r, Y, t]
   - grapheme: rights
-    phonemes: [r, I, t, s]
+    phonemes: [r, Y, t, s]
   - grapheme: ring 
     phonemes: [r, 1, ng]
   - grapheme: ringing
@@ -7979,7 +8013,7 @@ entries:
   - grapheme: root
     phonemes: [r, o, t]
   - grapheme: rooted
-    phonemes: [r, o, t, i, d]
+    phonemes: [r, o, dd, i, d]
   - grapheme: rooting
     phonemes: [r, o, dd, 1, ng]
   - grapheme: roots
@@ -7987,9 +8021,9 @@ entries:
   - grapheme: rose
     phonemes: [r, O, z]
   - grapheme: route
-    phonemes: [r, o, t]
+    phonemes: [r, W, t]
   - grapheme: routes
-    phonemes: [r, o, t, s]
+    phonemes: [r, W, t, s]
   - grapheme: row
     phonemes: [r, O]
   - grapheme: rowed
@@ -8011,7 +8045,7 @@ entries:
   - grapheme: runs
     phonemes: [r, u, n, z]
   - grapheme: rural
-    phonemes: [r, 6, r, 0, l]
+    phonemes: [r, 3, r, 6, l]
   - grapheme: rush
     phonemes: [r, u, sh]
   - grapheme: rushed
@@ -8025,9 +8059,9 @@ entries:
   - grapheme: russians
     phonemes: [r, u, sh, i, n, z]
   - grapheme: sacrifice
-    phonemes: [s, '@', k, r, i, f, I, s]
+    phonemes: [s, '@', k, r, i, f, Y, s]
   - grapheme: sacrificed
-    phonemes: [s, '@', k, r, i, f, I, s, t]
+    phonemes: [s, '@', k, r, i, f, Y, s, t]
   - grapheme: sad
     phonemes: [s, '@', d]
   - grapheme: sadness
@@ -8057,17 +8091,17 @@ entries:
   - grapheme: salts
     phonemes: [s, 9, l, t, s]
   - grapheme: salute
-    phonemes: [s, a, l, o, t]
+    phonemes: [s, x, l, o, t]
   - grapheme: same
     phonemes: [s, A, m]
   - grapheme: sample
-    phonemes: [s, '&', m, p, 0, l]
+    phonemes: [s, '&', m, p, 6, l]
   - grapheme: sampled
-    phonemes: [s, '&', m, p, 0, l, d]
+    phonemes: [s, '&', m, p, 6, l, d]
   - grapheme: sampler
     phonemes: [s, '&', m, p, l, 3]
   - grapheme: samples
-    phonemes: [s, '&', m, p, 0, l, z]
+    phonemes: [s, '&', m, p, 6, l, z]
   - grapheme: sampling
     phonemes: [s, '&', m, p, l, 1, ng]
   - grapheme: sand
@@ -8079,7 +8113,7 @@ entries:
   - grapheme: sat
     phonemes: [s, '@', t]
   - grapheme: satin
-    phonemes: [s, '@', t, i, n]
+    phonemes: [s, '@', ., i, n]
   - grapheme: save
     phonemes: [s, A, v]
   - grapheme: saved
@@ -8247,17 +8281,17 @@ entries:
   - grapheme: sees
     phonemes: [s, E, s]
   - grapheme: select
-    phonemes: [s, u, l, e, k, t]
+    phonemes: [s, 6, l, e, k, t]
   - grapheme: selected
-    phonemes: [s, u, l, e, k, t, i, d]
+    phonemes: [s, 6, l, e, k, t, i, d]
   - grapheme: selecting
-    phonemes: [s, u, l, e, k, d, 1, ng]
+    phonemes: [s, 6, l, e, k, d, 1, ng]
   - grapheme: selection
-    phonemes: [s, u, l, e, k, sh, i, n]
+    phonemes: [s, 6, l, e, k, sh, i, n]
   - grapheme: selections
-    phonemes: [s, u, l, e, k, sh, i, n, z]
+    phonemes: [s, 6, l, e, k, sh, i, n, z]
   - grapheme: selects
-    phonemes: [s, u, l, e, k, t, s]
+    phonemes: [s, 6, l, e, k, t, s]
   - grapheme: self
     phonemes: [s, e, l, f]
   - grapheme: sell
@@ -8269,15 +8303,15 @@ entries:
   - grapheme: senates
     phonemes: [s, e, n, i, t, s]
   - grapheme: senator
-    phonemes: [s, e, n, i, t, 3]
+    phonemes: [s, e, n, i, dd, 3]
   - grapheme: send
     phonemes: [s, e, n, d]
   - grapheme: sends
-    phonemes: [s, e, n, d, z]
+    phonemes: [s, e, n, z]
   - grapheme: senior
     phonemes: [s, E, n, y, 3]
   - grapheme: seniority
-    phonemes: [s, E, n, n, y, 0, r, r, i, t, E]
+    phonemes: [s, i, n, n, y, 0, r, r, i, t, E]
   - grapheme: seniors
     phonemes: [s, E, n, y, 3, z]
   - grapheme: sense
@@ -8337,13 +8371,13 @@ entries:
   - grapheme: settings
     phonemes: [s, e, dd, 1, ng, z]
   - grapheme: settle
-    phonemes: [s, e, dd, 0, l]
+    phonemes: [s, e, dd, 6, l]
   - grapheme: settled
-    phonemes: [s, e, dd, 0, l, d]
+    phonemes: [s, e, dd, 6, l, d]
   - grapheme: settles
-    phonemes: [s, e, dd, 0, l, z]
+    phonemes: [s, e, dd, 6, l, z]
   - grapheme: settling
-    phonemes: [s, e, dd, 0, l, l, 1, ng]
+    phonemes: [s, e, dd, 6, l, l, 1, ng]
   - grapheme: seven
     phonemes: [s, e, v, i, n]
   - grapheme: sevens
@@ -8351,7 +8385,7 @@ entries:
   - grapheme: seventh
     phonemes: [s, e, v, i, n, th]
   - grapheme: several
-    phonemes: [s, e, v, r, O, l]
+    phonemes: [s, e, v, r, 6, l]
   - grapheme: sex
     phonemes: [s, e, k, s]
   - grapheme: sexes
@@ -8359,7 +8393,7 @@ entries:
   - grapheme: sext
     phonemes: [s, e, k, s, t]
   - grapheme: sexual
-    phonemes: [s, e, k, sh, o, 0, l]
+    phonemes: [s, e, k, sh, o, 6, l]
   - grapheme: sexy
     phonemes: [s, e, k, s, E]
   - grapheme: shadow
@@ -8397,7 +8431,7 @@ entries:
   - grapheme: she
     phonemes: [sh, E]
   - grapheme: she'd
-    phonemes: [sh, e, d]
+    phonemes: [sh, E, d]
   - grapheme: she's
     phonemes: [sh, E, z]
   - grapheme: sheet
@@ -8409,7 +8443,7 @@ entries:
   - grapheme: shift
     phonemes: [sh, i, f, t]
   - grapheme: shifted
-    phonemes: [sh, i, f, d, i, d]
+    phonemes: [sh, i, f, t, i, d]
   - grapheme: shifting
     phonemes: [sh, i, f, t, 1, ng]
   - grapheme: shifts
@@ -8439,7 +8473,7 @@ entries:
   - grapheme: shoot
     phonemes: [sh, o, t]
   - grapheme: shooting
-    phonemes: [sh, o, t, 1, ng]
+    phonemes: [sh, o, dd, 1, ng]
   - grapheme: shoots
     phonemes: [sh, o, t, s]
   - grapheme: shop
@@ -8455,9 +8489,9 @@ entries:
   - grapheme: short
     phonemes: [sh, 0, r, t]
   - grapheme: shorter
-    phonemes: [sh, 0, r, d, 3]
+    phonemes: [sh, 0, r, dd, 3]
   - grapheme: shortest
-    phonemes: [sh, 0, r, d, i, s, t]
+    phonemes: [sh, 0, r, dd, i, s, t]
   - grapheme: shorts
     phonemes: [sh, 0, r, t, s]
   - grapheme: shot
@@ -8477,7 +8511,7 @@ entries:
   - grapheme: shouldn't
     phonemes: [sh, 6, d, i, n, t]
   - grapheme: shout
-    phonemes: [sh, 8, t]
+    phonemes: [sh, W, t]
   - grapheme: show
     phonemes: [sh, O]
   - grapheme: showed
@@ -8487,7 +8521,7 @@ entries:
   - grapheme: shows
     phonemes: [sh, O, s]
   - grapheme: shredded
-    phonemes: [sh, r, e, d, i, d]
+    phonemes: [sh, r, e, dd, i, d]
   - grapheme: shut
     phonemes: [sh, u, t]
   - grapheme: shuts
@@ -8513,19 +8547,19 @@ entries:
   - grapheme: sighs
     phonemes: [s, I, z]
   - grapheme: sight
-    phonemes: [s, I, t]
+    phonemes: [s, Y, t]
   - grapheme: sights
-    phonemes: [s, I, t, s]
+    phonemes: [s, Y, t, s]
   - grapheme: sign
     phonemes: [s, I, n]
   - grapheme: signal
-    phonemes: [s, i, g, n, 0, l]
+    phonemes: [s, i, g, n, 6, l]
   - grapheme: signaled
-    phonemes: [s, i, g, n, 0, l, d]
+    phonemes: [s, i, g, n, 6, l, d]
   - grapheme: signaling
-    phonemes: [s, i, g, n, 0, l, 1, ng]
+    phonemes: [s, i, g, n, 6, l, 1, ng]
   - grapheme: signals
-    phonemes: [s, i, g, n, 0, l, z]
+    phonemes: [s, i, g, n, 6, l, z]
   - grapheme: signed
     phonemes: [s, I, n, d]
   - grapheme: significance
@@ -8549,9 +8583,9 @@ entries:
   - grapheme: silly
     phonemes: [s, i, l, l, E]
   - grapheme: similar
-    phonemes: [s, i, m, u, l, 3]
+    phonemes: [s, i, m, 6, l, 3]
   - grapheme: simple
-    phonemes: [s, i, m, p, 0, l]
+    phonemes: [s, i, m, p, 6, l]
   - grapheme: simpler
     phonemes: [s, i, m, p, l, 3]
   - grapheme: simplest
@@ -8565,11 +8599,11 @@ entries:
   - grapheme: singing
     phonemes: [s, 1, ng, 1, ng]
   - grapheme: single
-    phonemes: [s, 1, ng, 0, l]
+    phonemes: [s, 1, ng, g, 6, l]
   - grapheme: singled
-    phonemes: [s, 1, ng, 0, l, d]
+    phonemes: [s, 1, ng, g, 6, l, d]
   - grapheme: singles
-    phonemes: [s, 1, ng, 0, l, z]
+    phonemes: [s, 1, ng, g, 6, l, z]
   - grapheme: sings
     phonemes: [s, 1, ng, z]
   - grapheme: sink
@@ -8585,11 +8619,11 @@ entries:
   - grapheme: sit
     phonemes: [s, i, t]
   - grapheme: site
-    phonemes: [s, I, t]
+    phonemes: [s, Y, t]
   - grapheme: sited
-    phonemes: [s, I, d, i, d]
+    phonemes: [s, Y, dd, i, d]
   - grapheme: sites
-    phonemes: [s, I, t, s]
+    phonemes: [s, Y, t, s]
   - grapheme: sits
     phonemes: [s, i, t, s]
   - grapheme: situation
@@ -8639,13 +8673,13 @@ entries:
   - grapheme: slightest
     phonemes: [s, l, I, d, i, s, t]
   - grapheme: slightly
-    phonemes: [s, l, I, t, l, E]
+    phonemes: [s, l, I, ., l, E]
   - grapheme: slip
     phonemes: [s, l, i, p]
   - grapheme: slipped
     phonemes: [s, l, i, p, t]
   - grapheme: slippery
-    phonemes: [s, l, i, p, 3, r, E]
+    phonemes: [s, l, i, p, r, E]
   - grapheme: slipping
     phonemes: [s, l, i, p, 1, ng]
   - grapheme: slips
@@ -8701,15 +8735,15 @@ entries:
   - grapheme: so
     phonemes: [s, O]
   - grapheme: social
-    phonemes: [s, O, sh, O, l]
+    phonemes: [s, O, sh, 6, l]
   - grapheme: socials
-    phonemes: [s, O, sh, O, l, s]
+    phonemes: [s, O, sh, 6, l, s]
   - grapheme: societies
-    phonemes: [s, u, s, I, i, d, E, z]
+    phonemes: [s, u, s, I, i, dd, E, z]
   - grapheme: society
-    phonemes: [s, u, s, I, i, d, E]
+    phonemes: [s, u, s, I, i, dd, E]
   - grapheme: societys
-    phonemes: [s, u, s, I, i, d, E, z]
+    phonemes: [s, u, s, I, i, dd, E, z]
   - grapheme: soft
     phonemes: [s, a, f, t]
   - grapheme: softer
@@ -8717,15 +8751,15 @@ entries:
   - grapheme: softest
     phonemes: [s, a, f, t, i, s, t]
   - grapheme: software
-    phonemes: [s, 9, f, t, w, A, r]
+    phonemes: [s, 9, f, w, A, r]
   - grapheme: soil
-    phonemes: [s, Q, 0, l]
+    phonemes: [s, Q, l]
   - grapheme: soiled
-    phonemes: [s, Q, 0, l, d]
+    phonemes: [s, Q, l, d]
   - grapheme: soiling
-    phonemes: [s, Q, 0, l, l, 1, ng]
+    phonemes: [s, Q, l, l, 1, ng]
   - grapheme: soils
-    phonemes: [s, Q, 0, l, s]
+    phonemes: [s, Q, l, s]
   - grapheme: sold
     phonemes: [s, 0, l, d]
   - grapheme: soldier
@@ -8751,11 +8785,11 @@ entries:
   - grapheme: some
     phonemes: [s, u, m]
   - grapheme: somebodies
-    phonemes: [s, u, m, b, a, d, E, z]
+    phonemes: [s, u, m, b, a, dd, E, z]
   - grapheme: somebody
-    phonemes: [s, u, m, b, a, d, E]
+    phonemes: [s, u, m, b, a, dd, E]
   - grapheme: somebody's
-    phonemes: [s, u, m, b, a, d, E, z]
+    phonemes: [s, u, m, b, a, dd, E, z]
   - grapheme: someday
     phonemes: [s, u, m, d, A]
   - grapheme: somehow
@@ -8797,9 +8831,9 @@ entries:
   - grapheme: sort
     phonemes: [s, 0, r, t]
   - grapheme: sorted
-    phonemes: [s, 0, r, d, i, d]
+    phonemes: [s, 0, r, dd, i, d]
   - grapheme: sorting
-    phonemes: [s, 0, r, d, 1, ng]
+    phonemes: [s, 0, r, dd, 1, ng]
   - grapheme: sorts
     phonemes: [s, 0, r, t, s]
   - grapheme: sought
@@ -8807,9 +8841,9 @@ entries:
   - grapheme: soul
     phonemes: [s, 0, l]
   - grapheme: soulful
-    phonemes: [s, 0, l, f, 0, l]
+    phonemes: [s, 0, l, f, 6, l]
   - grapheme: soulfully
-    phonemes: [s, 0, l, f, u, l, E]
+    phonemes: [s, 0, l, f, 6, l, E]
   - grapheme: souls
     phonemes: [s, 0, l, z]
   - grapheme: sound
@@ -8825,7 +8859,7 @@ entries:
   - grapheme: sources
     phonemes: [s, 0, r, s, i, z]
   - grapheme: south
-    phonemes: [s, 8, th]
+    phonemes: [s, W, th]
   - grapheme: southern
     phonemes: [s, u, dh, 3, n]
   - grapheme: southerner
@@ -8833,7 +8867,7 @@ entries:
   - grapheme: southerners
     phonemes: [s, u, dh, 3, n, n, 3, z]
   - grapheme: souths
-    phonemes: [s, 8, th, s]
+    phonemes: [s, W, th, s]
   - grapheme: soviet
     phonemes: [s, O, v, E, i, t]
   - grapheme: soviets
@@ -8849,13 +8883,13 @@ entries:
   - grapheme: speaks
     phonemes: [s, p, E, k, s]
   - grapheme: special
-    phonemes: [s, p, e, sh, 0, l]
+    phonemes: [s, p, e, sh, 6, l]
   - grapheme: specially
     phonemes: [s, p, e, sh, u, l, E]
   - grapheme: specials
-    phonemes: [s, p, e, sh, 0, l, z]
+    phonemes: [s, p, e, sh, 6, l, z]
   - grapheme: species
-    phonemes: [s, p, E, sh, i, z]
+    phonemes: [s, p, E, sh, E, z]
   - grapheme: specific
     phonemes: [s, p, i, s, i, f, i, k]
   - grapheme: specifically
@@ -8881,9 +8915,9 @@ entries:
   - grapheme: spirits
     phonemes: [s, p, E, r, r, i, t, s]
   - grapheme: spiritual
-    phonemes: [s, p, E, r, r, i, ch, 0, l]
+    phonemes: [s, p, E, r, r, i, ch, w, 6, l]
   - grapheme: spirituals
-    phonemes: [s, p, E, r, r, i, ch, 0, l, z]
+    phonemes: [s, p, E, r, r, i, ch, w, 6, l, z]
   - grapheme: spit
     phonemes: [s, p, i, t]
   - grapheme: spoke
@@ -8891,7 +8925,7 @@ entries:
   - grapheme: sport
     phonemes: [s, p, 0, r, t]
   - grapheme: sported
-    phonemes: [s, p, 0, r, d, i, d]
+    phonemes: [s, p, 0, r, dd, i, d]
   - grapheme: sports
     phonemes: [s, p, 0, r, t, s]
   - grapheme: spot
@@ -8899,9 +8933,9 @@ entries:
   - grapheme: spots
     phonemes: [s, p, a, t, s]
   - grapheme: spotted
-    phonemes: [s, p, a, d, i, d]
+    phonemes: [s, p, a, dd, i, d]
   - grapheme: spotting
-    phonemes: [s, p, a, d, 1, ng]
+    phonemes: [s, p, a, dd, 1, ng]
   - grapheme: spread
     phonemes: [s, p, r, e, d]
   - grapheme: spreading
@@ -8933,7 +8967,7 @@ entries:
   - grapheme: stage
     phonemes: [s, t, A, j]
   - grapheme: staged
-    phonemes: [s, t, A, j, t]
+    phonemes: [s, t, A, j, d]
   - grapheme: stages
     phonemes: [s, t, A, j, i, z]
   - grapheme: staging
@@ -8959,7 +8993,7 @@ entries:
   - grapheme: starred
     phonemes: [s, t, a, r, d]
   - grapheme: stars
-    phonemes: [s, t, a, r, s]
+    phonemes: [s, t, a, r, z]
   - grapheme: start
     phonemes: [s, t, a, r, t]
   - grapheme: started
@@ -8971,11 +9005,11 @@ entries:
   - grapheme: state
     phonemes: [s, t, A, t]
   - grapheme: stated
-    phonemes: [s, t, A, d, i, d]
+    phonemes: [s, t, A, dd, i, d]
   - grapheme: statement
     phonemes: [s, t, A, t, m, i, n, t]
   - grapheme: statements
-    phonemes: [s, t, A, t, m, i, n, t, s]
+    phonemes: [s, t, A, t, m, i, n, s]
   - grapheme: states
     phonemes: [s, t, A, t, s]
   - grapheme: station
@@ -8985,9 +9019,9 @@ entries:
   - grapheme: stations
     phonemes: [s, t, A, sh, i, n, z]
   - grapheme: status
-    phonemes: [s, t, '@', d, i, s]
+    phonemes: [s, t, '@', dd, i, s]
   - grapheme: statuses
-    phonemes: [s, t, '@', d, i, s, i, z]
+    phonemes: [s, t, '@', dd, i, s, i, z]
   - grapheme: stay
     phonemes: [s, t, A]
   - grapheme: stayed
@@ -9055,12 +9089,8 @@ entries:
   - grapheme: stored
     phonemes: [s, t, 0, r, d]
   - grapheme: stores
-    phonemes: [s, t, 0, r, s]
-  - grapheme: stores(2)
     phonemes: [s, t, 0, r, z]
   - grapheme: stories
-    phonemes: [s, t, 0, r, r, E, s]
-  - grapheme: stories(2)
     phonemes: [s, t, 0, r, r, E, z]
   - grapheme: storm
     phonemes: [s, t, 0, r, m]
@@ -9085,17 +9115,17 @@ entries:
   - grapheme: strangest
     phonemes: [s, t, r, A, n, j, i, s, t]
   - grapheme: strategies
-    phonemes: [s, t, r, '@', d, i, j, E, z]
+    phonemes: [s, t, r, '@', dd, i, j, E, z]
   - grapheme: strategy
-    phonemes: [s, t, r, '@', d, i, j, E]
+    phonemes: [s, t, r, '@', dd, i, j, E]
   - grapheme: street
     phonemes: [s, t, r, E, t]
   - grapheme: streets
     phonemes: [s, t, r, E, t, s]
   - grapheme: strength
-    phonemes: [s, t, r, A, ng, th]
+    phonemes: [s, t, r, A, ng, k, th]
   - grapheme: strengths
-    phonemes: [s, t, r, A, ng, th, s]
+    phonemes: [s, t, r, A, ng, k, th, s]
   - grapheme: stress
     phonemes: [s, t, r, e, s]
   - grapheme: stressed
@@ -9103,7 +9133,7 @@ entries:
   - grapheme: stresses
     phonemes: [s, t, r, e, s, i, z]
   - grapheme: stressful
-    phonemes: [s, t, r, e, s, f, 0, l]
+    phonemes: [s, t, r, e, s, f, 6, l]
   - grapheme: stressing
     phonemes: [s, t, r, e, s, 1, ng]
   - grapheme: stretch
@@ -9115,19 +9145,19 @@ entries:
   - grapheme: stretching
     phonemes: [s, t, r, e, ch, 1, ng]
   - grapheme: strike
-    phonemes: [s, t, r, I, k]
+    phonemes: [s, t, r, Y, k]
   - grapheme: strikes
-    phonemes: [s, t, r, I, k, s]
+    phonemes: [s, t, r, Y, k, s]
   - grapheme: striking
-    phonemes: [s, t, r, I, k, 1, ng]
+    phonemes: [s, t, r, Y, k, 1, ng]
   - grapheme: string
     phonemes: [s, t, r, 1, ng]
   - grapheme: strong
-    phonemes: [s, t, r, a, ng]
+    phonemes: [s, t, r, 9, ng]
   - grapheme: stronger
-    phonemes: [s, t, r, a, ng, 3]
+    phonemes: [s, t, r, 9, ng, g, 3]
   - grapheme: strongest
-    phonemes: [s, t, r, a, ng, i, s, t]
+    phonemes: [s, t, r, 9, ng, g, i, s, t]
   - grapheme: struck
     phonemes: [s, t, r, u, k]
   - grapheme: structure
@@ -9135,13 +9165,13 @@ entries:
   - grapheme: structures
     phonemes: [s, t, r, u, k, ch, 3, z]
   - grapheme: struggle
-    phonemes: [s, t, r, u, g, 0, l]
+    phonemes: [s, t, r, u, g, 6, l]
   - grapheme: struggled
-    phonemes: [s, t, r, u, g, 0, l, d]
+    phonemes: [s, t, r, u, g, 6, l, d]
   - grapheme: struggles
-    phonemes: [s, t, r, u, g, 0, l, z]
+    phonemes: [s, t, r, u, g, 6, l, z]
   - grapheme: struggling
-    phonemes: [s, t, r, u, g, 0, l, l, 1, ng]
+    phonemes: [s, t, r, u, g, 6, l, l, 1, ng]
   - grapheme: stuck
     phonemes: [s, t, u, k]
   - grapheme: student
@@ -9169,11 +9199,11 @@ entries:
   - grapheme: stutter
     phonemes: [s, t, u, dd, 3]
   - grapheme: style
-    phonemes: [s, t, I, 0, l]
+    phonemes: [s, t, I, l]
   - grapheme: styled
-    phonemes: [s, t, I, 0, l, d]
+    phonemes: [s, t, I, l, d]
   - grapheme: styles
-    phonemes: [s, t, I, 0, l, z]
+    phonemes: [s, t, I, l, z]
   - grapheme: styling
     phonemes: [s, t, I, l, 1, ng]
   - grapheme: subject
@@ -9195,9 +9225,9 @@ entries:
   - grapheme: successes
     phonemes: [s, u, k, s, e, s, i, z]
   - grapheme: successful
-    phonemes: [s, u, k, s, e, s, f, 0, l]
+    phonemes: [s, u, k, s, e, s, f, 6, l]
   - grapheme: successfully
-    phonemes: [s, u, k, s, e, s, f, 0, l, l, E]
+    phonemes: [s, u, k, s, e, s, f, 6, l, l, E]
   - grapheme: such
     phonemes: [s, u, ch]
   - grapheme: sucker
@@ -9217,15 +9247,15 @@ entries:
   - grapheme: sugars
     phonemes: [sh, 6, g, 3, z]
   - grapheme: suggest
-    phonemes: [s, u, g, j, e, s, t]
+    phonemes: [s, u, j, e, s, t]
   - grapheme: suggested
-    phonemes: [s, u, g, j, e, s, t, i, d]
+    phonemes: [s, u, j, e, s, t, i, d]
   - grapheme: suggests
-    phonemes: [s, u, g, j, e, s, t, s]
+    phonemes: [s, u, j, e, s, t, s]
   - grapheme: suit
     phonemes: [s, o, t]
   - grapheme: suited
-    phonemes: [s, o, t, i, d]
+    phonemes: [s, o, dd, i, d]
   - grapheme: suits
     phonemes: [s, o, t, s]
   - grapheme: summer
@@ -9251,11 +9281,11 @@ entries:
   - grapheme: support
     phonemes: [s, u, p, 0, r, t]
   - grapheme: supported
-    phonemes: [s, u, p, 0, r, t, i, d]
+    phonemes: [s, u, p, 0, r, dd, i, d]
   - grapheme: supports
     phonemes: [s, u, p, 0, r, t, s]
   - grapheme: supposed
-    phonemes: [s, u, p, O, z, d]
+    phonemes: [s, u, p, O, s, t]
   - grapheme: supposedly
     phonemes: [s, u, p, O, z, i, d, l, E]
   - grapheme: supreme
@@ -9315,7 +9345,7 @@ entries:
   - grapheme: suspecting
     phonemes: [s, u, s, p, e, k, t, 1, ng]
   - grapheme: suspects
-    phonemes: [s, u, s, p, e, k, t, s]
+    phonemes: [s, u, s, p, e, k, s]
   - grapheme: sways
     phonemes: [s, w, A, z]
   - grapheme: sweet
@@ -9329,11 +9359,11 @@ entries:
   - grapheme: systems
     phonemes: [s, i, s, t, i, m, z]
   - grapheme: table
-    phonemes: [t, A, b, 0, l]
+    phonemes: [t, A, b, 6, l]
   - grapheme: tables
-    phonemes: [t, A, b, 0, l, z]
+    phonemes: [t, A, b, 6, l, z]
   - grapheme: tainted
-    phonemes: [t, A, n, t, i, d]
+    phonemes: [t, A, n, i, d]
   - grapheme: take
     phonemes: [t, A, k]
   - grapheme: taken
@@ -9349,9 +9379,9 @@ entries:
   - grapheme: talented
     phonemes: [t, '@', l, i, n, t, i, d]
   - grapheme: talentful
-    phonemes: [t, '@', l, i, n, t, f, 0, l]
+    phonemes: [t, '@', l, i, n, t, f, 6, l]
   - grapheme: talents
-    phonemes: [t, '@', l, i, n, t, s]
+    phonemes: [t, '@', l, i, n, s]
   - grapheme: talk
     phonemes: [t, 9, k]
   - grapheme: talked
@@ -9379,9 +9409,9 @@ entries:
   - grapheme: target
     phonemes: [t, a, r, g, i, t]
   - grapheme: targeted
-    phonemes: [t, a, r, g, i, d, i, d]
+    phonemes: [t, a, r, g, i, dd, i, d]
   - grapheme: targeting
-    phonemes: [t, a, r, g, i, d, 1, ng]
+    phonemes: [t, a, r, g, i, dd, 1, ng]
   - grapheme: targets
     phonemes: [t, a, r, g, i, t, s]
   - grapheme: task
@@ -9395,7 +9425,7 @@ entries:
   - grapheme: tasted
     phonemes: [t, A, s, t, i, d]
   - grapheme: tasteful
-    phonemes: [t, A, s, t, f, 0, l]
+    phonemes: [t, A, s, t, f, 6, l]
   - grapheme: tastes
     phonemes: [t, A, s, t, s]
   - grapheme: tasting
@@ -9445,7 +9475,7 @@ entries:
   - grapheme: tears(2)
     phonemes: [t, E, r, z]
   - grapheme: technical
-    phonemes: [t, e, k, n, i, k, 0, l]
+    phonemes: [t, e, k, n, i, k, 6, l]
   - grapheme: technicality
     phonemes: [t, e, k, n, i, k, '@', l, i, dd, E]
   - grapheme: technically
@@ -9487,7 +9517,7 @@ entries:
   - grapheme: tending
     phonemes: [t, e, n, d, 1, ng]
   - grapheme: tends
-    phonemes: [t, e, n, d, z]
+    phonemes: [t, e, n, z]
   - grapheme: tens
     phonemes: [t, e, n, z]
   - grapheme: tenth
@@ -9499,7 +9529,7 @@ entries:
   - grapheme: terms
     phonemes: [t, 3, m, z]
   - grapheme: terrible
-    phonemes: [t, A, r, r, i, b, 0, l]
+    phonemes: [t, A, r, r, i, b, 6, l]
   - grapheme: terrified
     phonemes: [t, A, r, r, i, f, I, d]
   - grapheme: test
@@ -9515,7 +9545,7 @@ entries:
   - grapheme: texts
     phonemes: [t, e, k, s, t, s]
   - grapheme: than
-    phonemes: [dh, '&', n]
+    phonemes: [dh, e, n]
   - grapheme: thank
     phonemes: [th, A, n, k]
   - grapheme: thanks
@@ -9531,9 +9561,9 @@ entries:
   - grapheme: the(2)
     phonemes: [dh, E]
   - grapheme: theater
-    phonemes: [th, E, x, dd, 3]
+    phonemes: [th, E, dd, 3]
   - grapheme: theaters
-    phonemes: [th, E, x, dd, 3, z]
+    phonemes: [th, E, dd, 3, z]
   - grapheme: their
     phonemes: [dh, A, r]
   - grapheme: their's
@@ -9565,7 +9595,7 @@ entries:
   - grapheme: therefore
     phonemes: [dh, A, r, f, 0, r]
   - grapheme: theres
-    phonemes: [dh, A, r, s]
+    phonemes: [dh, A, r, z]
   - grapheme: these
     phonemes: [dh, E, z]
   - grapheme: they
@@ -9573,7 +9603,7 @@ entries:
   - grapheme: they'd
     phonemes: [dh, A, d]
   - grapheme: they'll
-    phonemes: [th, e, l]
+    phonemes: [th, A, l]
   - grapheme: they're
     phonemes: [th, A, r]
   - grapheme: they've
@@ -9627,13 +9657,13 @@ entries:
   - grapheme: threat
     phonemes: [th, r, e, t]
   - grapheme: threaten
-    phonemes: [th, r, e, d, i, n]
+    phonemes: [th, r, e, ., i, n]
   - grapheme: threatened
-    phonemes: [th, r, e, d, i, n, d]
+    phonemes: [th, r, e, ., i, n, d]
   - grapheme: threatening
     phonemes: [th, r, e, t, n, 1, ng]
   - grapheme: threatens
-    phonemes: [th, r, e, d, i, n, z]
+    phonemes: [th, r, e, ., i, n, z]
   - grapheme: threats
     phonemes: [th, r, e, t, s]
   - grapheme: three
@@ -9647,7 +9677,7 @@ entries:
   - grapheme: through
     phonemes: [th, r, o]
   - grapheme: throughout
-    phonemes: [th, r, o, 8, t]
+    phonemes: [th, r, o, W, t]
   - grapheme: throw
     phonemes: [th, r, O]
   - grapheme: throwing
@@ -9661,9 +9691,9 @@ entries:
   - grapheme: ticket
     phonemes: [t, i, k, i, t]
   - grapheme: ticketed
-    phonemes: [t, i, k, i, d, i, d]
+    phonemes: [t, i, k, i, dd, i, d]
   - grapheme: ticketing
-    phonemes: [t, i, k, i, d, 1, ng]
+    phonemes: [t, i, k, i, dd, 1, ng]
   - grapheme: tickets
     phonemes: [t, i, k, i, t, s]
   - grapheme: tie
@@ -9699,11 +9729,11 @@ entries:
   - grapheme: tired
     phonemes: [t, I, 3, d]
   - grapheme: title
-    phonemes: [t, I, d, 0, l]
+    phonemes: [t, I, d, 6, l]
   - grapheme: titled
-    phonemes: [t, I, d, 0, l, d]
+    phonemes: [t, I, d, 6, l, d]
   - grapheme: titles
-    phonemes: [t, I, d, 0, l, s]
+    phonemes: [t, I, d, 6, l, s]
   - grapheme: to
     phonemes: [t, o]
   - grapheme: today
@@ -9713,7 +9743,7 @@ entries:
   - grapheme: today's
     phonemes: [t, u, d, A, z]
   - grapheme: together
-    phonemes: [t, u, g, e, th, 3]
+    phonemes: [t, u, g, e, dh, 3]
   - grapheme: told
     phonemes: [t, 0, l, d]
   - grapheme: tomorrow
@@ -9749,7 +9779,7 @@ entries:
   - grapheme: topic
     phonemes: [t, a, p, i, k]
   - grapheme: topical
-    phonemes: [t, a, p, i, k, 0, l]
+    phonemes: [t, a, p, i, k, 6, l]
   - grapheme: topics
     phonemes: [t, a, p, i, k, s]
   - grapheme: topped
@@ -9763,11 +9793,11 @@ entries:
   - grapheme: tosses
     phonemes: [t, 9, s, i, s]
   - grapheme: total
-    phonemes: [t, O, d, 0, l]
+    phonemes: [t, O, d, 6, l]
   - grapheme: totally
     phonemes: [t, O, dd, u, l, E]
   - grapheme: totals
-    phonemes: [t, O, d, 0, l, s]
+    phonemes: [t, O, d, 6, l, s]
   - grapheme: touch
     phonemes: [t, u, ch]
   - grapheme: touched
@@ -9787,7 +9817,7 @@ entries:
   - grapheme: tours
     phonemes: [t, 0, r, z]
   - grapheme: toward
-    phonemes: [t, 0, r, d]
+    phonemes: [t, w, 0, r, d]
   - grapheme: towards
     phonemes: [t, w, 0, r, d, z]
   - grapheme: town
@@ -9815,9 +9845,9 @@ entries:
   - grapheme: tradition
     phonemes: [t, r, u, d, i, sh, i, n]
   - grapheme: traditional
-    phonemes: [t, r, a, d, i, sh, i, n, 0, l]
+    phonemes: [t, r, a, d, i, sh, i, n, 6, l]
   - grapheme: traditionals
-    phonemes: [t, r, a, d, i, sh, i, n, 0, l, z]
+    phonemes: [t, r, a, d, i, sh, i, n, 6, l, z]
   - grapheme: traditions
     phonemes: [t, r, u, d, i, sh, i, n, z]
   - grapheme: traffic
@@ -9845,19 +9875,19 @@ entries:
   - grapheme: trains
     phonemes: [t, r, A, n, z]
   - grapheme: travel
-    phonemes: [t, r, '@', v, 0, l]
+    phonemes: [t, r, '@', v, 6, l]
   - grapheme: traveled
-    phonemes: [t, r, '@', v, 0, l, d]
+    phonemes: [t, r, '@', v, 6, l, d]
   - grapheme: traveling
-    phonemes: [t, r, '@', v, 0, l, l, i, ng]
+    phonemes: [t, r, '@', v, 6, l, l, i, ng]
   - grapheme: travels
-    phonemes: [t, r, '@', v, 0, l, z]
+    phonemes: [t, r, '@', v, 6, l, z]
   - grapheme: treaded
-    phonemes: [t, r, e, d, i, d]
+    phonemes: [t, r, e, dd, i, d]
   - grapheme: treat
     phonemes: [t, r, E, t]
   - grapheme: treated
-    phonemes: [t, r, E, d, i, d]
+    phonemes: [t, r, E, dd, i, d]
   - grapheme: treatment
     phonemes: [t, r, E, t, m, i, n, t]
   - grapheme: treatments
@@ -9877,13 +9907,13 @@ entries:
   - grapheme: trends
     phonemes: [t, r, e, n, z]
   - grapheme: trial
-    phonemes: [t, r, I, 0, l]
+    phonemes: [t, r, I, 6, l]
   - grapheme: trials
-    phonemes: [t, r, I, 0, l, z]
+    phonemes: [t, r, I, 6, l, z]
   - grapheme: tried
     phonemes: [t, r, I, d]
   - grapheme: tries
-    phonemes: [t, r, I, s]
+    phonemes: [t, r, I, z]
   - grapheme: trip
     phonemes: [t, r, i, p]
   - grapheme: tripped
@@ -9897,13 +9927,13 @@ entries:
   - grapheme: troops
     phonemes: [t, r, o, p, s]
   - grapheme: trouble
-    phonemes: [t, r, u, b, 0, l]
+    phonemes: [t, r, u, b, 6, l]
   - grapheme: troubled
-    phonemes: [t, r, u, b, 0, l, d]
+    phonemes: [t, r, u, b, 6, l, d]
   - grapheme: troubles
-    phonemes: [t, r, u, b, 0, l, z]
+    phonemes: [t, r, u, b, 6, l, z]
   - grapheme: troubling
-    phonemes: [t, r, u, b, 0, l, l, 1, ng]
+    phonemes: [t, r, u, b, 6, l, l, 1, ng]
   - grapheme: truck
     phonemes: [t, r, u, k]
   - grapheme: trucked
@@ -9945,11 +9975,11 @@ entries:
   - grapheme: tvz
     phonemes: [t, E, v, E, z]
   - grapheme: twenty
-    phonemes: [t, w, e, n, t, E]
+    phonemes: [t, w, e, n, E]
   - grapheme: twentys
-    phonemes: [t, w, e, n, t, E, z]
+    phonemes: [t, w, e, n, E, z]
   - grapheme: twice
-    phonemes: [t, w, I, s]
+    phonemes: [t, w, Y, s]
   - grapheme: two
     phonemes: [t, o]
   - grapheme: twos
@@ -9957,13 +9987,13 @@ entries:
   - grapheme: tying
     phonemes: [t, I, 1, ng]
   - grapheme: type
-    phonemes: [t, I, p]
+    phonemes: [t, Y, p]
   - grapheme: typed
-    phonemes: [t, I, p, t]
+    phonemes: [t, Y, p, t]
   - grapheme: types
-    phonemes: [t, I, p, s]
+    phonemes: [t, Y, p, s]
   - grapheme: typical
-    phonemes: [t, i, p, i, k, 0, l]
+    phonemes: [t, i, p, i, k, 6, l]
   - grapheme: typically
     phonemes: [t, i, p, i, k, l, E]
   - grapheme: typicallyd
@@ -9997,41 +10027,41 @@ entries:
   - grapheme: unit
     phonemes: [y, o, n, i, t]
   - grapheme: united
-    phonemes: [y, o, n, I, t, i, d]
+    phonemes: [y, o, n, I, dd, i, d]
   - grapheme: units
     phonemes: [y, o, n, i, t, s]
   - grapheme: universal
-    phonemes: [y, o, n, i, v, 3, s, 0, l]
+    phonemes: [y, o, n, i, v, 3, s, 6, l]
   - grapheme: universe
     phonemes: [y, o, n, i, v, 3, s]
   - grapheme: universes
     phonemes: [y, o, n, i, v, 3, s, i, z]
   - grapheme: universities
-    phonemes: [y, o, n, i, v, 3, s, i, d, E, z]
+    phonemes: [y, o, n, i, v, 3, s, i, dd, E, z]
   - grapheme: university
-    phonemes: [y, o, n, i, v, 3, s, i, d, E]
+    phonemes: [y, o, n, i, v, 3, s, i, dd, E]
   - grapheme: universitys
-    phonemes: [y, o, n, i, v, 3, s, i, d, E, z]
+    phonemes: [y, o, n, i, v, 3, s, i, dd, E, z]
   - grapheme: unknown
     phonemes: [u, n, n, O, n]
   - grapheme: unless
     phonemes: [u, n, l, e, s]
   - grapheme: unreliable
-    phonemes: [u, n, r, E, l, I, u, b, 0, l]
+    phonemes: [u, n, r, E, l, I, u, b, 6, l]
   - grapheme: unsaid
     phonemes: [u, n, s, e, d]
   - grapheme: until
-    phonemes: [u, n, t, i, l]
+    phonemes: [i, n, t, i, l]
   - grapheme: untrue
     phonemes: [u, n, t, r, o]
   - grapheme: unusual
-    phonemes: [u, n, y, o, zh, w, 0, l]
+    phonemes: [u, n, y, o, zh, w, 6, l]
   - grapheme: unusual(2)
-    phonemes: [u, n, y, o, zh, o, w, 0, l]
+    phonemes: [u, n, y, o, zh, o, w, 6, l]
   - grapheme: unusually
-    phonemes: [u, n, y, o, zh, w, 0, l, l, E]
+    phonemes: [u, n, y, o, zh, w, 6, l, l, E]
   - grapheme: unusually(2)
-    phonemes: [u, n, y, o, zh, u, w, 0, l, l, E]
+    phonemes: [u, n, y, o, zh, u, w, 6, l, l, E]
   - grapheme: up
     phonemes: [u, p]
   - grapheme: upon
@@ -10049,9 +10079,9 @@ entries:
   - grapheme: used
     phonemes: [y, o, z, d]
   - grapheme: useful
-    phonemes: [y, o, s, f, 0, l]
+    phonemes: [y, o, s, f, 6, l]
   - grapheme: usefulness
-    phonemes: [y, o, s, f, 0, l, n, i, s]
+    phonemes: [y, o, s, f, 6, l, n, i, s]
   - grapheme: user
     phonemes: [y, o, z, 3]
   - grapheme: users
@@ -10073,25 +10103,25 @@ entries:
   - grapheme: vanish
     phonemes: [v, '&', n, i, sh]
   - grapheme: variable
-    phonemes: [v, A, r, r, i, u, b, 0, l]
+    phonemes: [v, A, r, r, i, u, b, 6, l]
   - grapheme: variables
-    phonemes: [v, A, r, r, i, u, b, 0, l, z]
+    phonemes: [v, A, r, r, i, u, b, 6, l, z]
   - grapheme: varieties
-    phonemes: [v, u, r, I, i, d, E, z]
+    phonemes: [v, u, r, I, i, dd, E, z]
   - grapheme: variety
-    phonemes: [v, u, r, I, i, d, E]
+    phonemes: [v, u, r, I, i, dd, E]
   - grapheme: various
     phonemes: [v, A, r, r, E, i, s]
   - grapheme: vast
     phonemes: [v, '@', s, t]
   - grapheme: vegetable
-    phonemes: [v, e, j, t, i, b, 0, l]
+    phonemes: [v, e, j, t, i, b, 6, l]
   - grapheme: vegetables
-    phonemes: [v, e, j, t, i, b, 0, l, z]
+    phonemes: [v, e, j, t, i, b, 6, l, z]
   - grapheme: vehicle
-    phonemes: [v, E, i, k, 0, l]
+    phonemes: [v, E, i, k, 6, l]
   - grapheme: vehicles
-    phonemes: [v, E, i, k, 0, l, z]
+    phonemes: [v, E, i, k, 6, l, z]
   - grapheme: vena
     phonemes: [v, E, n, u]
   - grapheme: version
@@ -10133,7 +10163,7 @@ entries:
   - grapheme: violent
     phonemes: [v, I, l, i, n, t]
   - grapheme: virtually
-    phonemes: [v, 3, ch, o, 0, l, l, E]
+    phonemes: [v, 3, ch, o, 6, l, l, E]
   - grapheme: vision
     phonemes: [v, i, zh, i, n]
   - grapheme: visions
@@ -10165,7 +10195,7 @@ entries:
   - grapheme: vote
     phonemes: [v, O, t]
   - grapheme: voted
-    phonemes: [v, O, d, i, d]
+    phonemes: [v, O, dd, i, d]
   - grapheme: voter
     phonemes: [v, O, dd, 3]
   - grapheme: voters
@@ -10173,17 +10203,17 @@ entries:
   - grapheme: votes
     phonemes: [v, O, t, s]
   - grapheme: voting
-    phonemes: [v, O, d, 1, ng]
+    phonemes: [v, O, dd, 1, ng]
   - grapheme: vow
     phonemes: [v, 8]
   - grapheme: waifu
-    phonemes: [w, I, f, o]
+    phonemes: [w, Y, f, o]
   - grapheme: wait
     phonemes: [w, A, t]
   - grapheme: waited
-    phonemes: [w, A, d, i, d]
+    phonemes: [w, A, dd, i, d]
   - grapheme: waiting
-    phonemes: [w, A, d, 1, ng]
+    phonemes: [w, A, dd, 1, ng]
   - grapheme: waits
     phonemes: [w, A, t, s]
   - grapheme: wake
@@ -10211,9 +10241,9 @@ entries:
   - grapheme: want
     phonemes: [w, a, n, t]
   - grapheme: wanted
-    phonemes: [w, a, n, t, i, d]
+    phonemes: [w, a, n, i, d]
   - grapheme: wanting
-    phonemes: [w, a, n, t, 1, ng]
+    phonemes: [w, a, n, 1, ng]
   - grapheme: wants
     phonemes: [w, a, n, t, s]
   - grapheme: war
@@ -10263,11 +10293,11 @@ entries:
   - grapheme: watching
     phonemes: [w, a, ch, 1, ng]
   - grapheme: water
-    phonemes: [w, a, d, 3]
+    phonemes: [w, a, dd, 3]
   - grapheme: watered
-    phonemes: [w, a, d, 3, d]
+    phonemes: [w, a, dd, 3, d]
   - grapheme: waters
-    phonemes: [w, a, d, 3, z]
+    phonemes: [w, a, dd, 3, z]
   - grapheme: wave
     phonemes: [w, A, v]
   - grapheme: waves
@@ -10303,7 +10333,7 @@ entries:
   - grapheme: wear
     phonemes: [w, A, r]
   - grapheme: wears
-    phonemes: [w, A, r, s]
+    phonemes: [w, A, r, z]
   - grapheme: weather
     phonemes: [w, e, dh, 3]
   - grapheme: weathers
@@ -10349,7 +10379,7 @@ entries:
   - grapheme: what
     phonemes: [w, u, t]
   - grapheme: what'd
-    phonemes: [w, u, d]
+    phonemes: [w, u, t, d]
   - grapheme: what's
     phonemes: [w, u, t, s]
   - grapheme: whatever
@@ -10369,7 +10399,7 @@ entries:
   - grapheme: where'd
     phonemes: [w, A, r, d]
   - grapheme: where's
-    phonemes: [w, A, r, s]
+    phonemes: [w, A, r, z]
   - grapheme: where've
     phonemes: [w, A, r, v]
   - grapheme: whether
@@ -10379,15 +10409,15 @@ entries:
   - grapheme: while
     phonemes: [w, I, l]
   - grapheme: while(2)
-    phonemes: [w, I, 0, l]
+    phonemes: [w, I, 6, l]
   - grapheme: white
-    phonemes: [w, I, t]
+    phonemes: [w, Y, t]
   - grapheme: whiter
-    phonemes: [w, I, d, 3]
+    phonemes: [w, Y, dd, 3]
   - grapheme: whites
-    phonemes: [w, I, t, s]
+    phonemes: [w, Y, t, s]
   - grapheme: whitest
-    phonemes: [w, I, d, i, s, t]
+    phonemes: [w, Y, dd, i, s, t]
   - grapheme: who
     phonemes: [h, o]
   - grapheme: who'd
@@ -10417,15 +10447,15 @@ entries:
   - grapheme: widest
     phonemes: [w, I, d, i, s, t]
   - grapheme: wife
-    phonemes: [w, I, f]
+    phonemes: [w, Y, f]
   - grapheme: wild
     phonemes: [w, I, l, d]
   - grapheme: wild(2)
-    phonemes: [w, I, 0, l, d]
+    phonemes: [w, I, 6, l, d]
   - grapheme: wilds
     phonemes: [w, I, l, d, z]
   - grapheme: wilds(2)
-    phonemes: [w, I, 0, l, d, z]
+    phonemes: [w, I, 6, l, d, z]
   - grapheme: will
     phonemes: [w, i, l]
   - grapheme: willing
@@ -10441,7 +10471,7 @@ entries:
   - grapheme: windows
     phonemes: [w, i, n, d, O, z]
   - grapheme: winds
-    phonemes: [w, i, n, d, z]
+    phonemes: [w, i, n, z]
   - grapheme: windy
     phonemes: [w, i, n, d, E]
   - grapheme: wine
@@ -10481,7 +10511,7 @@ entries:
   - grapheme: within
     phonemes: [w, i, th, i, n]
   - grapheme: without
-    phonemes: [w, i, th, 8, t]
+    phonemes: [w, i, th, W, t]
   - grapheme: withs
     phonemes: [w, i, th, s]
   - grapheme: witness
@@ -10511,7 +10541,7 @@ entries:
   - grapheme: wondered
     phonemes: [w, u, n, d, 3, d]
   - grapheme: wonderful
-    phonemes: [w, u, n, d, 3, f, 0, l]
+    phonemes: [w, u, n, d, 3, f, 6, l]
   - grapheme: wonderfully
     phonemes: [w, u, n, d, 3, f, l, E]
   - grapheme: wondering
@@ -10555,9 +10585,9 @@ entries:
   - grapheme: worrying
     phonemes: [w, 3, E, 1, ng]
   - grapheme: worship 
-    phonemes: [w, 3, sh, i, p]
+    phonemes: [w, 0, r, sh, i, p]
   - grapheme: worshipped
-    phonemes: [w, 3, sh, i, p, t]
+    phonemes: [w, 0, r, sh, i, p, t]
   - grapheme: worst
     phonemes: [w, 3, s, t]
   - grapheme: worth
@@ -10567,7 +10597,7 @@ entries:
   - grapheme: would
     phonemes: [w, 6, d]
   - grapheme: would've
-    phonemes: [w, u, d, u, v]
+    phonemes: [w, 6, d, i, v]
   - grapheme: wouldn't
     phonemes: [w, 6, d, i, n, t]
   - grapheme: wrap
@@ -10581,17 +10611,17 @@ entries:
   - grapheme: wreck
     phonemes: [r, e, k]
   - grapheme: write
-    phonemes: [r, I, t]
+    phonemes: [r, Y, t]
   - grapheme: writer
-    phonemes: [r, I, d, 3]
+    phonemes: [r, Y, dd, 3]
   - grapheme: writers
-    phonemes: [r, I, d, 3, z]
+    phonemes: [r, Y, dd, 3, z]
   - grapheme: writes
-    phonemes: [r, I, t, s]
+    phonemes: [r, Y, t, s]
   - grapheme: writing
-    phonemes: [r, I, d, 1, ng]
+    phonemes: [r, Y, dd, 1, ng]
   - grapheme: writings
-    phonemes: [r, I, d, 1, ng, z]
+    phonemes: [r, Y, dd, 1, ng, z]
   - grapheme: wrong
     phonemes: [r, 9, ng]
   - grapheme: wronged
@@ -10645,11 +10675,11 @@ entries:
   - grapheme: young
     phonemes: [y, u, ng]
   - grapheme: your
-    phonemes: [y, 0, r]
+    phonemes: [y, 3, r]
   - grapheme: yours
-    phonemes: [y, 0, r, z]
+    phonemes: [y, 3, r, z]
   - grapheme: yourself
-    phonemes: [y, 0, r, s, e, l, f]
+    phonemes: [y, 3, r, s, e, l, f]
   - grapheme: youth
     phonemes: [y, o, th]
   - grapheme: youths
