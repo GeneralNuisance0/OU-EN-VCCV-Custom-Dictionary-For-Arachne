@@ -8,6 +8,7 @@ Custom Dictionary for the English VCCV Phonemizer for OpenUtau, converted from s
 - Dark/Syllabic Ls
 
 Find more about Open Utau here > https://github.com/stakira/OpenUtau
+
 Find more about Arachne here > https://general-nuisance.neocities.org
 
 
