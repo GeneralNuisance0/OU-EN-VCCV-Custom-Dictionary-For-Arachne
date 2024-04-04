@@ -3,7 +3,7 @@ Custom Dictionary for the English VCCV Phonemizer for OpenUtau, converted from s
 - The cot-caught merger
 - Canadian raising
 - A more natural, relaxed pronunciation style
-- Several errors in the original plugin (ie: consonants that should have been voiced but were unvoiced)
+- Fixes to several errors in the original plugin (ie: consonants that should have been voiced but were unvoiced)
 - Glottal stops
 - Dark/Syllabic Ls
 
