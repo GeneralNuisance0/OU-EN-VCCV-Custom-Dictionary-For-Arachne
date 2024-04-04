@@ -19,7 +19,7 @@ This is a fork of a plugin that used the snowphones Lyrics Parser dictionary, wh
 You can find more about Lyric Parser here > https://snowphones.weebly.com/lyric-parser-20.html
 
 ## How to use
-To use this dictionary, download it and put it as is in the `Plugins` folder at the root of Open Utau. To check if it works, you can type `abilities`. If you see a `dd` sound, it does!
+To use this dictionary, download it and put it as is in the root folder in your installation of Arachne -TARANTULA II-. To check if it works, you can type `abilities`. If you see a `dd` sound, it does!
 
 ![Abilities with custom dictionary comparison](https://i.imgur.com/ibwkETQ.png)
 
