@@ -1,12 +1,19 @@
-# Open Utau EN VCCV Phonemizer Custom Dictionary
-Custom Dictionary for the English VCCV Phonemizer for Open Utau, converted from snowphones' Lyric Parser dictionary.
+# Open Utau EN VCCV Phonemizer Custom Dictionary for Arachne
+Custom Dictionary for the English VCCV Phonemizer for OpenUtau, converted from snowphones' Lyric Parser dictionary, and further adapted to suit the Arachne -TARANTULA II- voicebank. It contains changes to account for:
+- The cot-caught merger
+- Canadian raising
+- A more natural, relaxed pronunciation style
+- Several errors in the original plugin (ie: consonants that should have been voiced but were unvoiced)
+- Glottal stops
+- Dark/Syllabic Ls
 
 Find more about Open Utau here > https://github.com/stakira/OpenUtau
+Find more about Arachne here > https://general-nuisance.neocities.org
 
 
 
 ## Credits
-This is the Lyric Parser dictionary made by snowphones, converted by [Halo/BagelHero](https://github.com/BagelHero) & Mim. 
+This is a fork of a plugin that used the snowphones Lyrics Parser dictionary, which was converted to an OpenUtau readable format by [Halo/BagelHero](https://github.com/BagelHero) & Mim. 
 
 You can find more about Lyric Parser here > https://snowphones.weebly.com/lyric-parser-20.html
 
